@@ -1,4 +1,5 @@
 Package: erum2020program
+Type: Book
 Title: eRum2020 Program
 Version: 0.0.0.9000
 Authors@R: 
@@ -9,7 +10,6 @@ Authors@R:
 Description: Visualize eRum2020 Program as a bookdown.
 License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
 Imports: 
     dplyr,
     readxl,
