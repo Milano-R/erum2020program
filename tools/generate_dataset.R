@@ -8,15 +8,14 @@ library(readxl)
 
 # Expected files ----
 #Generate filan output
-output_file <- file.path("inst", "erum2020_confirmed_program.rds")
-if (!file.exists(output_file)) {
-  file.create(output_file)
-}
+output_file <- file.path("data", "erum2020_confirmed_program.rds")
+
+dump_dir <- file.path("tools", "data_dump")
 
 #sessionize dump
-sessionize_full_dump <- file.path("inst", "data_dump", "erum2020 sessions - exported 2020-03-05.xlsx")
-gform_confirmation <- file.path("inst", "data_dump", "eRum 2020 - Contribution Acceptance Form (Responses).xlsx")
-accepted_full <- file.path("inst", "data_dump", "finaltable_homework_contributedsessions.xlsx")
+sessionize_full_dump <- file.path(dump_dir, "erum2020 sessions - exported 2020-03-05.xlsx")
+gform_confirmation <- file.path(dump_dir, "eRum 2020 - Contribution Acceptance Form (Responses).xlsx")
+accepted_full <- file.path(dump_dir, "finaltable_homework_contributedsessions.xlsx")
 
 # Read files
 all_sessions <- read_excel(sessionize_full_dump, sheet = "All Submitted Sessions")
@@ -66,4 +65,4 @@ session_speakers_confirmed <- full_join(all_sessions_accepted, all_speakers_conf
   filter(!is.na(title))
 
 # Save output ----
-saveRDS( session_speakers_confirmed, output_file)
+saveRDS(session_speakers_confirmed, output_file)
