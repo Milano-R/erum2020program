@@ -1,0 +1,36 @@
+---
+title: "Session Type"
+author: "Francesca Vitalini"
+date: "3/5/2020"
+output: html_document
+params:
+  session_type: ""
+  contributions: NULL
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## `r params$session_type`
+
+```{r, echo = FALSE, results = 'asis', warning = FALSE}
+contributions <- params$contributions
+for (i in 1:nrow(contributions)) {
+
+  params <- as.list(contributions[i, , drop = F])
+  
+  list(title = contributions[i,"title"],
+                 author = contributions[i,"author"],
+                 affiliation =  contributions[i,"affiliation"],
+                 track = contributions[i,"track"],
+                 session_type = contributions[i,"session_type"],
+                 description =  contributions[i,"description"])
+  
+  cat(knitr::knit_child(
+    file.path("contribution.Rmd"),
+    quiet = TRUE
+  ))
+}
+```

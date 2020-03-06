@@ -1,0 +1,15 @@
+# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
+
+language: R
+cache: packages
+
+# Install Ruby and html-proofer
+before_install:
+  - gem install html-proofer
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true  # Speed up the html-proofer
+
+script:
+- Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
+- htmlproofer _book
