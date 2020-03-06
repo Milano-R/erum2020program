@@ -13,3 +13,11 @@ env:
 script:
 - Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
 - htmlproofer _book
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_PAT  # Set in the settings page of your repository, as a secure variable
+  local_dir: _book
+  on:
+    branch: master
