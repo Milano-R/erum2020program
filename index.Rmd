@@ -23,7 +23,7 @@ for (i in session_types) {
   params <- list(session_type = i,
                  contributions = data[data$session_type == i, ])
   cat(knitr::knit_child(
-    file.path("inst","reports", "session_type.Rmd"),
+    file.path("children", "session_type.Rmd"),
     quiet = TRUE
   ))
 }
