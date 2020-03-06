@@ -10,6 +10,7 @@ library(readxl)
 #Generate filan output
 output_file <- file.path("data", "erum2020_confirmed_program.rds")
 
+output_file <- file.path("data", "erum2020_confirmed_program.json")
 dump_dir <- file.path("tools", "data_dump")
 
 #sessionize dump
@@ -60,9 +61,16 @@ all_sessions_accepted <- all_sessions_reduced %>%
 
 session_speakers_confirmed <- full_join(all_sessions_accepted, all_speakers_confirmed, by = "NameSurname") %>%
   filter(tolower(confirm) == "yes") %>%
-  select(Title, Speakers, TagLine, Track, Sessionformat, Description) %>%
-  setNames(c("title", "author", "affiliation", "track", "session_type", "description")) %>%
-  filter(!is.na(title))
+  transmute(
+    title = Title,
+    author = Speakers,
+    affiliation = TagLine,
+    track = Track,
+    session_type = Sessionformat,
+    dscription = Description
+    ) %>%
+  filter(!is.na(title)) %>%
+  arrange(session_type, author, title)
 
 # Save output ----
-saveRDS(session_speakers_confirmed, output_file)
+jsonlite::write_json(session_speakers_confirmed, output_file, pretty = TRUE)

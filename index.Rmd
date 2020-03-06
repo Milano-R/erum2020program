@@ -17,7 +17,10 @@ knitr::opts_chunk$set(echo = TRUE)
 Overview of accepted contributions organized by track and session type.
 
 ```{r, echo = FALSE, results = 'asis', warning = FALSE}
-contributions <- readRDS(file.path("data", "erum2020_confirmed_program.rds"))
+contributions <- jsonlite::read_json(
+  file.path("data", "erum2020_confirmed_program.json"), 
+  simplifyVector = TRUE
+)
 session_types <- unique(contributions$session_type)
 for (session_type in session_types) {
   cat(knitr::knit_child(

@@ -1,0 +1,354 @@
+[
+  {
+    "title": "An enriched disease risk assessment model based on historical blood donors records",
+    "author": "Andrea Cappozzo",
+    "affiliation": "PhD student at University of Milan-Bicocca",
+    "track": "R Applications",
+    "session_type": "Lightning talk",
+    "dscription": "Historically, the medical literature has largely focused on determining risk factors at an illness-specific level. Nevertheless, recent studies suggested that identical risk factors may cause the appearance of different diseases in different patients (Meijers & De Boer, 2019).\n\nThanks to the joint collaboration of Heartindata, a group of data scientists offering their passion and skills for social good, and Avis Milano, the Italian blood donor organization, an enriched disease risk assessment model is developed. Multiple risk factors and donations drop-out causes are collectively analyzed from AVIS longitudinal records, with the final aim of providing a broader and clearer overview of the interplay between risk factors and associated diseases in the blood donors population."
+  },
+  {
+    "title": "Automate flexdashboard with GitHub",
+    "author": "Binod Jung Bogati",
+    "affiliation": "Data Analyst Intern at VIN",
+    "track": "R Dataviz & Shiny",
+    "session_type": "Lightning talk",
+    "dscription": "flexdashboard is a great tool for building an interactive dashboard in R. We can host it for free on GitHub Pages, Rpubs and many other places.\n\nHosted flexdashboard is static so changes in our data we need to manually update and publish every time. If we want to auto-update we may need to integrate Shiny. However, it may not be suitable for every case.\n\nTo overcome this, we have a solution called GitHub Action. It's a feature from GitHub which automates our tasks in a convenient way. \n\nWith the help of GitHub Actions, we can automate our flexdashboard (Rmarkdown) updates. It builds a container that runs our R scripts. We can trigger it every time we push on GitHub or schedule it every X minutes/hours/days/month. \n\nIf you want to learn more about the GitHub Action. And also know how to automate updates on your flexdashboard. Please do come and join me."
+  },
+  {
+    "title": "Supporting Twitter analytics application with graph-databases and the aRangodb package",
+    "author": "Gabriele Galatolo",
+    "affiliation": "Kode Srl, Software Developer & Data Scientist",
+    "track": "R Applications",
+    "session_type": "Lightning talk",
+    "dscription": "The importance of finding efficient ways to model and to store unstructured data has incredibly grown in the last decade, in particular with the strong expansion of social-media services. Among those storing tools an increasingly important class of databases is represented by the graph-oriented databases, where relationships between data are considered first-class citizens.\nIn order to support the analyst or the data scientist to interact and use in a simple way with this paradigm, we developed last year the package aRangodb, an interface with the graph-oriented database ArangoDB.\nTo show the capabilities of the package and of the underlying way to model data using graphs we present Tweetmood, a tool to analyze and visualize tweets from Twitter.\nIn this talk, we will present some of the most significant features of the package applied in the Tweetmood context, such as functionalities to traverse the graph and some examples in which the user can elaborate those graphs to get new information that can easily be stored using the functions and the tools available in the package."
+  },
+  {
+    "title": "Using open-access data to derive genome composition of emerging viruses",
+    "author": "Liam Brierley",
+    "affiliation": "MRC Skills Development Fellow, University of Liverpool",
+    "track": "R Life Sciences",
+    "session_type": "Lightning talk",
+    "dscription": "Outbreaks of new viruses continue to threaten global health, including pandemic influenza, Ebola virus, and the novel coronavirus ‘nCoV-2019’. Advances in genome sequencing allow access to virus RNA sequences on an unprecedented scale, representing a powerful tool for epidemiologists to understand new viral outbreaks. \n\nWe use NCBI’s GenBank, a curated open-access repository containing >200 million genetic sequences (3 million viral sequences) directly submitted by users, representing many individual studies. However, the resulting breadth of data and inconsistencies in metadata present consistent challenges.\n\nWe demonstrate our approach using R to address these challenges and a need for reproducibility as data increases. Firstly, we use `rentrez` to programmatically search, filter, and obtain virus sequences from GenBank. Secondly, we use `taxize` to resolve pervasive problems of naming conflicts, as virus names are often recorded differently between entries, partly because virus classification is complex and regularly revised. We successfully resolve 428 mammal and bird RNA viruses to species level before extracting sequences.\n\nObtaining genome sequences of a large inventory of viruses allows us to estimate genomic composition biases, which show promise in predicting virus epidemiology. Ultimately, this pathway will allow better quantification of future epidemic threats."
+  },
+  {
+    "title": "ptmixed: an R package for flexible modelling of longitudinal overdispersed count data",
+    "author": "Mirko Signorelli",
+    "affiliation": "Dept. of Biomedical Data Sciences, Leiden University Medical Center",
+    "track": "R Machine Learning & Models, R Life Sciences",
+    "session_type": "Lightning talk",
+    "dscription": "Overdispersion is a commonly encountered feature of count data, and it is usually modelled using the negative binomial (NB) distribution. However, not all overdispersed distributions are created equal: while some are severely zero-inflated, other exhibit heavy tails.\nMounting evidence from many research fields suggests that often NB models cannot fit sufficiently well heavy-tailed or zero-inflated counts. It has been proposed to solve this problem by using the more flexible Poisson-Tweedie (PT) family of distributions, of which the NB is special case. However, current methods based on the PT can only handle cross-sectional datasets and no extension for correlated data is available.\nTo overcome this limitation we propose a PT mixed-effects model that can be used to flexibly model longitudinal overdispersed counts. To estimate this model we develop a computational pipeline that uses adaptive quadratures to accurately approximate the likelihood of the model, and numeric optimization methods to maximize it. We have implemented this approach in the R package ptmixed, which is published on CRAN.\nBesides showcasing the package’s functionalities, we will present an assessment of the accuracy of our estimation procedure, and provide an example application where we analyse longitudinal RNA-seq data, which often exhibit high levels of zero-inflation and heavy tails."
+  },
+  {
+    "title": "One-way non-normal ANOVA in reliability analysis using with doex",
+    "author": "Mustafa CAVUS",
+    "affiliation": "PhD Student @Eskisehir Technical University",
+    "track": "R Production, R Life Sciences, R Applications",
+    "session_type": "Lightning talk",
+    "dscription": "One-way ANOVA is used for testing equality of several population means in statistics, and current packages in R provides functions to apply it. However, the violation of its assumptions are normality and variance heterogeneity limits its use, also not possible in some cases. doex provides alternative statistical methods to solve this problem. It has several tests based on generalized p-value, parametric bootstrap and fiducial approaches for the violation of variance heterogeneity and normality. Moreover, it provides the newly proposed methods for testing equality of mean lifetimes under different failure rates. \n\nThis talk introduces doex package provides has several methods for testing equality of population means independently the strict assumptions of ANOVA. An illustrative example is given for testing equality of mean of product lifetimes under different failure rates.   \n"
+  },
+  {
+    "title": "Towards more structured data quality assessment in the process mining field: the DaQAPO package",
+    "author": "Niels Martin",
+    "affiliation": "Postdoctoral researcher Research Foundation Flanders (FWO) - Hasselt University",
+    "track": "R Applications",
+    "session_type": "Lightning talk",
+    "dscription": "Process mining is a research field focusing on the extraction of insights on business processes from process execution data embedded in files called event logs. Event logs are a specific data structure originating from information systems supporting a business process such as an Enterprise Resource Planning System or a Hospital Information System. As a research field, process mining predominantly focused on the development of algorithms to retrieve process insights from an event log. However, consistent with the “garbage in - garbage out”-principle, the reliability of the algorithm’s outcomes strongly depends upon the data quality of the event log. It has been widely recognized that real-life event logs typically suffer from a multitude of data quality issues, stressing the need for thorough data quality assessment. Currently, event log quality is often judged on an ad-hoc basis, entailing the risk that important issues are overlooked. Hence, the need for a more structured data quality assessment approach within the process mining field. Therefore, the DaQAPO package has been developed, which is an acronym for Data Quality Assessment of Process-Oriented data. It offers an extensive set of functions to automatically identify common data quality problems in process execution data. In this way, it is the first R-package which supports systematic data quality assessment for event data."
+  },
+  {
+    "title": "Supporting R in the Binder Community",
+    "author": "Sarah Gibson",
+    "affiliation": "Research Software Engineer and 2020 Software Sustainability Institute Fellow",
+    "track": "R World",
+    "session_type": "Lightning talk",
+    "dscription": "Binder is a project developed for the community by the community. It supports the sharing of reproducible computational analyses over the cloud in a variety of programming languages. The users of mybinder.org (the free and public Binder service) are in a privileged position to suggest the features they want to see, and even contribute them to the project. That being said, the maintainers and operators of mybinder.org are primarily skilled in Python. I would like to use my lightning talk session to begin a conversation with the R community on how Binder can better support the needs of R language users, and how they can become involved in the maintenance and development of such a project."
+  },
+  {
+    "title": "Time Series Missing Data Visualizations",
+    "author": "Steffen Moritz",
+    "affiliation": "Institute for Data Science, Engineering, and Analytics, TH Köln",
+    "track": "R Dataviz & Shiny, R Applications",
+    "session_type": "Lightning talk",
+    "dscription": "Missing data is a quite common problem for time series, which usually also complicates later analysis steps.\nIn order to deal with this problem, visualizing the missing data is a very good start. \n\nVisualizing the patterns in the missing data can provide more information about the reasons for the missing data and give hints on how to best proceed with the analysis.\n\nThis talk gives a short intro into the new plotting functions being introduced with the 3.1 version of the imputeTS CRAN package."
+  },
+  {
+    "title": "Modified likelihood ratio model for handwriting recognition in forensic science.",
+    "author": "Adeyinka Abiodun",
+    "affiliation": "The University of Ibadan, Oyo state Nigeria, Research student",
+    "track": "R Machine Learning & Models",
+    "session_type": "Poster",
+    "dscription": "My session will focus on Forensic Handwriting recognition in which I adopted the Modified Likelihood Ratio (LR) Method in order to quantify the strength of evidence in a forensic investigation. Existing methods for estimating LR in handwriting identification employed nuisance parameters resulting into high rate of inconclusiveness and disagreement among forensic investigators. Currently, LR procedures rely on the choice of appropriate denominators that limit the repeatability and reproducibility of the estimated LR. Therefore, my work adopted a modified LR devoid of nuisance parameter and capable of generating consistent estimate. \n\nA total of 230 document writers were purposively selected to produce 10 paged true and disguised documents over a period of six months. Similar procedure was carried out to produce forged document for the corresponding true counterparts. I used C-means to cluster handwriting into characters based on segmented words. Local binary pattern was used to extract features from the clustered characters and extracted features were fed into a Back Propagation Neural Network (BPNN) to learn the handwriting pattern. I also developed an exhaustive mapping algorithm with bias function to replace the hitherto randomly selected denominator for the LR estimation. My model was trained and tested for repeatability and reproducibility via accuracy and discriminating power for both hypothesis of prosecutor (Hp) and hypothesis of defense (Hd).The modified LR using Kernel Density Estimator (KDE) and Logistic Regression (LoR) estimator outperformed the existing procedures in literature.\n\n"
+  },
+  {
+    "title": "Guidance for teaching R to non-programmers",
+    "author": "Dean Langan",
+    "affiliation": "Senior Teaching Fellow (University College London, UK)",
+    "track": "R Life Sciences, R World",
+    "session_type": "Poster",
+    "dscription": "The Centre for Applied Statistics Courses (CASC) at University College London (UCL) provide short courses on statistics and statistical software packages. Popular day-courses include a well-established ‘Introduction to R’ course and the newly developed ‘Further Topics in R’. In the latter, attendees are taught intermediate-level topics such as loops and conditional statements. Attendees range from postgraduate students, academic researchers and data analysts in the private sector without a strong background in statistics or programming. First, we highlight some issues with providing our training course to this demographic, derived from our experience and from anonymous online feedback. Second, we discuss some of our solutions to these issues that have shaped our course over time. For example, one issue is catering to a wide audience from differing fields, different levels of computer literacy and approaches to learning. To address this, we prepare for a high level of flexibility on the day and include intermittent practical exercises to get real time feedback on the abilities of attendees. Finally, we reviewed the experiences of other teachers on similar courses documented online and compared these experiences with our own. We offer guidance to other teachers running or developing courses for intermediate-level R programming."
+  },
+  {
+    "title": "How R-hub can help you develop and maintain your R packages",
+    "author": "Maëlle Salmon",
+    "affiliation": "R-hub",
+    "track": "R World",
+    "session_type": "Poster",
+    "dscription": "R-hub is a collection of services for all package developers, from newbies to seasoned maintainers. It is funded by the R Consortium as a top level project. This poster will showcase a roundup of R-hub services.\n\nOn the tech part, R-hub's flagship product is its package builder: Run `R CMD check` on 15 different platforms (operating systems, R versions…), from R! The package builder and its companion R package `rhub` can help prepare a CRAN submission, as well as debug a CRAN check failure by mimicking CRAN platforms. As of December 2019, it had been used nearly 85,000 times, by 2507 users to check 4418 unique packages. Other R-hub services include a package for finding R packages on CRAN (`pkgsearch`), badges for CRAN packages, and a mirror of CRAN source code.\n\nOn the guidance part, R-hub has recently gained a docs website. Furthermore, R-hub also has an active blog illustrating R-hub services, as well as other topics relevant to package developers. Last but not least, the R-hub project has three communication channels: a gitter channel, a GitHub issue tracker, and a Twitter account.\n\nCome see this poster to learn more about R-hub and to tell us about your experience!\n"
+  },
+  {
+    "title": "Partitional clustering with extensions",
+    "author": "Tero Lähderanta",
+    "affiliation": "Research Unit of Mathematical Sciences, University of Oulu",
+    "track": "R Machine Learning & Models",
+    "session_type": "Poster",
+    "dscription": "Clustering is one of the most well-known machine learning methods. The most used algorithm for clustering is k-means, where the clusters are formed by minimizing the squared Euclidean distances between the data points and cluster centers. Very similar optimization problem can be found in location-allocation literature, which tackle the problem of placing facilities into a 2d region with demand points, while simultaneously minimizing the average distance from each point to its facility. Both frameworks are very topical problems today as the amount of spatial data is ever-growing.  \n\nIn both frameworks, the demand for different types of extensions in the optimization task is high due to the variety of the problems. The most common extensions are the inclusion of capacity limits for cluster sizes, outliers and different distance metrics and membership types. There already exists many extension approaches which focus on a single extension. However, in many scenarios multiple simultaneous extensions are needed. \n\nOur approach enables such simultaneous use of different extensions by combining constraints and penalties to a single objective function. Furthermore, we provide an easy-to-use R package rpack to formulate and solve problems from both frameworks with above-mentioned extensions. Secondly, we show examples of real-world scenarios where the package can be used."
+  },
+  {
+    "title": "The R-package 'FlexReg': regression mixture models for bounded responses",
+    "author": "Agnese Maria Di Brisco",
+    "affiliation": "Postdoctoral researcher",
+    "track": "R Machine Learning & Models",
+    "session_type": "Regular talk",
+    "dscription": "The analysis of data defined on bounded intervals (such as proportions or rates) is challenging since classical linear regression models are unsuitable. A fruitful alternative to data transformation is the definition of a regression model based on distributions with proper support, like the beta, the flexible beta (FB) and the variance inflated beta (VIB), where the latter two are mixtures of betas showing a good fit even in the presence of multimodality, heavy tails and/or outliers. \nThis talk illustrates the FlexReg package, which allows to fit Beta, FB, and VIB regression models. The core function of the package is 'flexreg', which performs a Bayesian estimation via Hamiltonian Monte Carlo (HMC) algorithm through rstan package. Among the many arguments of the function, there are the model (Beta, FB or VIB) and the link functions for the mean and for the precision parameters. Also, the function allows specifying several prior distributions, the hyperparameters, and many settings of the HMC algorithm such as the number of iterations and of chains. \nThe FlexReg package includes several functions to compute fitting criteria, posterior predictive distributions and residuals. At last, functions that provide simple and clear plots of the regression curves, posterior predictive and residuals are available. All the features of the FlexReg package are illustrated through data from the literature."
+  },
+  {
+    "title": "A flexible dashboard for monitoring platform trials",
+    "author": "Alessio Crippa",
+    "affiliation": "Karolinska Institutet, postdoc",
+    "track": "R Applications",
+    "session_type": "Regular talk",
+    "dscription": "The Data and Safety Monitoring Board (DSMB) is an essential component for a successful clinical trial. It consists of an independent group of experts that periodically revise and evaluate the accumulating data from an ongoing trial to assess patients’ safety, study progress, and drug efficacy. Based on their evaluation, a recommendation to continue, modify or stop the trial will be delivered to the trial’s sponsor. It is essential to provide the DSMB with the best delivery visualization tools for monitoring on a regular basis the live data from the study trial.\nWe designed and developed an interactive dashboard using flexdashboard for R as a helping tool for assisting the DSMB in the evaluation of the results of the ProBio study, a clinical platform for improving treatment decision in patients with metastatic castrate resistant prostate cancer. We will focus on the customized structure for best displaying the most interesting variables and the adoption of interactive tools as a particularly useful aid for the assessment of the ongoing data. We will also cover the connection to the data sources, the automatic generation process, and the selected permission for the people in the DSMB to access the dashboard."
+  },
+  {
+    "title": "Using XGBoost, Plumber and Docker in production to power a new banking product",
+    "author": "André Rivenæs",
+    "affiliation": "Data Scientist, PwC",
+    "track": "R Machine Learning & Models, R Production",
+    "session_type": "Regular talk",
+    "dscription": "Buffer is a brand new and innovative banking product by one of the largest retail banks in Norway, Sparebanken Vest, and it is powered by R.\n\nIn fact, the product's decision engine is written entirely in R. We analyze whether a customer should get a loan and how much loan they should be allocated by analyzing large amounts of data from various sources. An essential part is analyzing the customer's invoices using machine learning (XGBoost). \n\nIn this talk, we will cover:\n\n- How we use ML and Bayesian statistics to estimate the probability of an invoice being repaid. \n- How we successfully put the decision engine in production, using e.g. Plumber, Docker, CircleCI and Kubernetes. \n- What we have learned from using R in production at scale."
+  },
+  {
+    "title": "Astronomical source detection and background separation: a Bayesian nonparametric approach",
+    "author": "Andrea Sottosanti",
+    "affiliation": "University of Padova",
+    "track": "R Machine Learning & Models, R Applications",
+    "session_type": "Regular talk",
+    "dscription": "We propose an innovative approach based on Bayesian nonparametric methods to the signal extraction of astronomical sources in gamma-ray count maps under the presence of a strong background contamination. Our model simultaneously induces clustering on the photons using their spatial information and gives an estimate of the number of sources, while separating them from the irregular signal of the background component that extends over the entire map. From a statistical perspective, the signal of the sources is modeled using a Dirichlet Process mixture, that allows to discover and locate a possible infinite number of clusters, while the background component is completely reconstructed using a new flexible Bayesian nonparametric model based on b-spline basis functions. The resultant can be then thought of as a hierarchical mixture of nonparametric mixtures for flexible clustering of highly contaminated signals. We provide also a Markov chain Monte Carlo algorithm to infer on the posterior distribution of the model parameters, and a suitable post-processing algorithm to quantify the information coming from the detected clusters. Results on different datasets confirm the capacity of the model to discover and locate the sources in the analysed map, to quantify their intensities and to estimate and account for the presence of the background contamination."
+  },
+  {
+    "title": "High dimensional sampling and volume computation",
+    "author": "Apostolos Chalkis",
+    "affiliation": "PhD in Computer Science",
+    "track": "R Machine Learning & Models",
+    "session_type": "Regular talk",
+    "dscription": "Sampling from multivariate distributions is a fundamental problem in statistics that plays important role in modern machine learning and data science. Many important problems such as convex optimization and multivariate integration can be efficiently solved via sampling. This talk presents the CRAN package volesti which offers to R community efficient C++ implementations of state-of-the-art algorithms for sampling and volume computation of convex sets. It scales up to hundred or thousand dimensions, depending the problem, providing the most efficient implementations for sampling and volume computation to date. Thus, volesti allows users to solve problems in dimensions and order of magnitude higher than before. We present the basic functionality of volesti and show how it can be used to provide approximate solutions to intractable problems in combinatorics, financial modeling, bioinformatics and engineering. We stand out two famous applications in finance. We show how volesti can be used to detect financial crises and evaluate portfolios performance in large stock markets with hundreds of assets, by giving real life examples using public data."
+  },
+  {
+    "title": "Next Generation Supply Chain Planning With R: A Case Study",
+    "author": "Benedikt Heller",
+    "affiliation": "Data Strategy Consultant at Continental",
+    "track": "R Production, R Machine Learning & Models",
+    "session_type": "Regular talk",
+    "dscription": "Demand forecasting is an integral part of successful Supply Chain Planning — good estimates of future demands allow businesses to produce and store their goods efficiently, which saves resources, facilitates growth, and keeps customers happy. Recent developments in forecasting made it possible to push the envelope on demand forecasting. In 2018, Makridakis and colleagues launched the 6-month-long M4 Competition, a call to researchers and enthusiasts to predict a set of time series, which provided new insights and — thanks to publicly available source code — paved the way for others to test successful algorithms in different domains. In this talk, we will present a case study of implementing an M4-inspired forecasting solution at the German automotive manufacturing company Continental, which successfully improved forecasting accuracy. The talk covers the significant findings of the M4 Competition, presents our implementation, and summarizes project insights."
+  },
+  {
+    "title": "GeneTonic: enjoy RNA-seq data analysis, responsibly",
+    "author": "Federico Marini",
+    "affiliation": "Center for Thrombosis and Hemostasis (CTH) & Institute of Medical Biostatistics, Epidemiology and Informatics (IMBEI) - University Medical Center Mainz",
+    "track": "R Life Sciences",
+    "session_type": "Regular talk",
+    "dscription": "Interpreting the results from RNA-seq transcriptome experiments can be a complex task, where the essential information is distributed among different tabular and list formats - normalized expression values, results from differential expression analysis, and results from functional enrichment analyses.\n\nThe identification of relevant functional patterns, as well as their contextualization in the data and results at hand, are not straightforward operations if these pieces of information are not combined together efficiently.\n\nInteractivity can play an essential role in simplifying the way how one accesses and digests RNA-seq data analysis in a more comprehensive way.\n\nI introduce `GeneTonic` (https://github.com/federicomarini/GeneTonic), an application developed in Shiny and based on many essential elements of the Bioconductor project, that aims to reduce the barrier to understanding such data better, and to efficiently combine the different components of the analytic workflow.\n\nFor example, starting from bird's eye perspective summaries (with interactive bipartite gene-geneset graphs, or enrichment maps), it is easy to generate a number of visualizations, where drill-down user actions enable further insight and deliver additional information (e.g., gene info boxes, geneset summary, and signature heatmaps).\n\nComplex datasets interpretation can be wrapped up into a single call to the GeneTonic main function, which also supports built-in RMarkdown reporting, to both conclude an exploration session, or also to generate in batch the output of the available functionality, delivering an essential foundation for computational reproducibility."
+  },
+  {
+    "title": "A simple and flexible inactivity/sleep detection R package",
+    "author": "Francesca Giorgolo",
+    "affiliation": "Kode s.r.l. - Data Scientist",
+    "track": "R Life Sciences",
+    "session_type": "Regular talk",
+    "dscription": "With the widespread usage of wearable devices great amount of data became available and new fields of application arised, like health monitoring and activity detection. \nOur work focused on inactivity and sleep detection from continuous raw tri-axis accelerometer data, recorded using different accelerometers brands having sampling frequencies below and above 1Hz.\nThe algorithm implemented is the SPT-window detection algorithm described in literature slighty modified to met the flexibility requirement we imposed ourselves.\nThe R package developed provides functions to clean data, to identify inactivity/sleep windows and to visualize the results.\nThe main function has a parameter to specify the measurement unit of the data, a threshold to distinguish low and high activity and also a parameter to handle non-wearing periods, where a non wear period is defined as a period of time where all the accelerometers are equal to zero. Other functions allow to separate overlapped accelerometer signals, i.e. when a device is replaced by another, and to visualize the obtained results."
+  },
+  {
+    "title": "Shazam in R? Audio analysis using the 'av' package",
+    "author": "Jeroen Ooms",
+    "affiliation": "rOpenSci, UC Berkeley",
+    "track": "R Applications",
+    "session_type": "Regular talk",
+    "dscription": "Shazam [1] is a popular smartphone app that can quickly identify a song or movie from a short audio recording. The basic recognition algorithm [2] effectively combines a few statistical methods to fingerprint an audio fragment based on density peaks in the time-frequency graph (spectrogram). These fingerprints are robust against noise and distortion, and can quickly be compared against a database of known songs. Similar approaches are used in audio signal classification to analyze anything from human speech to whale mating calls.\n\nThis talk describes how we would implement something like this in R. We use the new rOpenSci package 'av' to read high quality audio/video files (mkv, mp3, aac, etc) into frequency data [3]. The av package makes it easy to cut, convert, and downsample audio, and customize FFT parameters, to prepare audio for analysis in R. We can visually inspect the frequency data by plotting the spectrogram, and finally try to calculate some of the spectrogram fingerprint statistics as described by the Shazam paper.\n\n[1] https://www.shazam.com\n[2] https://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf\n[3] https://docs.ropensci.org/av/articles/articles/spectrograms.html\n"
+  },
+  {
+    "title": "Deep learning and time series approaches for improvement of vehicle distribution process",
+    "author": "Julia Fumbarev",
+    "affiliation": "BMW Group, Data scientist",
+    "track": "R Applications, R Machine Learning & Models",
+    "session_type": "Regular talk",
+    "dscription": "Accurate planning of transport- and stock duration is a ubiquitous problem in vehicle distribution. As BMW Group faces the annual delivery volumes of 2.7 million vehicles, the importance of process optimization through scaling up to such high volumes becomes self-evident. Precise forecasts not only ensure efficient resource allocation, but can play a crucial role in process delay resolution: If we are aware of a delay in the delivery of a vehicle to a customer at an early stage, high short-term costs can be avoided by taking corresponding measures e.g. acceleration of the follow-up process, early customer’s delay notice etc.\nTo improve predictions regarding the process times and arrival events, we relied on state-of-the-art approaches of deep learning and time series analysis. The methodology was applied to two use cases: predictions of inflows into ports and event date predictions. For the former, we were able to achieve more efficient utilization of the ships while for the latter, a more reliable prognosis ensures higher customer satisfaction which is the focus of BMW.\nThe algorithm’s performance was evaluated by computing prediction accuracy for the respective use case. The main contribution of our work is delivering a more reliable forecast that has a positive impact on the entire supply chain and, consequently, can generate large business value.\n"
+  },
+  {
+    "title": "dm: working with relational data models in R",
+    "author": "Kirill Müller",
+    "affiliation": "Clean code, tidy data. Consulting for cynkra, coding in the open.",
+    "track": "R Applications, R Production, R World",
+    "session_type": "Regular talk",
+    "dscription": "Storing all data related to a problem in a single table or data frame (\"the dataset\") can result in many repetitive values. Separation into multiple tables helps data quality but requires \"merge\" or \"join\" operations. {dm} is a new package that fills a gap in the R ecosystem: it makes working with multiple tables just as easy as working with a single table.\n\nA \"data model\" consists of tables (both the definition and the data), and primary and foreign keys. The {dm} package combines these concepts with data manipulation powered by the tidyverse: entire data models are handled in a single entity, a \"dm\" object.\n\nThree principal use cases for {dm} can be identified:\n\n1. When you consume a data model, {dm} helps access and manipulate a dataset consisting of multiple tables (database or local data frames) through a consistent interface.\n\n2. When you use a third-party dataset, {dm} helps normalizing the data to remove redundancies as part of the cleaning process.\n\n3. To create a relational data model, you can prepare the data using R and familiar tools and seamlessly export to a database.\n\nThe presentation revolves around these use cases and shows a few applications. The {dm} package is available on GitHub and will be submitted to CRAN in early February."
+  },
+  {
+    "title": "Powering Turing e-Atlas with R",
+    "author": "Layik Hama",
+    "affiliation": "Putting R and React together",
+    "track": "R Applications, R Production, R Dataviz & Shiny",
+    "session_type": "Regular talk",
+    "dscription": "Turing e-Atlas is a research project under the Urban Analytics research theme at Alan Turing Institute (ATI). The ATI is UK's national institute for data science and Artificial Intelligence based at the British Library in London. \n\nThe research is a grand vision for which we have been trying to take baby steps under the banner of an e-Atlas. And we believe R is positioned to play a foundation role in any scalable solution to analyse and visualize large scale datasets especially geospatial datasets.  \n\nThe application presented is built using RStudio's Plumber package which relies on solid libraries to develop web applications. The front-end is made up of Uber's various visualization packages using Facebook's React JavaScript framework."
+  },
+  {
+    "title": "An innovative way to support your sales force",
+    "author": "Matilde Grecchi",
+    "affiliation": "Head of Data Science & Innovation @ZucchettiSpa",
+    "track": "R Production, R Dataviz & Shiny, R Machine Learning & Models, R Applications",
+    "session_type": "Regular talk",
+    "dscription": "Explanation of the web application realized in Shiny and deployed in production to support the sales force of Zucchetti. An overview of the overall step followed from data ingestion to modeling, from validation of the model to shiny web-app realization, from deployment in production to continous learning thanks to feedbacks coming from sales force and redemption of customers. All the code is written in R using RStudio. The deployment of the app is done with ShinyProxy.io"
+  },
+  {
+    "title": "DaMiRseq 2.0: from high dimensional data to cost-effective reliable prediction models",
+    "author": "Mattia Chiesa",
+    "affiliation": "Senior data scientist @ Centro Cardiologico Monzino IRCCS",
+    "track": "R Life Sciences",
+    "session_type": "Regular talk",
+    "dscription": "High dimensional data generated by modern high-throughput platforms pose a great challenge in selecting a small number of informative variables, for biomarker discovery and classification. Machine learning is an appropriate approach to derive general knowledge from data, identifying highly discriminative features and building accurate prediction models. To this end, we developed the R/Bioconductor package DaMiRseq, which (i) helps researchers to filter and normalize high dimensional datasets, arising from RNA-Seq experiments, by removing noise and bias and (ii) exploits a custom machine learning workflow to select the minimum set of robust informative features able to discriminate classes.\nHere, we present the version 2.0 of the DaMiRseq package, an extension that provides a flexible and convenient framework for managing high dimensional data such as omics data, large-scale medical histories, or even social media and financial data. Specifically, DaMiRseq 2.0 implements new functions that allow training and testing of several different classifiers and selection of the most reliable one, in terms of classification performance and number of selected features. The resulting classification model can be further used for any prediction purpose. This framework will give users the ability to build an efficient prediction model that can be easily replicated in further related settings. \n"
+  },
+  {
+    "title": "Interpretable and accessible Deep Learning for omics data with R and friends",
+    "author": "Moritz Hess",
+    "affiliation": "Research Associate, Institute of Medical Biometry and Statistics, Faculty of Medicine and Medical Center - University of Freiburg",
+    "track": "R Life Sciences",
+    "session_type": "Regular talk",
+    "dscription": "Recently, generative Deep Learning approaches were shown to have a huge potential for e.g. retrieving compact, latent representations of high-dimensional omics data such as single-cell RNA-Seq data. However, there are no established methods to infer how these latent representations relate to the observed variables, i.e. the genes.\n\nFor extracting interpretable patterns from gene expression data that indicate distinct sub-populations in the data, we here employ log-linear models, applied to the synthetic data and corresponding latent representations, sampled from generative deep models, which were trained with single-cell gene expression data.\n\nWhile omics data are routinely analyzed in R and powerful toolboxes, tailored to omics data are available, there are no established and truely accessible approaches for Deep Learning applications here. \n\nTo close this gap, we here demonstrate how easily customizable Deep Learning frameworks, developed for the Julia programming language, can be leveraged in R, to perform accessible and interpretable Deep Learning with omics data."
+  },
+  {
+    "title": "Analyzing Preference Data with the BayesMallows Package",
+    "author": "Øystein Sørensen",
+    "affiliation": "Associate Professor, University of Oslo",
+    "track": "R Machine Learning & Models",
+    "session_type": "Regular talk",
+    "dscription": "BayesMallows is an R package for analyzing preference data in the form of rankings with the Mallows rank model, and its finite mixture extension, in a Bayesian framework. The model is grounded on the idea that the probability density of an observed ranking decreases exponentially with the distance to the location parameter. It is the first Bayesian implementation that allows wide choices of distances, and it works well with a large number of items to be ranked. BayesMallows handles non-standard data: partial rankings and pairwise comparisons, even in cases including non-transitive preference patterns. The Bayesian paradigm allows coherent quantification of posterior uncertainties of estimates of any quantity of interest. These posteriors are fully available to the user, and the package comes with convenient tools for summarizing and visualizing the posterior distributions.\n\nThis talk will focus on how the BayesMallows package can be used to analyze preference data, in particular how the Bayesian paradigm allows endless possibilities in answering questions of interest with the help of visualization of posterior distributions. Such posterior summaries can easily be communicated with scientific collaborators and business stakeholders who may not be machine learning experts themselves."
+  },
+  {
+    "title": "Analyzing Preference Data with the BayesMallows Package",
+    "author": "Øystein Sørensen",
+    "affiliation": "Associate Professor, University of Oslo",
+    "track": "R Machine Learning & Models",
+    "session_type": "Regular talk",
+    "dscription": "BayesMallows is an R package for analyzing preference data in the form of rankings with the Mallows rank model, and its finite mixture extension, in a Bayesian framework. The model is grounded on the idea that the probability density of an observed ranking decreases exponentially with the distance to the location parameter. It is the first Bayesian implementation that allows wide choices of distances, and it works well with a large number of items to be ranked. BayesMallows handles non-standard data: partial rankings and pairwise comparisons, even in cases including non-transitive preference patterns. The Bayesian paradigm allows coherent quantification of posterior uncertainties of estimates of any quantity of interest. These posteriors are fully available to the user, and the package comes with convenient tools for summarizing and visualizing the posterior distributions.\n\nThis talk will focus on how the BayesMallows package can be used to analyze preference data, in particular how the Bayesian paradigm allows endless possibilities in answering questions of interest with the help of visualization of posterior distributions. Such posterior summaries can easily be communicated with scientific collaborators and business stakeholders who may not be machine learning experts themselves."
+  },
+  {
+    "title": "Flexible Meta-Analysis of Generalized Additive Models with metagam",
+    "author": "Øystein Sørensen",
+    "affiliation": "Associate Professor, University of Oslo",
+    "track": "R Life Sciences, R Machine Learning & Models",
+    "session_type": "Regular talk",
+    "dscription": "Analyzing biomedical data from multiple studies has great potential in terms of increasing statistical power, enabling detection of associations of smaller magnitude than would be possible analyzing each study separately. Restrictions due to privacy or proprietary data as well as more practical concerns can make it hard to share datasets, such that analyzing all data in a single mega-analysis might not be possible. Meta-analytic methods provide a way to overcome this issue, by combining aggregated quantities like model parameters or risk ratios. However, most meta-analytic tools have focused on parametric statistical models, and software for meta-analyzing semi-parametric models like generalized additive models (GAMs) have not been developed. The metagam package attempts to fill this gap: It provides functionality for removing individual participant data from GAM objects such that they can be analyzed in a common location; furthermore metagam enables meta-analysis of the resulting GAM objects, as well as various tools for visualization and statistical analysis. This talk will illustrate use of the metagam package for analysis of the relationship between sleep quality and brain structure using data from six European brain imaging cohorts."
+  },
+  {
+    "title": "Flexible Meta-Analysis of Generalized Additive Models with metagam",
+    "author": "Øystein Sørensen",
+    "affiliation": "Associate Professor, University of Oslo",
+    "track": "R Life Sciences, R Machine Learning & Models",
+    "session_type": "Regular talk",
+    "dscription": "Analyzing biomedical data from multiple studies has great potential in terms of increasing statistical power, enabling detection of associations of smaller magnitude than would be possible analyzing each study separately. Restrictions due to privacy or proprietary data as well as more practical concerns can make it hard to share datasets, such that analyzing all data in a single mega-analysis might not be possible. Meta-analytic methods provide a way to overcome this issue, by combining aggregated quantities like model parameters or risk ratios. However, most meta-analytic tools have focused on parametric statistical models, and software for meta-analyzing semi-parametric models like generalized additive models (GAMs) have not been developed. The metagam package attempts to fill this gap: It provides functionality for removing individual participant data from GAM objects such that they can be analyzed in a common location; furthermore metagam enables meta-analysis of the resulting GAM objects, as well as various tools for visualization and statistical analysis. This talk will illustrate use of the metagam package for analysis of the relationship between sleep quality and brain structure using data from six European brain imaging cohorts."
+  },
+  {
+    "title": "Controlled R development with Docker",
+    "author": "Peter Schmid",
+    "affiliation": "R programmer at Mirai Solutions",
+    "track": "R Production",
+    "session_type": "Regular talk",
+    "dscription": "When deploying productive solutions, it is essential to have full control over the code-base and environment to ensure reproducibility and stability of the setup. Additionally, guaranteeing full equivalence of the development setup to (alternative) target productive stages is a key aspect of well-managed release pipelines.\nIn the case of R-based projects, this implies fixing and aligning the version of R as well as package and system dependencies. This is, however, often disregarded due to the absence of out-of-the-box solutions, especially in free open source projects.\nWith this talk we illustrate an approach to manage a version-stable R development environment that, in the context of containerized solutions based on Docker and the Rocker project, allows to regulate your setup, along with laying out a path for trouble-free deployments and releases. It additionally enables the coexistence of multiple dockerized development flavors, to match various target production environments or projects.\n\nSince the approach does not rely on commercial tools, it is particularly apt for open source projects, as we showcase with the concrete example of OasisUI (https://github.com/OasisLMF/OasisUI): a web-based Shiny app providing a front-end interface to the Oasis LMF platform, an open source natural catastrophe loss modelling framework, freely available at https://github.com/OasisLMF."
+  },
+  {
+    "title": "Interactive visualization of complex texts",
+    "author": "Renate Delucchi Danhier",
+    "affiliation": "Post-Doc, TU Dortmund",
+    "track": "R Dataviz & Shiny",
+    "session_type": "Regular talk",
+    "dscription": "Hundreds of speakers may describe the same circumstance - e.g. explaining a fixed route to a goal - without producing two identical texts. The enormous variability of language and the complexity involved in encoding meaning poses a real difficulty for linguists analyzing text databases. In order to aid linguists in identifying patterns to perform comparative research, we developed an interactive shiny app that enables quantitative analysis of text corpora without oversimplifying the structure of language. Route directions are an example of complex texts, in which speakers take cognitive decisions such as segmenting the route, selecting landmarks and organizing spatial concepts into sentences. In the data visualization, symbols and colors representing linguistic concepts are plotted into coordinates that relate the information to fixed points along the route. Six interconnected layers of meaning represent the multi-layered form-to-meaning mapping characteristic of language. The shiny app allows to select and deselect information on these different layers, offering a holistic linguistic analysis way beyond the complexity attempted within traditional linguistics. The result is a kind of visual language in itself that deconstructs the interconnected layers of meaning found in natural language."
+  },
+  {
+    "title": "CONNECTOR: a computational approach to study intratumor heterogeneity.",
+    "author": "Simone Pernice",
+    "affiliation": "Ph.D.",
+    "track": "R Life Sciences",
+    "session_type": "Regular talk",
+    "dscription": "Literature is characterized by a broad class of mathematical models which can be used for fitting cancer growth time series, but with no a global consensus or biological evidence that can drive the choice of the correct model. The conventional perception is that the mechanistic models enable the biological understanding of the systems under study. However, there is no way that these models can capture the variability characterizing the cancer progression, especially because of the irregularity and sparsity of the available data.\nFor this reason, we propose CONNECTOR, an R package built on the model-based approach for clustering functional data. Such method is based on the clustering and fitting of the data through a combination of cubic natural splines basis with coefficients treated as random variables. Our approach is particularly effective when the observations are sparse and irregularly spaced, as growth curves usually are. CONNECTOR provides a tool set to easily guide through the parameters selection, i.e., (i) the dimension of the spline basis, (ii) the dimension of the mean space and (iii) the number of clusters to fit, to be properly chosen before fitting. The effectiveness of CONNECTOR is evaluated on growth curves of Patient Derived Xenografts (PDXs) of ovarian cancer. Genomic analyses of PDXs allowed correlating fitted and clustered  PDX growth curves to cell population distribution. \n"
+  },
+  {
+    "title": "Flexible deep learning via the JuliaConnectoR",
+    "author": "Stefan Lenz",
+    "affiliation": "Statistician at the Institute of Medical Biometry and Statistics (IMBI), Faculty of Medicine and Medical Center – University of Freiburg",
+    "track": "R Machine Learning & Models",
+    "session_type": "Regular talk",
+    "dscription": "For deep learning in R, frameworks from other languages, e. g. from Python, are widely used. Julia is another language which offers computational speed and a growing ecosystem for machine learning, e. g. with the package “Flux”. Integrating functionality of Julia in R is especially promising due to the many commonalities of Julia and R. We take advantage of these in the design of our “JuliaConnectoR” R package, which aims at a tight integration of Julia in R. We would like to present our package, together with some deep learning examples.\nThe JuliaConnectoR can import Julia functions, also from whole packages, and make them directly callable in R. Values and data structures are translated between the two languages. This includes the management of objects holding external resources such as memory pointers. The possibility to pass R functions as arguments to Julia functions makes the JuliaConnectoR a truly functional interface. Such callback functions can, e. g., be used to interactively display the learning process of a neural network in R while it is trained in Julia. Among others, this feature sets the JuliaConnectoR apart from the other R packages for integrating Julia in R, “XRJulia” and “JuliaCall”. This becomes possible with an optimized communication protocol, which also allows a highly efficient data transfer, leveraging the similarities in the binary representation of values in Julia and R."
+  },
+  {
+    "title": "gWQS: An R Package for Linear and Generalized Weighted Quantile Sum (WQS) Regression",
+    "author": "Stefano Renzetti",
+    "affiliation": "PhD Student at Università degli Studi di Milano",
+    "track": "R Machine Learning & Models, R Life Sciences",
+    "session_type": "Regular talk",
+    "dscription": "Weighted Quantile Sum (WQS) regression is a statistical model for multivariate regression in high-dimensional datasets commonly encountered in environmental exposures. The model constructs a weighted index estimating the mixture effect associated with all predictor variables on an outcome. The package gWQS extends WQS regression to applications with continuous, categorical and count outcomes. We provide four examples to illustrate the usage of the package."
+  },
+  {
+    "title": "R/LinkedCharts: A novel approach for simple but powerful interactive data analysis",
+    "author": "Svetlana Ovchinnikova",
+    "affiliation": "Doctoral student, Zentrum für Molekulare Biologie der Universität Heidelberg",
+    "track": "R Dataviz & Shiny",
+    "session_type": "Regular talk",
+    "dscription": "In exploratory data analysis, one usually jumps back and forth between visualizations that provide overview of the whole data and others that dive into details. In data quality assessment, for example, it might be very helpful to have one chart showing a summary statistic for all samples, and clicking on one of the data points would display details on this sample in a second plot. Setting up such interactively linked charts is usually cumbersome and time-consuming to use them in ad hoc analysis. We present R/LinkedChart, a framework  that renders this tasks radically simple: Producing linked charts is as quickly done as is producing conventional static plots in R, requiring a data scientist to write only very few lines of simple R code to obtain complex and general visualization. We expect that the convinience of our new tool will enable data scientists and bioinformaticians to perform much deeper and more thorough EDA with much less effort. Furthermore, R/LinkedChart apps, typically first written as quick-and-dirty hacks, can also be polished to provide interactive data access in publication quality, thus contributing to open science."
+  },
+  {
+    "title": "Transparent Journalism Through the Power of R",
+    "author": "Tatjana Kecojevic",
+    "affiliation": "SisterAnalyst.org;  founder and director",
+    "track": "R World",
+    "session_type": "Regular talk",
+    "dscription": "This study examines the often-tricky process of delivering data literacy programmes to professionals with most to gain from a deeper understanding of data analysis. As such, the author discusses the process of building and delivering training strategies to journalists in regions where press freedom is constrained by numerous factors, not least of all institutionalised corruption. \n\nReporting stories that are supplemented with transparent procedural systems are less likely to be contradicted and challenged by vested interest actors. Journalists are able to present findings supported by charts and info graphics, but these are open to translation. Therefore, most importantly, the data and code of the applied analytical methodology should also be available for scrutiny and is less likely to be subverted or prohibited.\n\nAs part of creating an accessible programme geared to acquiring skills necessary for data journalism, the author takes a step-by-step approach to discussing the actualities of building online platforms for training purposes. Through the use of grammar of graphics in R and Shiny, a web application framework for R, it is possible to develop interactive applications for graphical data visualisation. Presenting findings through interactive and accessible visualisation methods in a transparent and reproducible way is an effective form of reaching audiences that might not otherwise realise the value of the topic or data at hand. \n\nThe resulting ‘R toolbox for journalists’ is an accessible open-source resource. It can also be adapted to accommodate the need to provide a deeper understanding of the potential for data proficiency to other professions.\n\nThe accessibility of R allows for users to build support communities, which in the case of journalists is essential for information gathering. Establishing and implementing transparent channels of communication is the key to scrupulous journalism and is why R is so applicable to this objective.\n"
+  },
+  {
+    "title": "Decision support for maritime spatial planning",
+    "author": "Dario Masante",
+    "affiliation": "GIS and data specialist",
+    "track": "R Dataviz & Shiny, R Applications",
+    "session_type": "Shiny demo",
+    "dscription": "The VAPEM Shiny app provides an interface for managers and decision makers in maritime activities, to help understanding different management choices within the maritime spatial planning framework. In this domain, the planning of activities has proven complex, due primarily to the variety of stakeholders with contrasting interests to address, and the ecosystem’s limited capacity to provide services at sustainable levels, like fisheries. \nThe VAPEM tool allows the easy exploration of a model that links Natural Capital and maritime activities, specifically by means of probabilistic graphical models (Bayesian networks) combined with interactive mapping. The user can set input parameters and query the model to get information on the spatial distribution and intensity of a certain maritime activity and its dependency on the ecosystem components, such as benthic habitats.\nFrom an R/Shiny perspective, this is an interesting example of smooth integration of modelling and user-oriented application, addressing different levels of expertise in the domain. Despite its focus on Basque Country and the use of Bayesian networks, the tool is transferable to any geographical domains and, with the due changes in parametrization, to different modelling techniques.\n"
+  },
+  {
+    "title": "Automated, receptive and interactive: a classroom-based data generation exercise using Shiny",
+    "author": "Dean Langan",
+    "affiliation": "Senior Teaching Fellow (University College London, UK)",
+    "track": "R Applications, R Dataviz & Shiny",
+    "session_type": "Shiny demo",
+    "dscription": "Students find it easier to engage with statistics training when presented with examples from a familiar subject area. However, when teaching students of varying professional backgrounds, finding relatable examples can be especially challenging. Classroom based data generation exercises offer a solution as all students are involved in the process from data collection through to the choice and use of appropriate analyses. One such exercise that forms an integral part of an introductory statistics course is based on beer mat (coaster) flipping, a popular UK pub game. We have recently moved the data collection process online so that students can enter data via their smartphones and developed a web application using the R package shiny in R. This application allows students to explore the results interactively and independently. The application comes to life with visual demonstrations of core statistical concepts such as the central limit theorem and bootstrapping. This technology further engages students and the ensuing discussion comparing outputs and interpretation is a welcome addition to classroom interactivity. We present details of this exercise, focusing on use of the web application, example outputs, and student feedback."
+  },
+  {
+    "title": "Mobility scan",
+    "author": "Josue Aduna",
+    "affiliation": "Behavioural and data scientist at Livemobility",
+    "track": "R Dataviz & Shiny",
+    "session_type": "Shiny demo",
+    "dscription": "This is a Shiny application designed and developed to foster sustainable mobility behavior under a specific initiative that I currently work in: Livemobility (see https://www.livemobility.com/). \n\nBroadly speaking, Livemobility is a platform that rewards people for sustainable commuting behavior and helps companies to save money, avoid environmental pollution, improve public health and save travel time. This is achieved through a digital ecosystem that analyses mobility behavior and generates personalized insights to improve mobility efficiency.\n\nThe Shiny application makes use of web interactive settings together with Google Maps APIs to provide relevant indicators of impact, generate geographic scans and create mobility profiles.\n"
+  },
+  {
+    "title": "Scoring the Implicit Association Test has never been easier: DscoreApp",
+    "author": "Ottavia M. Epifania",
+    "affiliation": "University of Padova (IT)",
+    "track": "R Dataviz & Shiny",
+    "session_type": "Shiny demo",
+    "dscription": "Throughout the past decades, the interest in the implicit investigation of attitudes and preferences has been constantly growing among social scientists, and the Implicit Association Test (IAT) is one of the most common measures used for this aim. The so-called “IAT effect” (i.e., the difference in respondents’ performance between two contrasting categorization tasks) is usually expressed by the D-score. Despite that several options exist for computing the D-score, including R packages and SPSS syntaxes, none of them provides either an easy to use interface or a means for immediately visualizing the results. A Shiny Web application (DscoreApp) was developed to provide IAT users with an easy to use and powerful tool for the computation of the D-score. DscoreApp allows users to upload their IAT data, decide which specific D-score algorithm to compute, and immediately see the results in easy to read and interactive graphs. At the end of the computation, users can download a data frame containing the computed D-score and other information on respondents’ performance, such as the proportion of correct responses or the number of trials exceeding a time threshold. Graphical representations can be downloaded as well. Besides providing an easy to use and open source tool for computing the D-score, DscoreApp allows for grasping an immediate overview of the results, and to visually inspect them."
+  },
+  {
+    "title": "rTRhexNG: Hexagon sticker app for rTRNG",
+    "author": "Riccardo Porreca",
+    "affiliation": "R Enthusiast at Mirai Solutions",
+    "track": "R Dataviz & Shiny",
+    "session_type": "Shiny demo",
+    "dscription": "Hexagon stickers have become a popular way to make software tools, and R packages in particular, visually recognizable and stand out as landmarks in an ever-growing ecosystem. In general, good hexagon logos are not only visually appealing but also convey the key aspects of a package with their graphical design.\nIn this talk, we will showcase rTRhexNG (https://github.com/miraisolutions/rTRhexNG#readme), a Shiny app built for creating the hexagon sticker of the rTRNG (https://github.com/miraisolutions/rTRNG#readme) package. The core idea behind the logo was to have an appealing design that would at the same time illustrate the key features of the package: jump and split operations on (pseudo-)random sequences. Leveraging on the simple yet powerful SVG image format, R was used to automate the creation and location of several visual elements representing random sequences, and a Shiny app was built on top to quickly assess different designs in an interactive way.\nWe demonstrate the Shiny app in action to concretely explain what jump and split mean in rTRNG, and show how the sticker design naturally emerges from their visual representation. The power of this interactive yet automated approach was invaluable to fine-tune the final look of the sticker, also allowing to easily explore alternative polygon or circle designs the implementation naturally extends to."
+  }
+]

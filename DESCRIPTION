@@ -11,8 +11,9 @@ Description: Visualize eRum2020 Program as a bookdown.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Imports: 
+    bookdown,
     dplyr,
+    jsonlite,
     readxl,
     rmarkdown,
-    tidyr,
-    bookdown
+    tidyr
