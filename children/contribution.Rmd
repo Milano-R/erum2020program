@@ -1,27 +1,20 @@
----
-title: "Contribution"
-author: "Francesca Vitalini"
-date: "3/5/2020"
-output: html_document
-params:
-  title: ""
-  author: ""
-  affiliation: ""
-  track: ""
-  session_type: ""
-  description: ""
----
-
 ```{r, include = FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+# Child document rendering a single `contribution` with a give `contr_heading`,
+# both set by the parent document
+eval(envir = knitr::knit_global(), {
+  stopifnot(exists("contribution"))
+  stopifnot(exists("contr_heading"))
+})
+stopifnot(nrow(contribution) == 1L)
+stopifnot(is.character(contr_heading), length(contr_heading) == 1L)
 ```
 
-### `r params$title`
+`r paste(contr_heading, contribution$title)`
 
-*`r params$author`, `r params$affiliation`*
+*`r contribution$author`, `r contribution$affiliation`*
 
-**Track(s):** `r params$track`
+**Track(s):** `r contribution$track`
 
 **Abstract:**
 
-`r params$description`
+`r contribution$description`
