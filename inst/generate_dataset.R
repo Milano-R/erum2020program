@@ -16,11 +16,13 @@ if (!file.exists(output_file)) {
 #sessionize dump
 sessionize_full_dump <- file.path("inst", "data_dump", "erum2020 sessions - exported 2020-03-05.xlsx")
 gform_confirmation <- file.path("inst", "data_dump", "eRum 2020 - Contribution Acceptance Form (Responses).xlsx")
+accepted_full <- file.path("inst", "data_dump", "finaltable_homework_contributedsessions.xlsx")
 
 # Read files
 all_sessions <- read_excel(sessionize_full_dump, sheet = "All Submitted Sessions")
 all_speakers <- read_excel(sessionize_full_dump, sheet = "All Speakers")
 confirmations <- read_excel(gform_confirmation)
+accepted <- read_excel(accepted_full)
 
 # Utilities ----
 remove_spaces_df <- function(df) {
@@ -44,15 +46,24 @@ confirmations_reduced <- confirmations %>%
   rename(confirm = starts_with("Do you confirm")) %>%
   select(NameSurname, confirm)
 
+accepted_reduced <- accepted %>%
+  mutate(choice = `choice\n`) %>%
+  select(Id, `choice`, Title)
+
 # Join data
 all_speakers_confirmed <- all_speakers_reduced %>%
   left_join(confirmations_reduced) %>%
   mutate(NameSurname = gsub(" ", ",", .$NameSurname))
 
-session_speakers_confirmed <- full_join(all_sessions_reduced, all_speakers_confirmed, by = "NameSurname") %>%
+all_sessions_accepted <- all_sessions_reduced %>%
+  left_join(accepted_reduced, by = "Title") %>%
+  filter(choice > 0)
+
+session_speakers_confirmed <- full_join(all_sessions_accepted, all_speakers_confirmed, by = "NameSurname") %>%
   filter(tolower(confirm) == "yes") %>%
   select(Title, Speakers, TagLine, Track, Sessionformat, Description) %>%
-  setNames(c("title", "author", "affiliation", "track", "session_type", "description"))
+  setNames(c("title", "author", "affiliation", "track", "session_type", "description")) %>%
+  filter(!is.na(title))
 
 # Save output ----
 saveRDS( session_speakers_confirmed, output_file)
