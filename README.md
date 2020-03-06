@@ -1,7 +1,7 @@
 # erum2020_program
 
 <!-- badges: start -->
-[![Travis build status][https://travis-ci.com/Milano-R/erum2020program)](https://travis-ci.com/Milano-R/erum2020program)
+[![Travis build status](https://travis-ci.com/Milano-R/erum2020program.svg?branch=master)](https://travis-ci.com/Milano-R/erum2020program)
 <!-- badges: end -->
 
 
