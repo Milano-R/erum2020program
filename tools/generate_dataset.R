@@ -67,7 +67,7 @@ session_speakers_confirmed <- full_join(all_sessions_accepted, all_speakers_conf
     affiliation = TagLine,
     track = Track,
     session_type = Sessionformat,
-    dscription = Description
+    description = Description
     ) %>%
   filter(!is.na(title)) %>%
   arrange(session_type, author, title)
