@@ -1,0 +1,20 @@
+```{r, include = FALSE}
+# Child document rendering a single `contribution` with a give `contr_heading`,
+# both set by the parent document
+eval(envir = knitr::knit_global(), {
+  stopifnot(exists("contribution"))
+  stopifnot(exists("contr_heading"))
+})
+stopifnot(nrow(contribution) == 1L)
+stopifnot(is.character(contr_heading), length(contr_heading) == 1L)
+```
+
+`r paste(contr_heading, contribution$title)`
+
+*`r contribution$author`, `r contribution$affiliation`*
+
+**Track(s):** `r contribution$track`
+
+**Abstract:**
+
+`r contribution$description`

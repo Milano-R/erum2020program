@@ -1,0 +1,23 @@
+```{r, include = FALSE}
+# Child document rendering the subset of all `contributions` for a given
+# `session_type`
+eval(envir = knitr::knit_global(), {
+  stopifnot(exists("session_type"))
+  stopifnot(exists("contributions"))
+})
+```
+
+## `r session_type`
+
+```{r, echo = FALSE, results = 'asis', warning = FALSE}
+# heading level used for rendering individual contributions
+contr_heading <- "###"
+for (i in which(contributions$session_type %in% session_type)) {
+  contribution <- contributions[i, , drop = FALSE]
+  cat(knitr::knit_child(
+    file.path("contribution.Rmd"),
+    quiet = TRUE
+  ))
+}
+```
+
