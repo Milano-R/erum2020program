@@ -60,14 +60,17 @@ all_sessions_reduced <- all_sessions %>%
   bind_rows(accepted %>% filter(Speakers == "Riccardo Corradin")) %>%
   bind_rows(accepted %>% filter(Speakers == "Thomas Maier", )) %>%
   clean_df() %>%
-  select(Id, Title, Description, Speakers, Sessionformat, Track) %>%
+  select(Id, Title, Description, Speakers, Track) %>%
   mutate(Speakers = gsub(" N/A", "", .$Speakers)) %>%
   #Manual fix case of Shodipo Ayomide and Mieke Deschepper that switched Name and Surname
   #Manual fix for Dana Jomar/Jomer that mispelled her name
+  #Manual fix for Parvaneh Shafiei that mispelled her name
   mutate(Speakers = case_when(
     Speakers == "Shodipo Ayomide" ~ "Ayomide Shodipo",
     Speakers == "Mieke Deschepper" ~ "Deschepper Mieke",
     Speakers == "Dana Jomar" ~ "Dana Jomer",
+    Speakers == "parvane shafiei" ~ "Parvaneh Shafiei",
+    Speakers == "mustapha Larbaoui" ~ "Mustapha Larbaoui",
     TRUE ~ Speakers
   )) %>%
   mutate(NameSurname = gsub(" ", ",", .$Speakers)) %>%
@@ -76,14 +79,20 @@ all_sessions_reduced <- all_sessions %>%
 all_speakers_reduced <- all_speakers %>%
   clean_df() %>%
   select(Id, FirstName, LastName, TagLine) %>%
+  #Manual fix add speaker NameSurname RICCARDO,CORRADIN
+  #Manual fix add speaker NameSurname THOMAS,MAIER
+  add_row(FirstName = "Riccardo", LastName = "Corradin", TagLine = "Università degli Studi Milano Bicocca") %>%
+  add_row(FirstName = "Thomas", LastName = "Maier", TagLine = "Datahouse AG") %>%
   unite(NameSurname, FirstName, LastName, sep = ",") %>%
   clean_up_NameSurname() %>%
   #Manual fix case of Shodipo Ayomide and Mieke Deschepper that switched Name and Surname
   #Manual fix for Dana Jomar/Jomer that mispelled her name
+  #Manual fix for Parvaneh Shafiei that mispelled her name
   mutate(NameSurname = case_when(
     NameSurname == toupper("Shodipo,Ayomide") ~ toupper("Ayomide,Shodipo"),
     NameSurname == toupper("Mieke,Deschepper") ~ toupper("Deschepper,Mieke"),
     NameSurname == toupper("Dana,Jomar") ~ toupper("Dana,Jomer"),
+    NameSurname == toupper("Parvane,Shafiei") ~ toupper("Parvaneh,Shafiei"),
     TRUE ~ NameSurname
   ))
 
@@ -98,6 +107,10 @@ confirmations_reduced <- confirmations %>%
   #Manual fix for Giulio,Ferrero,Ferrero repeated surname
   #Manual fix for Olalekan Joseph Akintande	 that did not add middle name
   #Manual fix for name with special character inconsitently entered
+  #Manual fix for Desjeux Yann that switched Name Surname
+  #Manual fix for Izhar Asael Alonzo Matamoros Asael that did not separate correctly Name and Surname
+  #Manual fix for Mustafa Larbaoui that switched Name and Surname
+  #Manual fix for Luís Gustavo Silva e Silva che in sessionize era Luís G. Silva e Silva
   mutate(NameSurname = case_when(
     NameSurname == toupper("Shodipo,Ayomide") ~ toupper("Ayomide,Shodipo"),
     NameSurname == toupper("Mieke,Deschepper") ~ toupper("Deschepper,Mieke"),
@@ -105,6 +118,10 @@ confirmations_reduced <- confirmations %>%
     NameSurname == toupper("Zbynek,Slajchrt") ~ toupper("Zbyněk,Šlajchrt"),
     NameSurname == toupper("Giulio,Ferrero,Ferrero") ~ toupper("Giulio,Ferrero"),
     NameSurname == toupper("Olalekan,Akintande") ~ toupper("Olalekan,Joseph,Akintande"),
+    NameSurname == toupper("Desjeux,Yann") ~ toupper("Yann,Desjeux"),
+    NameSurname == toupper("Izhar,Asael,Alonzo,Matamoros,Asael") ~ toupper("Izhar,Asael,Alonzo,Matamoros"),
+    NameSurname == toupper("Larbaoui,Mustapha") ~ toupper("Mustapha,Larbaoui"),
+    NameSurname == toupper("Luís,Gustavo,Silva,e,Silva") ~ toupper("LUÍS,G.,SILVA,E,SILVA"),
     TRUE ~ NameSurname
   ))
 
@@ -113,15 +130,18 @@ accepted_reduced <- accepted %>%
   mutate(choice = `choice\n`) %>%
   #Manual fix case of Shodipo Ayomide and Mieke Deschepper that switched Name and Surname
   #Manual fix for Dana Jomar/Jomer that mispelled her name
+  #Manual fix for mustapha Larbaoui to Mustapha
   mutate(Speakers = case_when(
     Speakers == "Shodipo Ayomide" ~ "Ayomide Shodipo",
     Speakers == "Mieke Deschepper" ~ "Deschepper Mieke",
     Speakers == "Dana Jomar" ~ "Dana Jomer",
+    Speakers == "parvane shafiei" ~ "Parvaneh Shafiei",
+    Speakers == "mustapha Larbaoui" ~ "Mustapha Larbaoui",
     TRUE ~ Speakers
   )) %>%
   mutate(NameSurname = gsub(" ", ",", .$Speakers)) %>%
   clean_up_NameSurname() %>%
-  select(Id, `choice`, Title, NameSurname)
+  select(Id, `choice`, Title, AssignedFormat ,NameSurname)
 
 # Join data
 all_speakers_confirmed <- all_speakers_reduced %>%
@@ -138,7 +158,7 @@ session_speakers_confirmed <- full_join(all_sessions_accepted, all_speakers_conf
     author = Speakers,
     affiliation = TagLine,
     track = Track,
-    session_type = Sessionformat,
+    session_type = AssignedFormat,
     description = Description
   ) %>%
   distinct() %>%
