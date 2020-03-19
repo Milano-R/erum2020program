@@ -166,8 +166,8 @@ session_speakers_confirmed <- full_join(all_sessions_accepted, all_speakers_conf
   arrange(session_type, author, title)
 
 #Manual fix remove broken link
-idx_broken_link <- grepl("https://www.geotop.org/",session_speakers_confirmed$description)
-session_speakers_confirmed$description[idx_broken_link] <- gsub("https://www.geotop.org/", "www.geotop.org", session_speakers_confirmed$description[idx_broken_link])
+idx_broken_link <- grepl("Hydrological Modelling and R",session_speakers_confirmed$title)
+session_speakers_confirmed$description[idx_broken_link] <- gsub('(https://)+(www\\.)+geotop', 'www\\.geotop', session_speakers_confirmed$description[idx_broken_link])
 
 # Save output ----
 jsonlite::write_json(session_speakers_confirmed, output_file, pretty = TRUE)
