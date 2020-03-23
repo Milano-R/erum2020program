@@ -16,4 +16,5 @@ Imports:
     jsonlite,
     readxl,
     rmarkdown,
-    tidyr
+    tidyr,
+    purrr
