@@ -15,7 +15,7 @@ output_file <- file.path("data", "erum2020_confirmed_program.json")
 
 #contributions dump
 
-update_dump <- FALSE
+update_dump <- TRUE
 dump_dir <- file.path("tools", "data_dump")
 
 if (update_dump) {
