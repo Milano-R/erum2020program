@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # eRum2020 Program Overview
 
-Overview of accepted contributions organized by track and session type.
+Overview of accepted contributions organized by session type.
 
 ```{r, echo = FALSE, results = 'asis', warning = FALSE}
 contributions <- jsonlite::read_json(
