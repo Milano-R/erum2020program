@@ -536,6 +536,14 @@
     "description": "Turing e-Atlas is a research project under the Urban Analytics research theme at Alan Turing Institute (ATI). The ATI is UK's national institute for data science and Artificial Intelligence based at the British Library in London. \r\n\r\nThe research is a grand vision for which we have been trying to take baby steps under the banner of an e-Atlas. And we believe R is positioned to play a foundation role in any scalable solution to analyse and visualize large scale datasets especially geospatial datasets. \r\n\r\nThe application presented is built using RStudio's Plumber package which relies on solid libraries to develop web applications. The front-end is made up of Uber's various visualization packages using Facebook's React JavaScript framework."
   },
   {
+    "title": "Using process mining principles to extract a collaboration graph from a version control system log",
+    "author": "Leen JOOKEN",
+    "affiliation": "Hasselt University, PhD student",
+    "track": "R Production, R World",
+    "session_type": "Regular talk",
+    "description": "Knowledge management is an indispensable component of modern-day, fast changing and flexible software engineering environments. A clear overview on how software developers collaborate can reveal interesting insights such as the general structure of collaboration, crucial resources, and risks in terms of knowledge preservation that can arise when a programmer decides to leave the company. Version control system (VCS) logs, which keep track of what team members work on and when, contain data to provide these insights. We present an R package that provides an algorithm which extracts and visualizes a collaboration graph from VCS log data. The algorithm is based on principles from graph theory, cartography and process mining. Its structure consists of four phases: (1) building the base graph, (2) calculating weights for nodes and edges, (3) simplifying the graph using aggregation and abstraction, and (4) extending it to include specific insights of interest. Each of these phases offers the user a lot of flexibility in deciding which parameters and metrics to include. This makes it possible for the human expert to exploit his existing knowledge about the project and team to guide the algorithm in building the graph that best fits his specific use case, and hence will provide the most accurate insights."
+  },
+  {
     "title": "R at the service of plastic surgery: a web-based shiny application evaluating facial attractiveness",
     "author": "Lubomír Štěpánek",
     "affiliation": "Biostatistician, Software Developer, Junior Lecturer, PhD Candidate at First Faculty of Medicine, Charles University & Faculty of Biomedical Engineering, Czech Technical University in Prague (CZ)",
