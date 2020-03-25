@@ -7,7 +7,7 @@ eval(envir = knitr::knit_global(), {
 })
 ```
 
-## `r session_type`
+## `r paste0(session_type, "s")`
 
 ```{r, echo = FALSE, results = 'asis', warning = FALSE}
 # heading level used for rendering individual contributions
