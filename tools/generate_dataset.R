@@ -6,17 +6,43 @@ library(dplyr)
 library(tidyr)
 library(readxl)
 library(purrr)
+library(googledrive)
 
 # Expected files ----
 #Generate filan output
 
 output_file <- file.path("data", "erum2020_confirmed_program.json")
+
+#contributions dump
+
+update_dump <- TRUE
 dump_dir <- file.path("tools", "data_dump")
 
-#sessionize dump
-sessionize_full_dump <- file.path(dump_dir, "erum2020 sessions - exported 2020-03-05.xlsx")
-gform_confirmation <- file.path(dump_dir, "eRum 2020 - Contribution Acceptance Form (Responses).xlsx")
-accepted_full <- file.path(dump_dir, "finaltable_homework_contributedsessions.xlsx")
+if (update_dump) {
+  googledrive::drive_auth()
+  gdrive_program <- drive_find("Program", n_max = 1)
+}
+
+program_downolad <- function(file) {
+  if (update_dump) {
+    no_ext <- sub("[.][^.]*$", "", file)
+    gdrive_file <- drive_ls(as_id(gdrive_program$id), recursive = TRUE) %>%
+      subset(., grepl(no_ext, name, fixed = TRUE))
+    stopifnot(nrow(gdrive_file) == 1L)
+    result <- drive_download(as_id(gdrive_file$id), path = file.path(dump_dir, file), overwrite = TRUE)
+    result$local_path
+  } else {
+    file.path(dump_dir, file)
+  }
+}
+
+sessionize_full_dump <- program_downolad("erum2020 sessions - exported 2020-03-05.xlsx")
+gform_confirmation <- program_downolad("eRum 2020 - Contribution Acceptance Form (Responses).xlsx")
+accepted_full <- program_downolad("finaltable_homework_contributedsessions.xlsx")
+
+if (update_dump) {
+  googledrive::drive_deauth()
+}
 
 # Read files
 all_sessions <- read_excel(sessionize_full_dump, sheet = "All Submitted Sessions")
