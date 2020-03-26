@@ -137,6 +137,7 @@ confirmations_reduced <- confirmations %>%
   #Manual fix for Izhar Asael Alonzo Matamoros Asael that did not separate correctly Name and Surname
   #Manual fix for Mustafa Larbaoui that switched Name and Surname
   #Manual fix for Luís Gustavo Silva e Silva che in sessionize era Luís G. Silva e Silva
+  #Manual fix for Paula González Avalos che in sessionize era Paula Gonzalez Avalos
   mutate(NameSurname = case_when(
     NameSurname == toupper("Shodipo,Ayomide") ~ toupper("Ayomide,Shodipo"),
     NameSurname == toupper("Mieke,Deschepper") ~ toupper("Deschepper,Mieke"),
@@ -148,6 +149,7 @@ confirmations_reduced <- confirmations %>%
     NameSurname == toupper("Izhar,Asael,Alonzo,Matamoros,Asael") ~ toupper("Izhar,Asael,Alonzo,Matamoros"),
     NameSurname == toupper("Larbaoui,Mustapha") ~ toupper("Mustapha,Larbaoui"),
     NameSurname == toupper("Luís,Gustavo,Silva,e,Silva") ~ toupper("LUÍS,G.,SILVA,E,SILVA"),
+    NameSurname == toupper("PAULA,GONZÁLEZ,AVALOS") ~ toupper("PAULA,GONZALEZ,AVALOS"),
     TRUE ~ NameSurname
   ))
 

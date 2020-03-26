@@ -160,6 +160,14 @@
     "description": "BayesMallows is an R package for analyzing preference data in the form of rankings with the Mallows rank model, and its finite mixture extension, in a Bayesian framework. The model is grounded on the idea that the probability density of an observed ranking decreases exponentially with the distance to the location parameter. It is the first Bayesian implementation that allows wide choices of distances, and it works well with a large number of items to be ranked. BayesMallows handles non-standard data: partial rankings and pairwise comparisons, even in cases including non-transitive preference patterns. The Bayesian paradigm allows coherent quantification of posterior uncertainties of estimates of any quantity of interest. These posteriors are fully available to the user, and the package comes with convenient tools for summarizing and visualizing the posterior distributions.\r\n\r\nThis talk will focus on how the BayesMallows package can be used to analyze preference data, in particular how the Bayesian paradigm allows endless possibilities in answering questions of interest with the help of visualization of posterior distributions. Such posterior summaries can easily be communicated with scientific collaborators and business stakeholders who may not be machine learning experts themselves."
   },
   {
+    "title": "Web comics, Twitter, Whatsapp and ggplot2: the story of a modern day marriage proposal",
+    "author": "Paula Gonzalez Avalos",
+    "affiliation": "Data Scientist and Storyteller",
+    "track": "R Dataviz & Shiny",
+    "session_type": "Lightning talk",
+    "description": "There comes a point in the life of a data scientist when she knows she has found someone to spent the rest of her life with and she feels the need to ask this person to marry her. Unluckily for her, she doesn’t have a trip planned to a place with an idyllic view to wait for the sun to set to pop the question. Luckily for her, there is an intricate story involving the digital world and 36 months of messy chat data available that she can use to produce a surprise proposal. And stories and messy data are things she can deal with.\r\nIn this lightning talk, I will tell you the story of this data-visualization based marriage proposal as an example of how we can use our R skills to own data we’re constantly producing in our social media accounts and make it part of our life stories."
+  },
+  {
     "title": "Supporting R in the Binder Community",
     "author": "Sarah Gibson",
     "affiliation": "Research Software Engineer and 2020 Software Sustainability Institute Fellow",
