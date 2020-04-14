@@ -40,6 +40,14 @@
     "description": "The 2020 UEFA European Football Championship will be played this summer. Football championships are the source of almost endless predictions about the winner and the results of the individual matches, and we will show how the recently developed tournament rank probability score can be used to compare predictions.\r\n\r\nDifferent statistical models form the basis for predicting the result of individual matches. We present an R framework for comparing different prediction models and for comparing predictions about the Euro results. Everyone is encouraged to contribute their own function to make predictions for the result of the Euro 2020 championship.\r\n\r\nEach contributer will be shown how to provide two functions: a\r\nfunction that predicts the final score for a match between two teams with different skill levels, and a function that updates the\r\nskill levels based on the results of a given match. By supplying these two functions to the R framework the prediction results can be compared and the winner of the best football predictor can be found when Euro 2020 finishes."
   },
   {
+    "title": "Studying cognitive markers in psychiatry using R",
+    "author": "Divya Seernani",
+    "affiliation": "Psychology Researcher, experienced in eye-tracking methodologies.",
+    "track": "R Life Sciences",
+    "session_type": "Lightning talk",
+    "description": "Diagnosis within psychology and psychiatry has strived to be objective. However, we remain far from the ideal we want to reach. Well thought out experimental designs and analysis can shed light on strengths as well as deficits, that tell us more than just observable behaviours. These, if rigorously tested, can be used as cognitive markers. This talk provides an example of work, almost entirely done using packages in R, using eye-tracking to investigate different potential markers of Autism Spectrum Disorder (ASD) and Attention Deficit Hyperactivity Disorder (ADHD). We will see how a battery of tasks can be used to disentangle which variables are typical to ASD, which to ADHD and which to the co-morbid group ASD+ADHD. The potential markers taken for this study are local processing, global processing, gaze cueing and intra-subject variability. Eye-tracking helps to look at various temporal aspects of a task thus enabling process, rather than an outcome-based analysis. This helps researchers and clinicians to make informed decisions about the most meaningful constellations combining the different dimensions that form a neurodevelopmental disorder, which in turn can help make an informed diagnosis and provide individually tailored therapy."
+  },
+  {
     "title": "R in Medical Research: UseRs and StakeholdeRs",
     "author": "Filippo Chiarello",
     "affiliation": "University of Pisa",
@@ -62,6 +70,14 @@
     "track": "R Applications",
     "session_type": "Lightning talk",
     "description": "The importance of finding efficient ways to model and to store unstructured data has incredibly grown in the last decade, in particular with the strong expansion of social-media services. Among those storing tools an increasingly important class of databases is represented by the graph-oriented databases, where relationships between data are considered first-class citizens.\r\nIn order to support the analyst or the data scientist to interact and use in a simple way with this paradigm, we developed last year the package aRangodb, an interface with the graph-oriented database ArangoDB.\r\nTo show the capabilities of the package and of the underlying way to model data using graphs we present Tweetmood, a tool to analyze and visualize tweets from Twitter.\r\nIn this talk, we will present some of the most significant features of the package applied in the Tweetmood context, such as functionalities to traverse the graph and some examples in which the user can elaborate those graphs to get new information that can easily be stored using the functions and the tools available in the package."
+  },
+  {
+    "title": "Design your own quantum simulator with R",
+    "author": "Indranil Ghosh",
+    "affiliation": "Final year post Graduate student from the department of Physics, Jadavpur University, Kolkata, India",
+    "track": "R Applications",
+    "session_type": "Lightning talk",
+    "description": "The main idea of the project is to use the R ecosystem to write computer codes for designing a quantum simulator, for simulating different quantum algorithms. I will start with giving a brief introduction to linear algebra for starting with quantum computation, and how to write your own R codes from scratch to implement them. Then I will take a dive into implementing simple quantum circuits starting with initializing qubits and terminating with a measurement. I will also implement simple quantum algorithms concluding with giving a brief intro to quantum game theory and their simulations with R."
   },
   {
     "title": "Deep learning and time series approaches for improvement of vehicle distribution process",
@@ -166,6 +182,14 @@
     "track": "R Dataviz & Shiny",
     "session_type": "Lightning talk",
     "description": "There comes a point in the life of a data scientist when she knows she has found someone to spent the rest of her life with and she feels the need to ask this person to marry her. Unluckily for her, she doesn’t have a trip planned to a place with an idyllic view to wait for the sun to set to pop the question. Luckily for her, there is an intricate story involving the digital world and 36 months of messy chat data available that she can use to produce a surprise proposal. And stories and messy data are things she can deal with.\r\nIn this lightning talk, I will tell you the story of this data-visualization based marriage proposal as an example of how we can use our R skills to own data we’re constantly producing in our social media accounts and make it part of our life stories."
+  },
+  {
+    "title": "Predicting Business Cycle Fluctuations Using Text Analytics",
+    "author": "Sami Diaf",
+    "affiliation": "Researcher at the University of Hamburg",
+    "track": "R Machine Learning & Models",
+    "session_type": "Lightning talk",
+    "description": "The use of computational linguistics proved to be crucial in studying macroeconomic forecasts and understanding the essence of such exercises. \r\n\r\nCombining machine learning algorithms with text mining pipelines helps dissecting potential patterns of forecast errors and investigates the role of ideology in such outcomes.\r\n\r\nThe Priority Program “Exploring the Experience-Expectation Nexus” builds up, from a large database of German business cycle reports, advanced topic models and predictive analytics to investigate the role of ideology in the production of macroeconomic forecasts. The pipelines call for advanced data processing, predicting business fluctuations from text covariates, measuring ideological stances of forecasters and explaining what influences forecast errors."
   },
   {
     "title": "Supporting R in the Binder Community",
@@ -462,6 +486,14 @@
     "track": "R World",
     "session_type": "Regular talk",
     "description": "Open-source development is a great source of satisfaction and fulfillment, but someone has to pay the bills. A straightforward solution is to consult customers and help them to pick the right tools. As a small group of R enthusiasts, we try to align open source development by supporting our clients to accomplish their goals, contributing to the community along the way. It turns out that the benefits work in both ways: In addition to funding, consulting work allows us to test our tools and to improve their usability in a practical setting. At the same time, the involvement in open source development sharpens our analytical skills and serves as a first stop for new customers. Ideally, consulting projects lead to new developments, which in turn lead to new consulting projects."
+  },
+  {
+    "title": "MLOPS with R: An end-to-end process for building machine learning applications",
+    "author": "David Smith",
+    "affiliation": "Cloud Advocate, Microsoft",
+    "track": "R Production",
+    "session_type": "Regular talk",
+    "description": "As predictive models and machine learning become key components of production applications in every industry, an end-to-end Machine Learning Operations (MLOPS) process becomes critical for reliable and efficient deployment of applications that depend on R-based models. In this talk, I’ll outline the basics of the DevOps process and focus on the areas where MLOPS diverges.\r\n\r\nThe talk will show the complete process of building and deploying an application driven by a machine learning model implemented with R. We will show the process of developing models, triggering model training on code changes, and triggering the CI/CD process for an application when a new version of a model is registered. We will use the Azure Machine Learning service and the “azuremlsdk” package to orchestrate the model training and management process, but the principles will apply to MLOPS processes generally, especially for applications that involve large amounts of data or require significant computing resources."
   },
   {
     "title": "How to apply R in a hospital environment on standard available hospital-wide data",
