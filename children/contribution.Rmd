@@ -11,17 +11,24 @@ stopifnot(is.character(contr_heading), length(contr_heading) == 1L)
 
 `r paste(contr_heading, contribution$title)`
 
-*`r contribution$author`, `r contribution$affiliation`*
+**`r contribution$author`**, *`r contribution$affiliation`*
 
-`r if (!is.na(contribution$author2)) {paste("*",contribution$author2,", ",contribution$affiliation2,"*")}`
+```{r, include=FALSE}
+auth <- !is.na(contribution$author2)
+```
 
-`r if (!is.na(contribution$coauthor)) {paste("*Coauthor(s): ",contribution$coauthor,"*")}`
+```{r, echo = FALSE, eval = auth}
+library(knitr)
+asis_output(paste("\n**",contribution$author2,"**, ","*",contribution$affiliation2,"*",sep=""))
+```
 
-**Track(s):** `r contribution$track`
+
+Track(s): `r contribution$track`
 
 **Abstract:**
 
 `r contribution$description`
 
+`r if (!is.na(contribution$coauthor)) {paste("Coauthor(s): ",contribution$coauthor,".")}`
 
 
