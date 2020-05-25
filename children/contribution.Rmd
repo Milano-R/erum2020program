@@ -13,8 +13,15 @@ stopifnot(is.character(contr_heading), length(contr_heading) == 1L)
 
 *`r contribution$author`, `r contribution$affiliation`*
 
+`r if (!is.na(contribution$author2)) {paste("*",contribution$author2,", ",contribution$affiliation2,"*")}`
+
+`r if (!is.na(contribution$coauthor)) {paste("*Coauthor(s): ",contribution$coauthor,"*")}`
+
 **Track(s):** `r contribution$track`
 
 **Abstract:**
 
 `r contribution$description`
+
+
+

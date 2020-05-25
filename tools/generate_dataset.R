@@ -1,12 +1,13 @@
 # Create dataset to display as bookdown
 # To run manually to generate the clean dataset to display
-
+rm(list=ls())
 # Dependencies ----
 library(dplyr)
 library(tidyr)
 library(readxl)
 library(purrr)
 library(googledrive)
+library(stringr)
 
 # Expected files ----
 #Generate filan output
@@ -39,6 +40,7 @@ program_downolad <- function(file) {
 sessionize_full_dump <- program_downolad("erum2020 sessions - exported 2020-03-05.xlsx")
 gform_confirmation <- program_downolad("eRum 2020 - Contribution Acceptance Form (Responses).xlsx")
 accepted_full <- program_downolad("finaltable_homework_contributedsessions.xlsx")
+eventbrite_full <- program_downolad("report-2020-05-17T1441.xlsx")
 
 if (update_dump) {
   googledrive::drive_deauth()
@@ -49,6 +51,8 @@ all_sessions <- read_excel(sessionize_full_dump, sheet = "All Submitted Sessions
 all_speakers <- read_excel(sessionize_full_dump, sheet = "All Speakers")
 confirmations <- read_excel(gform_confirmation)
 accepted <- read_excel(accepted_full)
+eventbrite <- read_excel(eventbrite_full)
+
 
 # Utilities ----
 remove_spaces_df <- function(df) {
@@ -84,16 +88,15 @@ all_sessions_reduced <- all_sessions %>%
   select(-`Date Submitted`) %>%
   #Manual fix add RICCARDO,CORRADIN and Thomas Maier contribution that does not seem to be part of the all_session but is part of the accepted. Notice that this does not fix the all_speakers tab, so we are still missing his affiliation
   bind_rows(accepted %>% filter(Speakers == "Riccardo Corradin")) %>%
-  bind_rows(accepted %>% filter(Speakers == "Thomas Maier", )) %>%
+  bind_rows(accepted %>% filter(Speakers == "Thomas Maier" )) %>%
   clean_df() %>%
-  select(Id, Title, Description, Speakers, Track) %>%
+  select(Id, Title, Description, Speakers, Track, `Co-authors` ) %>%
   mutate(Speakers = gsub(" N/A", "", .$Speakers)) %>%
-  #Manual fix case of Shodipo Ayomide and Mieke Deschepper that switched Name and Surname
+  #Manual fix case of Shodipo Ayomide that switched Name and Surname
   #Manual fix for Dana Jomar/Jomer that mispelled her name
   #Manual fix for Parvaneh Shafiei that mispelled her name
   mutate(Speakers = case_when(
     Speakers == "Shodipo Ayomide" ~ "Ayomide Shodipo",
-    Speakers == "Mieke Deschepper" ~ "Deschepper Mieke",
     Speakers == "Dana Jomar" ~ "Dana Jomer",
     Speakers == "parvane shafiei" ~ "Parvaneh Shafiei",
     Speakers == "mustapha Larbaoui" ~ "Mustapha Larbaoui",
@@ -111,12 +114,11 @@ all_speakers_reduced <- all_speakers %>%
   add_row(FirstName = "Thomas", LastName = "Maier", TagLine = "Datahouse AG") %>%
   unite(NameSurname, FirstName, LastName, sep = ",") %>%
   clean_up_NameSurname() %>%
-  #Manual fix case of Shodipo Ayomide and Mieke Deschepper that switched Name and Surname
+  #Manual fix case of Shodipo Ayomide and  that switched Name and Surname
   #Manual fix for Dana Jomar/Jomer that mispelled her name
   #Manual fix for Parvaneh Shafiei that mispelled her name
   mutate(NameSurname = case_when(
     NameSurname == toupper("Shodipo,Ayomide") ~ toupper("Ayomide,Shodipo"),
-    NameSurname == toupper("Mieke,Deschepper") ~ toupper("Deschepper,Mieke"),
     NameSurname == toupper("Dana,Jomar") ~ toupper("Dana,Jomer"),
     NameSurname == toupper("Parvane,Shafiei") ~ toupper("Parvaneh,Shafiei"),
     TRUE ~ NameSurname
@@ -128,7 +130,7 @@ confirmations_reduced <- confirmations %>%
   unite(NameSurname, Name, Surname, sep = ",") %>%
   select(NameSurname, confirm) %>%
   clean_up_NameSurname() %>%
-  #Manual fix case of Shodipo Ayomide and Mieke Deschepper that switched Name and Surname
+  #Manual fix case of Shodipo Ayomide and  that switched Name and Surname
   #Manual fix for Dana Jomar/Jomer that mispelled her name
   #Manual fix for Giulio,Ferrero,Ferrero repeated surname
   #Manual fix for Olalekan Joseph Akintande	 that did not add middle name
@@ -140,7 +142,6 @@ confirmations_reduced <- confirmations %>%
   #Manual fix for Paula González Avalos che in sessionize era Paula Gonzalez Avalos
   mutate(NameSurname = case_when(
     NameSurname == toupper("Shodipo,Ayomide") ~ toupper("Ayomide,Shodipo"),
-    NameSurname == toupper("Mieke,Deschepper") ~ toupper("Deschepper,Mieke"),
     NameSurname == toupper("Dana,Jomar") ~ toupper("Dana,Jomer"),
     NameSurname == toupper("Zbynek,Slajchrt") ~ toupper("Zbyněk,Šlajchrt"),
     NameSurname == toupper("Giulio,Ferrero,Ferrero") ~ toupper("Giulio,Ferrero"),
@@ -156,12 +157,11 @@ confirmations_reduced <- confirmations %>%
 accepted_reduced <- accepted %>%
   purrr::map_df(trimws) %>%
   mutate(choice = `choice\n`) %>%
-  #Manual fix case of Shodipo Ayomide and Mieke Deschepper that switched Name and Surname
+  #Manual fix case of Shodipo Ayomide and  that switched Name and Surname
   #Manual fix for Dana Jomar/Jomer that mispelled her name
   #Manual fix for mustapha Larbaoui to Mustapha
   mutate(Speakers = case_when(
     Speakers == "Shodipo Ayomide" ~ "Ayomide Shodipo",
-    Speakers == "Mieke Deschepper" ~ "Deschepper Mieke",
     Speakers == "Dana Jomar" ~ "Dana Jomer",
     Speakers == "parvane shafiei" ~ "Parvaneh Shafiei",
     Speakers == "mustapha Larbaoui" ~ "Mustapha Larbaoui",
@@ -171,27 +171,64 @@ accepted_reduced <- accepted %>%
   clean_up_NameSurname() %>%
   select(Id, `choice`, Title, AssignedFormat ,NameSurname)
 
+
+eventbrite_reduced <- eventbrite %>% 
+  mutate(TipologiaBiglietto = as.factor(`Tipologia biglietto`)) %>%
+  filter(`Tipologia biglietto` == "Conference ticket - Speaker") %>%
+  unite(NameSurname,Nome,Cognome, sep = ",") %>%
+  select(NameSurname, `E-mail`, TipologiaBiglietto) %>%
+  clean_up_NameSurname() %>%
+  distinct(NameSurname, .keep_all = TRUE) %>%
+  mutate(author2 = NA, affiliation2 = NA) %>%
+  mutate(NameSurname = case_when(
+    NameSurname == toupper("ottavia,epifania") ~ toupper("ottavia,m.,epifania"),
+    NameSurname == toupper("shodipo,ayomide") ~ toupper("ayomide,shodipo"),
+    NameSurname == toupper("marco,franco") ~ toupper("marco,cavaliere"),
+    NameSurname == toupper("ANDRÉ,WAAGE,RIVENÆS") ~ toupper("ANDRÉ,RIVENÆS"),
+    NameSurname == toupper("MATT,BANNERT") ~ toupper("MATTHIAS,BANNERT"),
+    TRUE ~ NameSurname
+  )) %>%
+  mutate(author2 = case_when(NameSurname == "ANDRÉ,RIVENÆS" ~ "Markus Mortensen",
+         NameSurname == "LUCA,TORRIANI" ~ "Ilaria Sartori"
+         )) %>%
+  mutate(affiliation2 = case_when(NameSurname == "ANDRÉ,RIVENÆS" ~ "PwC",
+                             NameSurname == "LUCA,TORRIANI" ~ "Politecnico di Milano"))
+
+
+
+
 # Join data
 all_speakers_confirmed <- all_speakers_reduced %>%
-  full_join(confirmations_reduced, by = "NameSurname")
+  full_join(eventbrite_reduced, by = "NameSurname")
 
 all_sessions_accepted <- all_sessions_reduced %>%
   full_join(accepted_reduced, by = c("NameSurname", "Title") ) %>%
   filter(choice > 0)
 
 session_speakers_confirmed <- full_join(all_sessions_accepted, all_speakers_confirmed, by = "NameSurname") %>%
-  filter(tolower(confirm) == "yes") %>%
+  filter(TipologiaBiglietto == "Conference ticket - Speaker") %>%
   transmute(
     title = Title,
     author = Speakers,
     affiliation = TagLine,
+    author2 = author2,
+    affiliation2 = ,
     track = Track,
     session_type = AssignedFormat,
-    description = Description
+    description = Description,
+    namesurname = NameSurname,
+    coauthor = `Co-authors`
   ) %>%
-  distinct() %>%
-  filter(!is.na(title)) %>%
+#  distinct() %>%
+#  filter(!is.na(title)) %>%
   arrange(session_type, author, title)
+
+# check
+
+filter(all_speakers_reduced,str_detect(NameSurname,"MORTENSEN"))
+filter(eventbrite_reduced,str_detect(NameSurname,"MORTENSEN"))
+eventbrite_reduced[str_detect(eventbrite_reduced$NameSurname,"BANNERT"),]
+all_speakers_reduced[str_detect(all_speakers_reduced$NameSurname,"BANNERT"),2]
 
 #Manual fix remove broken link
 idx_broken_link <- grepl("Hydrological Modelling and R",session_speakers_confirmed$title)

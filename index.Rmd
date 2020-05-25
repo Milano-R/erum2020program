@@ -12,7 +12,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# eRum2020 Program Overview
+# eRum2020 Contributed Program
 
 Overview of accepted contributions organized by session type.
 
