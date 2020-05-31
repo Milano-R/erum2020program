@@ -40,7 +40,7 @@ program_downolad <- function(file) {
 sessionize_full_dump <- program_downolad("erum2020 sessions - exported 2020-03-05.xlsx")
 gform_confirmation <- program_downolad("eRum 2020 - Contribution Acceptance Form (Responses).xlsx")
 accepted_full <- program_downolad("finaltable_homework_contributedsessions.xlsx")
-eventbrite_full <- program_downolad("report-2020-05-25T1301.xlsx")
+eventbrite_full <- program_downolad("report-2020-05-31T1707.xlsx")
 
 if (update_dump) {
   googledrive::drive_deauth()
@@ -245,6 +245,7 @@ session_speakers_confirmed <- full_join(all_sessions_accepted, all_speakers_conf
 # filter(eventbrite_reduced,str_detect(NameSurname,"AKINTANDE"))
 # eventbrite_reduced[str_detect(eventbrite_reduced$NameSurname,"KIRILL"),1]
 # all_speakers_reduced[str_detect(all_speakers_reduced$NameSurname,"KIRILL"),2]
+session_speakers_confirmed[str_detect(session_speakers_confirmed$namesurname,"CORRADIN"),2]
 
 #Manual fix remove broken link
 idx_broken_link <- grepl("Hydrological Modelling and R",session_speakers_confirmed$title)
