@@ -285,17 +285,6 @@
     "email": "dario.righelli@unipd.it"
   },
   {
-    "title": "Transparent presentation of uncertain lotteries using {deals}",
-    "author": "Dmytro Perepolkin",
-    "affiliation": "Lund University",
-    "namesurname": "DMYTRO,PEREPOLKIN",
-    "coauthor": "Ullrika Sahlin",
-    "track": "R Dataviz & Shiny",
-    "session_type": "Poster",
-    "description": "Making decisions under uncertainty is hard. Scholars of human decision making have identified a number of decision paradoxes, related to how we perceive and choose among uncertain prospects (e.g. Allais Paradox and Ellsberg Paradox). Recently a few remedies have been proposed which help alleviate some risk and/or ambiguity aversion by careful choice of visual presentation of uncertainty. We introduce R package which makes it easy to create, transform and visualize uncertain lotteries and extend the previously published results for continuous variables.",
-    "email": "dperepolkin@gmail.com"
-  },
-  {
     "title": "NewWave: a scalable R package for the dimensionality reduction of single-cell RNA-seq",
     "author": "Federico Agostinis",
     "affiliation": "Università degli studi di Padova, Fellowship",
@@ -459,6 +448,16 @@
     "session_type": "Regular talk",
     "description": "Open-source development is a great source of satisfaction and fulfillment, but someone has to pay the bills. A straightforward solution is to consult customers and help them to pick the right tools. As a small group of R enthusiasts, we try to align open source development by supporting our clients to accomplish their goals, contributing to the community along the way. It turns out that the benefits work in both ways: In addition to funding, consulting work allows us to test our tools and to improve their usability in a practical setting. At the same time, the involvement in open source development sharpens our analytical skills and serves as a first stop for new customers. Ideally, consulting projects lead to new developments, which in turn lead to new consulting projects.",
     "email": "christoph@cynkra.com"
+  },
+  {
+    "title": "Deduplicating real estate ads using Naive Bayes record linkage",
+    "author": "Daniel Meister",
+    "affiliation": "Datahouse AG",
+    "namesurname": "DANIEL,MEISTER",
+    "track": "R Applications",
+    "session_type": "Regular talk",
+    "description": "We demonstrate in this talk, how we used a containerized R and PostgreSQL data pipeline to deduplicate 60 million real estate ads from Germany and Switzerland using a multi-step Naive Bayes record linkage approach. Real estate platforms publish millions of rental flat and condominium ads yearly. A given region or country of interest is normally covered by various competing platforms, leading to multiple published ads for a single real world object. Because quantifying and modeling the real estate market requires unbiased input data, our aim was to deduplicate real estate ads using Naive Bayes record linkage. We used commercially available German and Swiss real estate ad data from 2012 to 2019 consisting of approximately 60 million individual records. After multiple data cleaning and preparation steps we employed a Naive Bayes weighting of 12-14 variables to calculate similarity scores between ads and determined a linkage threshold based on expert judgment. The deduplication pipeline consisted of three steps: linking ads based on identity comparisons, linking similar ads within small regional areas (municipalities) and linking similar ads within large regional areas (cantons, states). The pipeline was deployed as a containerized setup with in-memory calculations in R and out-of-memory calculations and data storage in PostgreSQL. Deduplication linked the around 60 million ads to around 14 million object groups (Germany: 10 millions, Switzerland: 4 millions). The distribution of similarity scores showed high separation power and the resulting object groups displayed high homogeneity in geographic location and price distribution. Furthermore, yearly results corresponded well with published relocation rates. Using Naive Bayes record linkage to deduplicate real estate ads resulted in a sensible grouping of ads into object groups (rental flats, condominiums). We were able to combine similarities across different variables into a single similarity score. An advantage of the Naive Bayes approach is the high interpretability of the influence of individual variables. However, by manually determining the linkage threshold our results are heavily influenced by possible expert biases. The containerized R and PostgreSQL setup proved it’s portability and scaling capabilities. The same approach could easily be transferred to other domains requiring deduplication of multivariate data sets.",
+    "email": "daniel.meister@datahouse.ch"
   },
   {
     "title": "{polite}: web etiquette for R users",

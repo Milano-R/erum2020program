@@ -102,6 +102,7 @@ all_sessions_reduced <- all_sessions %>%
     Speakers == "Dana Jomar" ~ "Dana Jomer",
     Speakers == "parvane shafiei" ~ "Parvaneh Shafiei",
     Speakers == "mustapha Larbaoui" ~ "Mustapha Larbaoui",
+    Speakers == "Thomas Maier" ~ "Daniel Meister",
     TRUE ~ Speakers
   )) %>%
   mutate(NameSurname = gsub(" ", ",", .$Speakers)) %>%
@@ -121,7 +122,7 @@ all_speakers_reduced <- all_speakers %>%
   #Manual fix add speaker NameSurname RICCARDO,CORRADIN
   #Manual fix add speaker NameSurname THOMAS,MAIER
   add_row(FirstName = "Riccardo", LastName = "Corradin", TagLine = "Università degli Studi Milano Bicocca") %>%
-  add_row(FirstName = "Thomas", LastName = "Maier", TagLine = "Datahouse AG") %>%
+  add_row(FirstName = "Daniel", LastName = "Meister", TagLine = "Datahouse AG") %>%
   add_row(FirstName = "Vincent", LastName = "Guyader", TagLine = "ThinkR") %>%
   add_row(FirstName = "Ursula", LastName = "Gasser", TagLine = "PartnerRe") %>%
   unite(NameSurname, FirstName, LastName, sep = ",") %>%
@@ -136,7 +137,7 @@ all_speakers_reduced <- all_speakers %>%
     TRUE ~ NameSurname
   ))
 
-all_speakers_reduced$NameSurname[str_detect(all_speakers_reduced$NameSurname,"KIRILL")]
+# all_speakers_reduced$NameSurname[str_detect(all_speakers_reduced$NameSurname,"KIRILL")]
 
 # confirmations_reduced <- confirmations %>%
 #   rename(confirm = starts_with("Do you confirm")) %>%
@@ -179,6 +180,7 @@ accepted_reduced <- accepted %>%
     Speakers == "Dana Jomar" ~ "Dana Jomer",
     Speakers == "parvane shafiei" ~ "Parvaneh Shafiei",
     Speakers == "mustapha Larbaoui" ~ "Mustapha Larbaoui",
+    Speakers == "Thomas Maier" ~ "Daniel Meister",
     TRUE ~ Speakers
   )) %>%
   mutate(NameSurname = gsub(" ", ",", .$Speakers)) %>%
@@ -187,12 +189,17 @@ accepted_reduced <- accepted %>%
 
 
 eventbrite_reduced <- eventbrite %>% 
-  mutate(TipologiaBiglietto = as.factor(`Tipologia biglietto`)) %>%
-  # filter(`Tipologia biglietto` == "Conference ticket - Speaker") %>%
+  mutate(TipologiaBiglietto = `Tipologia biglietto`) %>%
+  filter(`Tipologia biglietto` == "Conference ticket - Speaker" 
+         | Cognome == "Salmon" 
+         | Cognome == "Ryser-Welch"
+         | Cognome == "Marini"
+         | Cognome == "Melloncelli"
+         | Cognome == "Sax") %>%
   unite(NameSurname,Nome,Cognome, sep = ",") %>%
   select(NameSurname, `E-mail`, TipologiaBiglietto) %>%
   clean_up_NameSurname() %>%
-  distinct(NameSurname, .keep_all = TRUE) %>%
+  distinct(NameSurname,TipologiaBiglietto,.keep_all = TRUE) %>%
   mutate(author2 = NA_character_, affiliation2 = NA_character_) %>%
   mutate(NameSurname = case_when(
     NameSurname == toupper("ottavia,epifania") ~ toupper("ottavia,m.,epifania"),
@@ -203,7 +210,7 @@ eventbrite_reduced <- eventbrite %>%
     NameSurname == toupper("CLAUS,EKSTROM") ~ toupper("CLAUS,EKSTRØM"),
     NameSurname == toupper("OLALEKAN,AKINTANDE") ~ toupper("OLALEKAN,JOSEPH,AKINTANDE"),
     NameSurname == toupper("LUÍS,SILVA,E,SILVA") ~ toupper("LUÍS,G.,SILVA,E,SILVA"), 
-    NameSurname == toupper("KIRILL,MÜLLER") ~ toupper("KIRILL,MÜLLER"), 
+  #  NameSurname == toupper("KIRILL,MÜLLER") ~ toupper("KIRILL,MÜLLER"), 
     TRUE ~ NameSurname
   )) %>%
   mutate(author2 = case_when(NameSurname == "ANDRÉ,RIVENÆS" ~ "Markus Mortensen",
@@ -226,6 +233,13 @@ all_sessions_accepted <- all_sessions_reduced %>%
   filter(choice > 0)
 
 session_speakers_confirmed <- full_join(all_sessions_accepted, all_speakers_confirmed, by = "NameSurname") %>%
+  # by hand Kirill Muller I don't know why full join doesn't work
+  mutate(`E-mail` = case_when(
+    Id == "905a186f-f5cc-4253-b449-455c45dea8c4" ~ "kirill@cynkra.com",
+    TRUE ~ `E-mail`)) %>%
+  mutate(TipologiaBiglietto = case_when(
+    Id == "905a186f-f5cc-4253-b449-455c45dea8c4" ~ "Conference ticket - Speaker",
+    TRUE ~ TipologiaBiglietto)) %>% 
   filter(!is.na(TipologiaBiglietto)) %>%
   transmute(
     title = Title,
@@ -242,6 +256,8 @@ session_speakers_confirmed <- full_join(all_sessions_accepted, all_speakers_conf
   ) %>%
   distinct() %>%
   filter(!is.na(title)) %>%
+  # manual
+  filter(title != "Transparent presentation of uncertain lotteries using {deals}") %>%
   arrange(session_type, author, title)
 
 # check: comment line filter and check manually
