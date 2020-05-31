@@ -46,6 +46,8 @@ if (update_dump) {
   googledrive::drive_deauth()
 }
 
+# save.image("dataDumpMay31.RData")
+load("dataDumpMay31.RData")
 # Read files
 all_sessions <- read_excel(sessionize_full_dump, sheet = "All Submitted Sessions")
 all_speakers <- read_excel(sessionize_full_dump, sheet = "All Speakers")
@@ -227,25 +229,28 @@ session_speakers_confirmed <- full_join(all_sessions_accepted, all_speakers_conf
     title = Title,
     author = Speakers,
     affiliation = TagLine,
+    namesurname = NameSurname,
+    coauthor = `Co-authors`,
     author2 = author2,
     affiliation2 = affiliation2,
     track = Track,
     session_type = AssignedFormat,
     description = Description,
-    namesurname = NameSurname,
-    coauthor = `Co-authors`
+    email = `E-mail`
   ) %>%
   distinct() %>%
   filter(!is.na(title)) %>%
   arrange(session_type, author, title)
 
-# check
+# check: comment line filter and check manually
 
 # filter(all_speakers_reduced,str_detect(NameSurname,"AKINTANDE"))
 # filter(eventbrite_reduced,str_detect(NameSurname,"AKINTANDE"))
 # eventbrite_reduced[str_detect(eventbrite_reduced$NameSurname,"KIRILL"),1]
 # all_speakers_reduced[str_detect(all_speakers_reduced$NameSurname,"KIRILL"),2]
-session_speakers_confirmed[str_detect(session_speakers_confirmed$namesurname,"CORRADIN"),2]
+# session_speakers_confirmed[str_detect(session_speakers_confirmed$namesurname,"CORRADIN"),2]
+table(session_speakers_confirmed$biglietto)
+
 
 #Manual fix remove broken link
 idx_broken_link <- grepl("Hydrological Modelling and R",session_speakers_confirmed$title)
