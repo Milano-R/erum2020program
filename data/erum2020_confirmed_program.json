@@ -94,16 +94,6 @@
     "email": "indranilg49@gmail.com"
   },
   {
-    "title": "Deep learning and time series approaches for improvement of vehicle distribution process",
-    "author": "Julia Fumbarev",
-    "affiliation": "BMW Group, Data scientist",
-    "namesurname": "JULIA,FUMBAREV",
-    "track": "R Applications, R Machine Learning & Models",
-    "session_type": "Lightning talk",
-    "description": "Accurate planning of transport- and stock duration is a ubiquitous problem in vehicle distribution. As BMW Group faces the annual delivery volumes of 2.7 million vehicles, the importance of process optimization through scaling up to such high volumes becomes self-evident. Precise forecasts not only ensure efficient resource allocation, but can play a crucial role in process delay resolution: If we are aware of a delay in the delivery of a vehicle to a customer at an early stage, high short-term costs can be avoided by taking corresponding measures e.g. acceleration of the follow-up process, early customer’s delay notice etc.\r\nTo improve predictions regarding the process times and arrival events, we relied on state-of-the-art approaches of deep learning and time series analysis. The methodology was applied to two use cases: predictions of inflows into ports and event date predictions. For the former, we were able to achieve more efficient utilization of the ships while for the latter, a more reliable prognosis ensures higher customer satisfaction which is the focus of BMW.\r\nThe algorithm’s performance was evaluated by computing prediction accuracy for the respective use case. The main contribution of our work is delivering a more reliable forecast that has a positive impact on the entire supply chain and, consequently, can generate large business value.",
-    "email": "julia.fumbarev@gmail.com"
-  },
-  {
     "title": "What are the potato eaters eating",
     "author": "Keshav Bhatt",
     "affiliation": "R-fan and independent researcher",
@@ -112,6 +102,16 @@
     "session_type": "Lightning talk",
     "description": "Although stereotypes can quite useful they are often not correct. For instance, the Dutch are stereotyped as being potato eaters. While this might have been historically correct, it is not currently accurate. The Dutch sparingly eat potatoes and this paper uses data to disprove the stereotype. To get an impression of Dutch food habits, a popular local website was scraped. Besides its popularity, the website hosts user-generated content, giving a good proxy of Dutch taste-buds.\r\nWhile it was apparent on the website, lasagna is the most popular dish. Detailed NLP analysis of more than 50,000 recipes showed that potato based dishes are in fact nowhere at the top. This vindicated my belief. Moreover, it shows that the Dutch kitchen is globalizing. Tomato, a hallmark of South Europe is more popular than the Dutch potato. Also observed is the popularity of many herbs in the recipes, which are not a traditional component of the Dutch kitchen. \r\nThe world is changing and our kitchens too.\r\nThis trend will also be explored for other countries also.",
     "email": "bhatt.keshav@gmail.com"
+  },
+  {
+    "title": "dm: working with relational data models in R",
+    "author": "Kirill Müller",
+    "affiliation": "Clean code, tidy data. Consulting for cynkra, coding in the open.",
+    "namesurname": "KIRILL,MÜLLER",
+    "track": "R Applications, R Production, R World",
+    "session_type": "Lightning talk",
+    "description": "Storing all data related to a problem in a single table or data frame (\"the dataset\") can result in many repetitive values. Separation into multiple tables helps data quality but requires \"merge\" or \"join\" operations. {dm} is a new package that fills a gap in the R ecosystem: it makes working with multiple tables just as easy as working with a single table.\r\n\r\nA \"data model\" consists of tables (both the definition and the data), and primary and foreign keys. The {dm} package combines these concepts with data manipulation powered by the tidyverse: entire data models are handled in a single entity, a \"dm\" object.\r\n\r\nThree principal use cases for {dm} can be identified:\r\n\r\n1. When you consume a data model, {dm} helps access and manipulate a dataset consisting of multiple tables (database or local data frames) through a consistent interface.\r\n\r\n2. When you use a third-party dataset, {dm} helps normalizing the data to remove redundancies as part of the cleaning process.\r\n\r\n3. To create a relational data model, you can prepare the data using R and familiar tools and seamlessly export to a database.\r\n\r\nThe presentation revolves around these use cases and shows a few applications. The {dm} package is available on GitHub and will be submitted to CRAN in early February.",
+    "email": "kirill@cynkra.com"
   },
   {
     "title": "Explaining black-box models with xspliner to make deliberate business decisions",
@@ -221,16 +221,6 @@
     "email": "sami.diaf@uni-hamburg.de"
   },
   {
-    "title": "Supporting R in the Binder Community",
-    "author": "Sarah Gibson",
-    "affiliation": "Research Software Engineer and 2020 Software Sustainability Institute Fellow",
-    "namesurname": "SARAH,GIBSON",
-    "track": "R World",
-    "session_type": "Lightning talk",
-    "description": "Binder is a project developed for the community by the community. It supports the sharing of reproducible computational analyses over the cloud in a variety of programming languages. The users of mybinder.org (the free and public Binder service) are in a privileged position to suggest the features they want to see, and even contribute them to the project. That being said, the maintainers and operators of mybinder.org are primarily skilled in Python. I would like to use my lightning talk session to begin a conversation with the R community on how Binder can better support the needs of R language users, and how they can become involved in the maintenance and development of such a project.",
-    "email": "sgibson@turing.ac.uk"
-  },
-  {
     "title": "Flexible deep learning via the JuliaConnectoR",
     "author": "Stefan Lenz",
     "affiliation": "Statistician at the Institute of Medical Biometry and Statistics (IMBI), Faculty of Medicine and Medical Center – University of Freiburg",
@@ -263,28 +253,6 @@
     "email": "thierry.onkelinx@inbo.be"
   },
   {
-    "title": "Using R for analysis of microscopic images of Streptomyces growth and chromosome distribution",
-    "author": "Agnieszka Strzałka",
-    "affiliation": "University of Wrocław",
-    "namesurname": "AGNIESZKA,STRZAŁKA",
-    "coauthor": "A. Kois-Ostrowska, M. Szafran, D. Jakimowicz",
-    "track": "R Life Sciences",
-    "session_type": "Poster",
-    "description": "Streptomyces are soil dwelling bacterias known as producers of antibiotics. However, Streptomyces life cycle is more complicated than most model bacterial species. It starts from a single spore, which after germination creates a branched mycelium comprised of elongated cells possessing multiple copies of chromosome. Only after nutrients depletion another type of cell is produced which divides into spores containing only one copy of the chromosome. In order to study chromosomes distribution we have used a fluorescently labelled protein which binds to the chromosome. This allowed us to follow the movement of chromosomes in the cell.\r\n\r\nMost software dedicated for analysis of fluorescent microscopy data were created for rod shaped bacteria and are unsuitable for branching bacteria such as Streptomyces. To solve this problem our workflow combined usage of ImageJ and R, which allowed us to collect fluorescence intensity data along the cell and then to find local maximas of fluorescence signal using R Peaks package. We have also developed a method for analysis of segregation defects occurring at the last stage of Streptomyces growth.\r\n\r\nWith this approach we have shown that Streptomyces chromosomes follow the tip of the growing cell, with the first chromosome being the most tightly tethered, and that various factors such as DNA supercoiling can affect chromosome distribution in the cell.",
-    "email": "the.larch19@gmail.com"
-  },
-  {
-    "title": "A flexible dashboard for monitoring platform trials",
-    "author": "Alessio Crippa",
-    "affiliation": "Karolinska Institutet, postdoc",
-    "namesurname": "ALESSIO,CRIPPA",
-    "coauthor": "Andrea Discacciati, Erin Gabriel, Martin Eklund",
-    "track": "R Applications",
-    "session_type": "Poster",
-    "description": "The Data and Safety Monitoring Board (DSMB) is an essential component for a successful clinical trial. It consists of an independent group of experts that periodically revise and evaluate the accumulating data from an ongoing trial to assess patients’ safety, study progress, and drug efficacy. Based on their evaluation, a recommendation to continue, modify or stop the trial will be delivered to the trial’s sponsor. It is essential to provide the DSMB with the best delivery visualization tools for monitoring on a regular basis the live data from the study trial.\r\nWe designed and developed an interactive dashboard using flexdashboard for R as a helping tool for assisting the DSMB in the evaluation of the results of the ProBio study, a clinical platform for improving treatment decision in patients with metastatic castrate resistant prostate cancer. We will focus on the customized structure for best displaying the most interesting variables and the adoption of interactive tools as a particularly useful aid for the assessment of the ongoing data. We will also cover the connection to the data sources, the automatic generation process, and the selected permission for the people in the DSMB to access the dashboard.",
-    "email": "alessio.crippa@ki.se"
-  },
-  {
     "title": "PRDA package: Enhancing Statistical Inference via Prospective and Retrospective Design Analysis.",
     "author": "Angela Andreella",
     "affiliation": "University of Padua",
@@ -294,17 +262,6 @@
     "session_type": "Poster",
     "description": "There is a growing recognition of the importance of power analysis and calculation of the appropriate sample size when planning a research experiment. However, power analysis is not the only relevant aspect of the design of an experiment. Other inferential risks, such as the probability of estimating the effect in the wrong direction or the average overestimation of the actual effects, are also important. The evaluation of these inferential risks as well as the statistical power, in what Gelman and Carlin (2014) defined as Design Analysis, may help researchers to make informed choices both when planning an experiment or evaluating study results.\r\nWe introduce the PRDA (Prospective and Retrospective Design Analysis) package that allows researchers to carry a Design Analysis under different experimental scenarios (Altoè et al., 2020). Considering a plausible effect size (or its prior distribution) researchers can evaluate either the inferential risks for given sample size or the required sampled size to obtain a given statistical power.\r\nPreviously, PRDA functions were limited to mean differences between groups considering Cohen’s d in the Null significance Hypothesis Testing (NHST) framework. Now, we present the newly developed features that include other effect sizes (such as Pearson’s correlation) as well as Bayes Factor hypothesis testing.",
     "email": "angela.andreella@studenti.unipd.it"
-  },
-  {
-    "title": "CorpFinder- a new application to identify Large Corporate Risks",
-    "author": "Antoine Logean",
-    "affiliation": "Swiss Re, Casualty R&D Department, Senior Data Scientist",
-    "namesurname": "ANTOINE,LOGEAN",
-    "coauthor": "Aurélien Severino, Tobias Bröckl, Cristina Turcu, Péter Szirmai, Danilo Biella, Nikita Kuksin",
-    "track": "R Production, R Dataviz & Shiny, R Applications",
-    "session_type": "Poster",
-    "description": "Large corporations are often viewed as being responsible for major losses to business, nature, or our societies overall. The importance of large institutions is not limited to a handful of market competitors and well-known brands. Fueled by major scandals, their subsidiaries are also considered to be harmful. Recently, this perception has notably increased the willingness to file lawsuits against little-known companies whose ultimate parent entities are well-known brands.\r\nFrom the insurance perspective, this trend is also alarming. The impact of large corporations materializes through exposures to potentially high monetary losses. Because of the complex corporate ownership relationships, the full extent of exposure to the so-called Large Corporate Risks (LCR), however, may remain hidden to insurance analysts. \r\nTo tackle this problem, Swiss Re’s Casualty R&D department  is developing a new R-Shiny-based application that allows to uncover these Large Corporate Risks in insurance portfolios. The application uses a fuzzy matching algorithm to analyze and compare the company names with an internal list of well-known corporate institutions and their daughter companies. The insurance analysts can download summary statistics and visualizations of the LCR results.\r\nDuring the talk, we will present the development and data analysis steps required for the application and discuss the initial quantitative findings to Large Corporate Risks.",
-    "email": "antoinogan@gmail.com"
   },
   {
     "title": "Automate flexdashboard with GitHub",
@@ -361,17 +318,6 @@
     "email": "gabriel.okasa@unisg.ch"
   },
   {
-    "title": "Biomarker discovery by the leveraging of omic and clinical data using biomarkeRbox.",
-    "author": "Giulio Ferrero",
-    "affiliation": "University of Turin",
-    "namesurname": "GIULIO,FERRERO",
-    "coauthor": "Nicola Licheri, Alessio Naccarati, Barbara Pardini, Francesca Cordero, Marco Beccuti",
-    "track": "R Life Sciences",
-    "session_type": "Poster",
-    "description": "The diffusion of sequencing technologies rapidly increased the availability of omic data useful to identify novel molecular biomarkers of human pathological phenotypes. However, omic information remains far to be easily integrated with clinical parameters as well as with lifestyle, dietary information and other meta-data. To overcome this problem, we designed biomarkeRbox, an R pipeline for the joined integrative analyses of omic data (e.g. transcriptomic) with clinical and other meta-data. The pipeline includes different modules designed for: i) data quality control and preprocessing; ii) covariate analysis; iii) omic data analysis; and iv) the joined analysis of omic and covariate data to identify candidate biomarkers for the studied disease(s) using machine learning techniques. The pipeline can be either fully automatized with the generation of analysis reports with R markdown or customized using an ad-hoc Shiny interface. The pipeline has been recently tested in a case-control study in which microRNA profiles have been investigated as biomarkers for colorectal cancer subtypes.",
-    "email": "giulio.ferrero@unito.it"
-  },
-  {
     "title": "How R-hub can help you develop and maintain your R packages",
     "author": "Maëlle Salmon",
     "affiliation": "R-hub",
@@ -392,17 +338,6 @@
     "session_type": "Poster",
     "description": "The Primis project dashboard allows to perform an analysis on the health status of power supplies boards on two levels:\r\n(1) analysis of a specific board, to check its status and the presence of any anomalies,\r\n(2) analysis of multiple boards within a single Power Supply, to check if the set of boards reveals abnormal behavior and if some boards behave in a distinctly different way from the others.\r\nThe analysis algorithms and the web application were created using the programming language R, and in particular the Shiny library.\r\nThe application is therefore divided into two parts that reflect these different types of analysis, called respectively \"Product View\" (analysis and diagnostics of a specific board) and \"Product Comparison\" (comparison analysis between multiple boards of the same Power Supply). Both analyzes can be carried out on an arbitrary time interval, selectable through a special application menu.\r\nThe analysis is carried out by means of: \r\n(1) univariate analysis, focusing on a specific parameter of one or more channels and displaying aggregate information regarding the status of the board in the entire observation period\r\n(2) multivariate analysis, that is the application of multivariate algorithms that allows to perform an overall analysis of the board, taking into account all the variables simultaneously.",
     "email": "m.calderisi@kode-solutions.net"
-  },
-  {
-    "title": "Stress Testing for Banks using R",
-    "author": "Marco Zamboni",
-    "affiliation": "Risk Wave Ltd",
-    "namesurname": "MARCO,ZAMBONI",
-    "coauthor": "Gabriele Lanzani",
-    "track": "R Applications",
-    "session_type": "Poster",
-    "description": "Stress tests become more popular after the 2007-2009 crisis, and they are now invaluable tools to assess the resilience of the banking system. The main goal of a stress test is to see whether a bank holds enough capital to stay afloat during tough times. \r\nIt is a simulation based exercise where artificial macroeconomic scenarios are used to test if the lenders are robust enough to withstand adverse conditions. Financial modelling, time series modeling, and even advanced analytics techniques are used to create different economic scenarios. \r\nR is becoming more and more popular within banks and regulators form many reasons: it can easily access to open data, but is also at the forefront of ML and AI, allowing statisticians and computer scientists to prototype cutting-edge solutions.\r\nDuring the session a quick overview of the European stress testing framework will be presented, and we will showcase an example using macroeconomic indexes downloaded from ECB data service. \r\nThe session will end with a question: can the model predict the outcome of scenarios that have not been observed yet?",
-    "email": "zamboni.m@gmail.com"
   },
   {
     "title": "First-year ICT students dropout predicting with R models",
@@ -763,17 +698,6 @@
     "email": "castagno@di.unito.it"
   },
   {
-    "title": "Controlled R development with Docker",
-    "author": "Peter Schmid",
-    "affiliation": "R programmer at Mirai Solutions",
-    "namesurname": "PETER,SCHMID",
-    "coauthor": "Francesca Vitalini, Riccardo Porreca",
-    "track": "R Production",
-    "session_type": "Regular talk",
-    "description": "When deploying productive solutions, it is essential to have full control over the code-base and environment to ensure reproducibility and stability of the setup. Additionally, guaranteeing full equivalence of the development setup to (alternative) target productive stages is a key aspect of well-managed release pipelines.\r\nIn the case of R-based projects, this implies fixing and aligning the version of R as well as package and system dependencies. This is, however, often disregarded due to the absence of out-of-the-box solutions, especially in free open source projects.\r\nWith this talk we illustrate an approach to manage a version-stable R development environment that, in the context of containerized solutions based on Docker and the Rocker project, allows to regulate your setup, along with laying out a path for trouble-free deployments and releases. It additionally enables the coexistence of multiple dockerized development flavors, to match various target production environments or projects.\r\n\r\nSince the approach does not rely on commercial tools, it is particularly apt for open source projects, as we showcase with the concrete example of OasisUI (https://github.com/OasisLMF/OasisUI): a web-based Shiny app providing a front-end interface to the Oasis LMF platform, an open source natural catastrophe loss modelling framework, freely available at https://github.com/OasisLMF.",
-    "email": "peter.schmid@mirai-solutions.com"
-  },
-  {
     "title": "CorrelAidX - Building R-focused Communities for Social Good on the Local Level",
     "author": "Regina Siegers",
     "affiliation": "CorrelAidX Coordination",
@@ -859,17 +783,6 @@
     "session_type": "Shiny demo",
     "description": "Integrated river basin management must meet environmental targets while preserving the economic activities of its communities. Stakeholder decisions need to consider conflicting trade-offs between legislative environmental targets and economic activities, while maintaining a basis of transparency and accountability. ESPRES is a shiny web-based Decision Support Tool (DST) that can be used by stakeholders to explore management options in European water bodies. The management options considered in ESPRES are related with the pressures (water use and nutrient application) reduction. \r\nThe shiny web interface provides a point of access to perform analyses of efficient pressure reduction strategies reflecting their perception of costs/effort, political difficulty, and social acceptability of the available solutions. Stakeholders express preferences and perceived difficulties in addressing each environmental pressure by assigning relative weights. The tool include a MOO engine to identified Pareto efficient strategies in terms of maximize the quality in the basin minimizing the total effort for reducing the pressures \r\nAn online version of ESPRES is currently available (www.espres.eu) for four European basins of the Globaqua project, namely the Adige, the Ebro, the Evrotas, and the Sava, to addresses water abstraction and nutrient pollution pressures.",
     "email": "angelluis.udias@gmail.com"
-  },
-  {
-    "title": "How green is your portfolio ? Tracking C02 footprint in the insurance sector",
-    "author": "Antoine Logean",
-    "affiliation": "Swiss Re, Casualty R&D Department, Senior Data Scientist",
-    "namesurname": "ANTOINE,LOGEAN",
-    "coauthor": "Aurélien Severino, Tobias Bröckl, Cristina Turcu, Péter Szirmai, Danilo Biella, Nikita Kuksin",
-    "track": "R Production, R Applications, R Dataviz & Shiny",
-    "session_type": "Shiny demo",
-    "description": "Climate change is already having far-reaching global effects. They materialize, among other things, as a growing financial burden for governments and societies. Consequently, regulators are responding with new requirements to promote sustainability efforts. In addition, investment strategies of small and large investors are increasingly designed to better incorporate sustainability considerations, and to contribute to a decreased global carbon footprint. \r\n\r\nIn this work an R application has been developed to facilitate establishing where high carbon footprint is a risk, whether it be in certain industrial segments or amongst specific companies. We utilize record linkage to match internal lists of high-risk corporations within existing insurance portfolio. Our tool is capable to pinpoint relevant characteristics of high-risk entities and it provides in-depth statistical analyses and data visualizations to end users. In our presentation, we also discuss preliminary quantitative comparisons of different industrial sector contributions.",
-    "email": "antoinogan@gmail.com"
   },
   {
     "title": "tsviz: a data-scientist-friendly addin for RStudio",

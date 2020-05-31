@@ -136,6 +136,8 @@ all_speakers_reduced <- all_speakers %>%
     TRUE ~ NameSurname
   ))
 
+all_speakers_reduced$NameSurname[str_detect(all_speakers_reduced$NameSurname,"KIRILL")]
+
 # confirmations_reduced <- confirmations %>%
 #   rename(confirm = starts_with("Do you confirm")) %>%
 #   clean_df() %>%
@@ -249,7 +251,7 @@ session_speakers_confirmed <- full_join(all_sessions_accepted, all_speakers_conf
 # eventbrite_reduced[str_detect(eventbrite_reduced$NameSurname,"KIRILL"),1]
 # all_speakers_reduced[str_detect(all_speakers_reduced$NameSurname,"KIRILL"),2]
 # session_speakers_confirmed[str_detect(session_speakers_confirmed$namesurname,"CORRADIN"),2]
-table(session_speakers_confirmed$biglietto)
+
 
 
 #Manual fix remove broken link
