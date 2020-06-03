@@ -260,6 +260,25 @@ session_speakers_confirmed <- full_join(all_sessions_accepted, all_speakers_conf
   filter(title != "Transparent presentation of uncertain lotteries using {deals}") %>%
   arrange(session_type, author, title)
 
+session_speakers_confirmed <- session_speakers_confirmed %>% 
+  add_row(title = "What's New in ShinyProxy", author = "Tobias Verbeke", 
+          affiliation = "Managing Director, Open Analytics", session_type = "Regular talk",
+          description = "Shiny is nice technology to write interactive R-based applications. It is broadly adopted and the R community has collaborated on many 
+interesting extensions. Until recently, though, deployments in larger organizations and companies required proprietary solutions. ShinyProxy fills this gap and 
+offers a fully open source alternative to run and manage shiny applications at large. In this talk we detail the 
+ShinyProxy architecture and demonstrate how it meets the needs of organizations. 
+We will discuss how it scales to thousands of concurrent users and how it offers authentication and 
+authorization functionality using standard technologies (LDAP, ActiveDirectory, OpenID Connect, SAML 2.0 and Kerberos). 
+Also, we will discuss the management interface and how it allows to monitor application usage to collect 
+usage statistics in event logging databases. Finally, we will demonstrate that Shiny applications 
+can now be easily embedded in broader applications and (responsive) web sites using the ShinyProxy API. 
+Learn how academic institutions, governmental organizations and industry roll out Shiny apps with 
+          ShinyProxy and how you can do this too. See https://shinyproxy.io.",
+          namesurname = "TOBIAS,VERBEKE", track = "R Dataviz & Shiny")
+
+
+
+
 # check: comment line filter and check manually
 
 # filter(all_speakers_reduced,str_detect(NameSurname,"AKINTANDE"))
