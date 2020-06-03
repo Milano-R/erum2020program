@@ -253,6 +253,17 @@
     "email": "thierry.onkelinx@inbo.be"
   },
   {
+    "title": "A flexible dashboard for monitoring platform trials",
+    "author": "Alessio Crippa",
+    "affiliation": "Karolinska Institutet, postdoc",
+    "namesurname": "ALESSIO,CRIPPA",
+    "coauthor": "Andrea Discacciati, Erin Gabriel, Martin Eklund",
+    "track": "R Applications",
+    "session_type": "Poster",
+    "description": "The Data and Safety Monitoring Board (DSMB) is an essential component for a successful clinical trial. It consists of an independent group of experts that periodically revise and evaluate the accumulating data from an ongoing trial to assess patients’ safety, study progress, and drug efficacy. Based on their evaluation, a recommendation to continue, modify or stop the trial will be delivered to the trial’s sponsor. It is essential to provide the DSMB with the best delivery visualization tools for monitoring on a regular basis the live data from the study trial.\r\nWe designed and developed an interactive dashboard using flexdashboard for R as a helping tool for assisting the DSMB in the evaluation of the results of the ProBio study, a clinical platform for improving treatment decision in patients with metastatic castrate resistant prostate cancer. We will focus on the customized structure for best displaying the most interesting variables and the adoption of interactive tools as a particularly useful aid for the assessment of the ongoing data. We will also cover the connection to the data sources, the automatic generation process, and the selected permission for the people in the DSMB to access the dashboard.",
+    "email": "alessio.crippa@ki.se"
+  },
+  {
     "title": "PRDA package: Enhancing Statistical Inference via Prospective and Retrospective Design Analysis.",
     "author": "Angela Andreella",
     "affiliation": "University of Padua",
@@ -305,17 +316,6 @@
     "session_type": "Poster",
     "description": "The R package ‘orf’ is a software implementation of the Ordered Forest estimator as developed in Lechner and Okasa (2019). The Ordered Forest flexibly estimates the conditional class probabilities of models involving categorical outcomes with an inherent ordering structure, known as ordered choice models. Additionally to common machine learning algorithms, the Ordered Forest enables estimation of marginal effects together with statistical inference and thus provides comparable output as in standard econometric models. Accordingly, the ‘orf’ package provides generic R functions to estimate, predict, plot, print and summarize the estimation output of the Ordered Forest along with various options for specific forest-related tuning parameters. Finally, computational speed is ensured as the core forest algorithm relies on the fast C++ forest implementation from the ranger package (Wright and Ziegler 2017).",
     "email": "gabriel.okasa@unisg.ch"
-  },
-  {
-    "title": "How R-hub can help you develop and maintain your R packages",
-    "author": "Maëlle Salmon",
-    "affiliation": "R-hub",
-    "namesurname": "MAËLLE,SALMON",
-    "coauthor": "Gábor Csárdi",
-    "track": "R World",
-    "session_type": "Poster",
-    "description": "R-hub is a collection of services for all package developers, from newbies to seasoned maintainers. It is funded by the R Consortium as a top level project. This poster will showcase a roundup of R-hub services.\r\n\r\nOn the tech part, R-hub's flagship product is its package builder: Run `R CMD check` on 15 different platforms (operating systems, R versions…), from R! The package builder and its companion R package `rhub` can help prepare a CRAN submission, as well as debug a CRAN check failure by mimicking CRAN platforms. As of December 2019, it had been used nearly 85,000 times, by 2507 users to check 4418 unique packages. Other R-hub services include a package for finding R packages on CRAN (`pkgsearch`), badges for CRAN packages, and a mirror of CRAN source code.\r\n\r\nOn the guidance part, R-hub has recently gained a docs website. Furthermore, R-hub also has an active blog illustrating R-hub services, as well as other topics relevant to package developers. Last but not least, the R-hub project has three communication channels: a gitter channel, a GitHub issue tracker, and a Twitter account.\r\n\r\nCome see this poster to learn more about R-hub and to tell us about your experience!",
-    "email": "maelle.salmon@yahoo.se"
   },
   {
     "title": "Power Supply health status monitoring dashboard",
