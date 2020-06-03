@@ -1,5 +1,5 @@
 ---
-title: "eRum2020 Program"
+title: "eRum2020 Contributed Program"
 author: "eRum2020 organizing Committee"
 date: "`r Sys.time()`"
 site: bookdown::bookdown_site
@@ -12,7 +12,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# eRum2020 Program Overview
+# eRum2020 Contributed Program
 
 Overview of accepted contributions organized by session type.
 
