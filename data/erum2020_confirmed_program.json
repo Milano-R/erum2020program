@@ -534,6 +534,15 @@
     "email": "jedrzej@appsilon.com"
   },
   {
+    "title": "The R Consortium 2020: adapting to rapid change and global crisis",
+    "author": "Joseph Rickert",
+    "affiliation": "RStudio: R Community Ambassador, R Consortium's Board of Directors",
+    "namesurname": "JOSEPH,RICKERT",
+    "track": "R World",
+    "session_type": "Regular talk",
+    "description": "The COVID-19 pandemic has turned the world upside down, and like everyone else the R Community is learning how to adapt to rapid change in order to carry on important work while looking for ways to contribute to the fight against the pandemic. In this talk, I will report on continuing R Community work being organized through the R Consortium such as the R Hub, R User Group Support Program and Diversity and Inclusion Projects; and through the various working groups including the Validation Hub, R / Pharma, R / Medicine and R Business. Additionally, I will describe some of the recently funded ISC projects and report on the COVID-19 Data Forum, a new project that the R Consortium is organizing in partnership with Stanford’s Data Science Institute."
+  },
+  {
     "title": "Powering Turing e-Atlas with R",
     "author": "Layik Hama",
     "affiliation": "Alan Turing Institute",
@@ -751,6 +760,15 @@
     "email": "tatjana.keco@gmail.com"
   },
   {
+    "title": "What's New in ShinyProxy",
+    "author": "Tobias Verbeke",
+    "affiliation": "Managing Director, Open Analytics",
+    "namesurname": "TOBIAS,VERBEKE",
+    "track": "R Dataviz & Shiny",
+    "session_type": "Regular talk",
+    "description": "Shiny is nice technology to write interactive R-based applications. It is broadly adopted and the R community has collaborated on many \ninteresting extensions. Until recently, though, deployments in larger organizations and companies required proprietary solutions. ShinyProxy fills this gap and \noffers a fully open source alternative to run and manage shiny applications at large. In this talk we detail the \nShinyProxy architecture and demonstrate how it meets the needs of organizations. \nWe will discuss how it scales to thousands of concurrent users and how it offers authentication and \nauthorization functionality using standard technologies (LDAP, ActiveDirectory, OpenID Connect, SAML 2.0 and Kerberos). \nAlso, we will discuss the management interface and how it allows to monitor application usage to collect \nusage statistics in event logging databases. Finally, we will demonstrate that Shiny applications \ncan now be easily embedded in broader applications and (responsive) web sites using the ShinyProxy API. \nLearn how academic institutions, governmental organizations and industry roll out Shiny apps with \n          ShinyProxy and how you can do this too. See https://shinyproxy.io."
+  },
+  {
     "title": "Visualising and Modelling Bike Sharing Mobility usage in the city of Milan",
     "author": "Agostino Torti",
     "affiliation": "PhD student - Politecnico di Milano",
@@ -856,14 +874,5 @@
     "session_type": "Shiny demo",
     "description": "Hexagon stickers have become a popular way to make software tools, and R packages in particular, visually recognizable and stand out as landmarks in an ever-growing ecosystem. In general, good hexagon logos are not only visually appealing but also convey the key aspects of a package with their graphical design.\r\nIn this talk, we will showcase rTRhexNG (https://github.com/miraisolutions/rTRhexNG#readme), a Shiny app built for creating the hexagon sticker of the rTRNG (https://github.com/miraisolutions/rTRNG#readme) package. The core idea behind the logo was to have an appealing design that would at the same time illustrate the key features of the package: jump and split operations on (pseudo-)random sequences. Leveraging on the simple yet powerful SVG image format, R was used to automate the creation and location of several visual elements representing random sequences, and a Shiny app was built on top to quickly assess different designs in an interactive way.\r\nWe demonstrate the Shiny app in action to concretely explain what jump and split mean in rTRNG, and show how the sticker design naturally emerges from their visual representation. The power of this interactive yet automated approach was invaluable to fine-tune the final look of the sticker, also allowing to easily explore alternative polygon or circle designs the implementation naturally extends to.",
     "email": "riccardo.porreca@mirai-solutions.com"
-  },
-  {
-    "title": "What's New in ShinyProxy",
-    "author": "Tobias Verbeke",
-    "affiliation": "Managing Director, Open Analytics",
-    "namesurname": "TOBIAS,VERBEKE",
-    "track": "R Dataviz & Shiny",
-    "session_type": "Regular talk",
-    "description": "Shiny is nice technology to write interactive R-based applications. It is broadly adopted and the R community has collaborated on many \ninteresting extensions. Until recently, though, deployments in larger organizations and companies required proprietary solutions. ShinyProxy fills this gap and \noffers a fully open source alternative to run and manage shiny applications at large. In this talk we detail the \nShinyProxy architecture and demonstrate how it meets the needs of organizations. \nWe will discuss how it scales to thousands of concurrent users and how it offers authentication and \nauthorization functionality using standard technologies (LDAP, ActiveDirectory, OpenID Connect, SAML 2.0 and Kerberos). \nAlso, we will discuss the management interface and how it allows to monitor application usage to collect \nusage statistics in event logging databases. Finally, we will demonstrate that Shiny applications \ncan now be easily embedded in broader applications and (responsive) web sites using the ShinyProxy API. \nLearn how academic institutions, governmental organizations and industry roll out Shiny apps with \n          ShinyProxy and how you can do this too. See https://shinyproxy.io."
   }
 ]

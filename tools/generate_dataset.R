@@ -276,7 +276,14 @@ Learn how academic institutions, governmental organizations and industry roll ou
           ShinyProxy and how you can do this too. See https://shinyproxy.io.",
           namesurname = "TOBIAS,VERBEKE", track = "R Dataviz & Shiny")
 
+session_speakers_confirmed <- session_speakers_confirmed %>% 
+  add_row(title = "The R Consortium 2020: adapting to rapid change and global crisis", author = "Joseph Rickert", 
+          affiliation = "RStudio: R Community Ambassador, R Consortium's Board of Directors", session_type = "Regular talk",
+          description = "The COVID-19 pandemic has turned the world upside down, and like everyone else the R Community is learning how to adapt to rapid change in order to carry on important work while looking for ways to contribute to the fight against the pandemic. In this talk, I will report on continuing R Community work being organized through the R Consortium such as the R Hub, R User Group Support Program and Diversity and Inclusion Projects; and through the various working groups including the Validation Hub, R / Pharma, R / Medicine and R Business. Additionally, I will describe some of the recently funded ISC projects and report on the COVID-19 Data Forum, a new project that the R Consortium is organizing in partnership with Stanford’s Data Science Institute.",
+          namesurname = "JOSEPH,RICKERT", track = "R World")
 
+session_speakers_confirmed <- session_speakers_confirmed %>%
+  arrange(session_type, author, title)
 
 
 # check: comment line filter and check manually
@@ -286,7 +293,7 @@ Learn how academic institutions, governmental organizations and industry roll ou
 # eventbrite_reduced[str_detect(eventbrite_reduced$NameSurname,"KIRILL"),1]
 # all_speakers_reduced[str_detect(all_speakers_reduced$NameSurname,"KIRILL"),2]
 # session_speakers_confirmed[str_detect(session_speakers_confirmed$namesurname,"CORRADIN"),2]
-filter(all_speakers_confirmed,TipologiaBiglietto != "Conference ticket - Speaker") -> ToAddEventbrite
+# filter(all_speakers_confirmed,TipologiaBiglietto != "Conference ticket - Speaker") -> ToAddEventbrite
 
 
 #Manual fix remove broken link
