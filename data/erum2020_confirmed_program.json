@@ -418,6 +418,17 @@
     "email": "sottosanti@stat.unipd.it"
   },
   {
+    "title": "Creating drag-and-drop shiny applications using sortable",
+    "author": "Andrie de Vries",
+    "affiliation": "Solutions engineer at RStudio, Author of \"R for Dummies\"",
+    "namesurname": "ANDRIE,DE,VRIES",
+    "coauthor": "Barret Schloerke, Kenton Russell",
+    "track": "R Dataviz & Shiny",
+    "session_type": "Regular talk",
+    "description": "Using the `learnr` package you can create interactive tutorials in your R Markdown documents. For a long time, you could only use the built-in question types, including R coding exercises and quizzes with single or multiple choice answers. Since the release of learnr version 0.10.0, it has been possible to create custom question types. The new framework allows you to define different behaviour for the appearance and behaviour of your questions. The sortable package uses this capability to introduce new question types for ranking questions and bucketing questions. With ranking questions you can ask your students to arrange answer options in the correct order. With bucketing questions you can ask them to arrange answer options into different buckets. The sortable package achieves this by exposing an `htmlwidget` wrapper around the SortableJS JavaScript library. This library lets you sort any object in a Shiny app, with dynamic drag-and-drop behaviour. For example, you can arrange items in a list, or drag-and-drop the order of shiny tabs. During this presentation you will see how easy it is to add dynamic behaviour to your shiny app, and how simple it is to use the new sorting and bucketing tasks in your tutorials.",
+    "email": "andrie@rstudio.com"
+  },
+  {
     "title": "High dimensional sampling and volume computation",
     "author": "Apostolos Chalkis",
     "affiliation": "PhD in Computer Science",

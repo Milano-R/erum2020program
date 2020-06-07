@@ -190,12 +190,14 @@ accepted_reduced <- accepted %>%
 
 eventbrite_reduced <- eventbrite %>% 
   mutate(TipologiaBiglietto = `Tipologia biglietto`) %>%
+  add_row(Nome = "Andrie", Cognome = "De Vries", `E-mail` = "andrie@rstudio.com") %>%
   filter(`Tipologia biglietto` == "Conference ticket - Speaker" 
          | Cognome == "Crippa" 
          | Cognome == "Ryser-Welch"
          | Cognome == "Marini"
          | Cognome == "Melloncelli"
-         | Cognome == "Sax") %>%
+         | Cognome == "Sax"
+         | Cognome == "De Vries") %>%
   unite(NameSurname,Nome,Cognome, sep = ",") %>%
   select(NameSurname, `E-mail`, TipologiaBiglietto) %>%
   clean_up_NameSurname() %>%
@@ -293,7 +295,7 @@ session_speakers_confirmed <- session_speakers_confirmed %>%
 # eventbrite_reduced[str_detect(eventbrite_reduced$NameSurname,"KIRILL"),1]
 # all_speakers_reduced[str_detect(all_speakers_reduced$NameSurname,"KIRILL"),2]
 # session_speakers_confirmed[str_detect(session_speakers_confirmed$namesurname,"CORRADIN"),2]
-# filter(all_speakers_confirmed,TipologiaBiglietto != "Conference ticket - Speaker") -> ToAddEventbrite
+filter(all_speakers_confirmed,TipologiaBiglietto != "Conference ticket - Speaker") -> ToAddEventbrite
 
 
 #Manual fix remove broken link
