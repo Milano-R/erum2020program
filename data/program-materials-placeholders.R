@@ -37,10 +37,15 @@ group_factor <- function(sessions) {
 # slugify("Shiny Demo 2 - Mobility & Spatial")
 slugify <- function(heading) {
   slug <- tolower(heading)
-  slug <- gsub("[^a-zA-Z0-9\\-]+", " ", slug)
-  slug <- gsub("\\s+", "-", slug)
+  slug <- gsub("[^a-z0-9' -]+", "", slug)
+  slug <- gsub("'", "", slug)
+  slug <- gsub("\\s", "-", slug)
   slug
 }
+# test internal hash slugs:
+# > rmarkdown::render("README.md", "github_document")
+# $ htmlproofer README.html
+
 heading_link <- function(session) {
   glue::glue(
     "[{session}](#{slugify(session)})"
@@ -106,4 +111,3 @@ cat(
   sep = "\n\n",
   file = "README.md", append = TRUE
 )
-
