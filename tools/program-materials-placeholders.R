@@ -1,4 +1,4 @@
-prog <- readODS::read_ods("data/eRum2020-program-shared.ods")
+prog <- readODS::read_ods("tools/eRum2020-program-shared.ods")
 
 speaker_field <- function(session) {
   .type <- function(pattern) grepl(pattern, sub("-.*", "", session), ignore.case = TRUE)
