@@ -684,8 +684,8 @@ Materials of all talks and workshops are collected below.
 
 #### Is R ready for Production? Let’s develop a Professional Shiny Application!
 
-- Instructor: Andrea Melloncelli
-- Materials: TBD
+- Instructor: Andrea Melloncelli ([\@akirocode](https://twitter.com/akirocode))
+- Materials: [repository](https://github.com/vanlog/vincent)
 
 #### Image processing and computer vision with R
 
@@ -737,4 +737,4 @@ Materials of all talks and workshops are collected below.
 #### Bring your R Application Safely to Production. Collaborate, Deploy, Automate
 
 - Instructor: Riccardo Porreca, Peter Schmid
-- Materials: TBD
+- Materials: [repository](https://github.com/miraisolutions/eRum2020Workshop), [slides](http://mirai-solutions.ch/eRum2020Workshop/workshop-slides.html)
