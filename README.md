@@ -550,7 +550,7 @@ Materials of all talks and workshops are collected below.
 #### rTRhexNG: Hexagon sticker app for rTRNG
 
 - Speaker: Riccardo Porreca
-- Materials: TBD
+- Materials: [live app](https://miraisolutions.shinyapps.io/rTRhexNG), [GitHub repo](https://github.com/miraisolutions/rTRhexNG#readme)
 
 #### How green is your portfolio ? Tracking C02 footprint in the insurance sector
 
