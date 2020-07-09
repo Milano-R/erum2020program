@@ -1,10 +1,19 @@
 prog <- readODS::read_ods("data/eRum2020-program-shared.ods")
 
-md_entry <- function(speaker, title) {
+speaker_field <- function(session) {
+  .type <- function(pattern) grepl(pattern, sub("-.*", "", session), ignore.case = TRUE)
+  dplyr::case_when(
+    .type("workshop") ~ "Instructor",
+    .type("thematic") ~ "Participants",
+    TRUE ~ "Speaker"
+  )
+}
+
+md_entry <- function(title, session_type, speaker) {
   glue::glue(
     "#### {title}",
     "",
-    "- Speaker: {speaker}",
+    "- {speaker_field(session_type)}: {speaker}",
     "- Materials: ",
     "",
     .sep = "\n"
@@ -34,21 +43,20 @@ group_factor <- function(sessions) {
   factor(sessions, unique(sort_sessions_by_type(sessions)))
 }
 
-# slugify("Shiny Demo 2 - Mobility & Spatial")
-slugify <- function(heading) {
+gfm_heading_slugify <- function(heading) {
   slug <- tolower(heading)
   slug <- gsub("[^a-z0-9' -]+", "", slug)
   slug <- gsub("'", "", slug)
   slug <- gsub("\\s", "-", slug)
   slug
 }
-# test internal hash slugs:
-# > rmarkdown::render("README.md", "github_document")
-# $ htmlproofer README.html
+# test git-flavored-markdown internal hash slugs:
+# > rmarkdown::render("README.md", "github_document", output_file = "/tmp/README.md")
+# $ htmlproofer /tmp/README.html
 
 heading_link <- function(session) {
   glue::glue(
-    "[{session}](#{slugify(session)})"
+    "[{session}](#{gfm_heading_slugify(session)})"
   )
 }
 
@@ -75,7 +83,7 @@ prog_sessions_md <- prog %>%
   dplyr::mutate(
     session_type = session_type(session),
     session = session_title(unique(session), topic, speaker),
-    md = md_entry(speaker, title)
+    md = md_entry(title, session_type, speaker)
   ) %>%
   dplyr::ungroup()
 toc_md <- prog_sessions_md %>%

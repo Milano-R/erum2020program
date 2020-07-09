@@ -1,3 +1,4 @@
+
 # e-Rum2020 Program
 
 ## Book of abstracts for accepted contributions
@@ -660,21 +661,21 @@ Materials of all talks and workshops are collected below.
 
 #### Developing Software and Careers in Life Sciences
 
-- Speaker: NA
+- Participants: NA
 - Materials: 
 
 ### Thematic Lounge 2
 
 #### Building Community & Diversity
 
-- Speaker: NA
+- Participants: NA
 - Materials: 
 
 ### Thematic Lounge 3
 
 #### Data science: freelancing and business
 
-- Speaker: NA
+- Participants: NA
 - Materials: 
 
 ## Workshops
@@ -683,57 +684,57 @@ Materials of all talks and workshops are collected below.
 
 #### Is R ready for Production? Let’s develop a Professional Shiny Application!
 
-- Speaker: Andrea Melloncelli
+- Instructor: Andrea Melloncelli
 - Materials: 
 
 #### Image processing and computer vision with R
 
-- Speaker: Lubomír Štěpánek, Jiří Novák
+- Instructor: Lubomír Štěpánek, Jiří Novák
 - Materials: 
 
 #### Explanation and exploration of machine learning models with R
 
-- Speaker: Przemyslaw Biecek, Hubert Baniecki
+- Instructor: Przemyslaw Biecek, Hubert Baniecki
 - Materials: 
 
 #### Non-disclosive federated analysis in R
 
-- Speaker: Patricia Ryser-Welch, Paul Burton, Demetris Avraam, Stuart Wheater, Olly Butters, Becca Wilson, Alex Westerberg, Leire Abarrategui-Martine
+- Instructor: Patricia Ryser-Welch, Paul Burton, Demetris Avraam, Stuart Wheater, Olly Butters, Becca Wilson, Alex Westerberg, Leire Abarrategui-Martine
 - Materials: 
 
 #### A unified approach for writing automatic reports: parameterization and generalization of R-Markdown
 
-- Speaker: Cristina Muschitiello, Niccolò Stamboglis
+- Instructor: Cristina Muschitiello, Niccolò Stamboglis
 - Materials: 
 
 #### Build a website with blogdown in R
 
-- Speaker: Tatjana Kecojevic, Katarina Kosmina, Tijana Blagojev
+- Instructor: Tatjana Kecojevic, Katarina Kosmina, Tijana Blagojev
 - Materials: 
 
 ### Afternoon Workshops
 
 #### Reproducible workflows with the RENKU platform
 
-- Speaker: Christine Choirat, The Renku Development Team
+- Instructor: Christine Choirat, The Renku Development Team
 - Materials: 
 
 #### How to build htmlwidgets
 
-- Speaker: Jean-Philippe Coene
+- Instructor: Jean-Philippe Coene
 - Materials: 
 
 #### Semantic Web in R for Data Scientists
 
-- Speaker: Goran Milovanović
+- Instructor: Goran Milovanović
 - Materials: 
 
 #### Advanced User Interfaces for Shiny Developers
 
-- Speaker: David Granjon, Mustapha Larbaoui, Flavio Lombardo, Douglas Robinson
+- Instructor: David Granjon, Mustapha Larbaoui, Flavio Lombardo, Douglas Robinson
 - Materials: 
 
 #### Bring your R Application Safely to Production. Collaborate, Deploy, Automate
 
-- Speaker: Riccardo Porreca
+- Instructor: Riccardo Porreca, Peter Schmid
 - Materials: 
