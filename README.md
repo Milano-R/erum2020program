@@ -61,9 +61,9 @@ Materials of all talks and workshops are collected below.
   - [Poster Session 2 - DataViz & Machine Learning](#poster-session-2---dataviz--machine-learning)
 
 - [Thematic Lounges](#thematic-lounges)
-  - [Thematic Lounge 1](#thematic-lounge-1)
-  - [Thematic Lounge 2](#thematic-lounge-2)
-  - [Thematic Lounge 3](#thematic-lounge-3)
+  - [Thematic Lounge 1 - Developing Software and Careers in Life Sciences](#thematic-lounge-1---developing-software-and-careers-in-life-sciences)
+  - [Thematic Lounge 2 - Building Community & Diversity](#thematic-lounge-2---building-community--diversity)
+  - [Thematic Lounge 3 - Data science: freelancing and business](#thematic-lounge-3---data-science-freelancing-and-business)
 
 - [Workshops](#workshops)
   - [Morning Workshops](#morning-workshops)
@@ -657,21 +657,21 @@ Materials of all talks and workshops are collected below.
 
 ## Thematic Lounges
 
-### Thematic Lounge 1
+### Thematic Lounge 1 - Developing Software and Careers in Life Sciences
 
 #### Developing Software and Careers in Life Sciences
 
 - Participants: TBD
 - Materials: TBD
 
-### Thematic Lounge 2
+### Thematic Lounge 2 - Building Community & Diversity
 
 #### Building Community & Diversity
 
 - Participants: TBD
 - Materials: TBD
 
-### Thematic Lounge 3
+### Thematic Lounge 3 - Data science: freelancing and business
 
 #### Data science: freelancing and business
 
