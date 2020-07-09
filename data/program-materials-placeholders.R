@@ -13,8 +13,8 @@ md_entry <- function(title, session_type, speaker) {
   glue::glue(
     "#### {title}",
     "",
-    "- {speaker_field(session_type)}: {speaker}",
-    "- Materials: ",
+    "- {speaker_field(session_type)}: {ifelse(is.na(speaker), 'TBD', speaker)}",
+    "- Materials: TBD",
     "",
     .sep = "\n"
   )

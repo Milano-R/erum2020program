@@ -76,42 +76,42 @@ Materials of all talks and workshops are collected below.
 #### Using R and data science to improve human health
 
 - Speaker: Stephanie Hicks
-- Materials: 
+- Materials: TBD
 
 ### Keynote 2 - Jared Lander - Applications
 
 #### Applying R at Work
 
 - Speaker: Jared Lander
-- Materials: 
+- Materials: TBD
 
 ### Keynote 3 - Francesco Bartolucci - Machine Learning & Models
 
 #### Latent Markov models for longitudinal data in R by LMest package
 
 - Speaker: Francesco Bartolucci
-- Materials: 
+- Materials: TBD
 
 ### Keynote 4 - Sharon Machlis - DataViz
 
 #### What I Learned as an R Journalist
 
 - Speaker: Sharon Machlis
-- Materials: 
+- Materials: TBD
 
 ### Keynote 5 - Tomas Kalibera - R World
 
 #### The Invisible Work on R
 
 - Speaker: Tomas Kalibera
-- Materials: 
+- Materials: TBD
 
 ### Keynote 6 - Kelly O'Briant - R in Production
 
 #### Reflections on two years of solutions engineering at Rstudio
 
 - Speaker: Kelly O'Briant
-- Materials: 
+- Materials: TBD
 
 ## Invited Sessions
 
@@ -120,66 +120,66 @@ Materials of all talks and workshops are collected below.
 #### Multi-Omics Factor Analysis Plus: A probabilistic framework for comprehensive and scalable integration of multi-modal data
 
 - Speaker: Britta Velten
-- Materials: 
+- Materials: TBD
 
 #### COVID-19 Data Hub
 
 - Speaker: Emanuele Guidotti
-- Materials: 
+- Materials: TBD
 
 #### COVOID: Modelling COVID-19 Transmission and Interventions
 
 - Speaker: Mark Hanly
-- Materials: 
+- Materials: TBD
 
 #### Building Agile data products leveraging the R package structure
 
 - Speaker: Edwin Thoen
-- Materials: 
+- Materials: TBD
 
 ### Invited Session 2 - Machine Learning & Models / DataViz (Shiny) / Applications
 
 #### brquasi: Improved quasi-likelihood estimation
 
 - Speaker: Ioannis Kosmidis
-- Materials: 
+- Materials: TBD
 
 #### Better than Deep Learning: Gradient Boosting Machines (GBM) – with 2020 updates
 
 - Speaker: Szilard Pafka
-- Materials: 
+- Materials: TBD
 
 #### Testing Shiny: What, why, and how.
 
 - Speaker: Colin Fay
-- Materials: 
+- Materials: TBD
 
 #### From writing code to infoRming policy: a case study of reproducible research in transport planning
 
 - Speaker: Robin Lovelace
-- Materials: 
+- Materials: TBD
 
 ### Invited Session 3 - Shiny / R in Production / R World
 
 #### CRANalerts: A Shinyapp-as-a-Service for Impatient R Users
 
 - Speaker: Dean Attali
-- Materials: 
+- Materials: TBD
 
 #### And you thought CRAN was harsh
 
 - Speaker: Colin Gillespie
-- Materials: 
+- Materials: TBD
 
 #### How to improve your R package
 
 - Speaker: Maëlle Salmon
-- Materials: 
+- Materials: TBD
 
 #### dplyr 1.0.0
 
 - Speaker: Romain Francois
-- Materials: 
+- Materials: TBD
 
 ## Parallel Sessions
 
@@ -188,215 +188,215 @@ Materials of all talks and workshops are collected below.
 #### Deduplicating real estate ads using Naive Bayes record linkage
 
 - Speaker: Daniel Meister
-- Materials: 
+- Materials: TBD
 
 #### Hydrological Modelling and R
 
 - Speaker: Emanuele Cordano
-- Materials: 
+- Materials: TBD
 
 #### gWQS: An R Package for Linear and Generalized Weighted Quantile Sum (WQS) Regression
 
 - Speaker: Stefano Renzetti
-- Materials: 
+- Materials: TBD
 
 #### Flexible Meta-Analysis of Generalized Additive Models with metagam
 
 - Speaker: Øystein Sørensen
-- Materials: 
+- Materials: TBD
 
 ### Parallel Session 2 - Life Sciences
 
 #### CONNECTOR: a computational approach to study intratumor heterogeneity
 
 - Speaker: Simone Pernice
-- Materials: 
+- Materials: TBD
 
 #### EPIMOD: A computational framework for studying epidemiological systems
 
 - Speaker: Paolo Castagno
-- Materials: 
+- Materials: TBD
 
 #### How to apply R in a hospital environment on standard available hospital-wide data
 
 - Speaker: Mieke Deschepper
-- Materials: 
+- Materials: TBD
 
 #### APFr: Average Power Function and Bayes FDR for Robust Brain Networks Construction
 
 - Speaker: Nicolò Margaritella
-- Materials: 
+- Materials: TBD
 
 ### Parallel Session 3 - Applications / R in Production
 
 #### Using process mining principles to extract a collaboration graph from a version control system log
 
 - Speaker: Leen JOOKEN
-- Materials: 
+- Materials: TBD
 
 #### Design Patterns For Big Shiny Apps
 
 - Speaker: Alex Gold
-- Materials: 
+- Materials: TBD
 
 #### Fake News: AI on the battle ground
 
 - Speaker: Ayomide Shodipo
-- Materials: 
+- Materials: TBD
 
 #### progressr: An Inclusive, Unifying API for Progress Updates
 
 - Speaker: Henrik Bengtsson
-- Materials: 
+- Materials: TBD
 
 ### Parallel Session 4 - Life Sciences
 
 #### Interpretable and accessible Deep Learning for omics data with R and friends
 
 - Speaker: Moritz Hess
-- Materials: 
+- Materials: TBD
 
 #### GeneTonic: enjoy RNA-seq data analysis, responsibly
 
 - Speaker: Federico Marini
-- Materials: 
+- Materials: TBD
 
 #### DaMiRseq 2.0: from high dimensional data to cost-effective reliable prediction models
 
 - Speaker: Mattia Chiesa
-- Materials: 
+- Materials: TBD
 
 #### A simple and flexible inactivity/sleep detection R package
 
 - Speaker: Francesca Giorgolo
-- Materials: 
+- Materials: TBD
 
 ### Parallel Session 5 - R World
 
 #### The R Consortium 2020: adapting to rapid change and global crisis
 
 - Speaker: Joseph Rickert
-- Materials: 
+- Materials: TBD
 
 #### CorrelAidX - Building R-focused Communities for Social Good on the Local Level
 
 - Speaker: Regina Siegers
-- Materials: 
+- Materials: TBD
 
 #### From consulting to open-source and back
 
 - Speaker: Christoph Sax
-- Materials: 
+- Materials: TBD
 
 #### {polite}: web etiquette for R users
 
 - Speaker: Dmytro Perepolkin
-- Materials: 
+- Materials: TBD
 
 ### Parallel Session 6 - R in Production / R World
 
 #### Powering Turing e-Atlas with R
 
 - Speaker: Layik Hama
-- Materials: 
+- Materials: TBD
 
 #### Dplyr snowflake integration for cloud based massive and fast data manipulation
 
 - Speaker: Massimiliano Silano
-- Materials: 
+- Materials: TBD
 
 #### Supporting R in the Binder Community
 
 - Speaker: Sarah Gibson
-- Materials: 
+- Materials: TBD
 
 ### Parallel Session 7 - Data Visualization & Shiny
 
 #### Transparent Journalism Through the Power of R
 
 - Speaker: Tatjana Kecojevic
-- Materials: 
+- Materials: TBD
 
 #### Elevating shiny module with {tidymodules}
 
 - Speaker: Mustapha Larbaoui
-- Materials: 
+- Materials: TBD
 
 #### Interactive visualization of complex texts
 
 - Speaker: Renate Delucchi Danhier
-- Materials: 
+- Materials: TBD
 
 #### What’s New in ShinyProxy
 
 - Speaker: Tobias Verbeke
-- Materials: 
+- Materials: TBD
 
 ### Parallel Session 8 - Machine Learning & Models
 
 #### Voronoi Linkage for Spatially Misaligned Data
 
 - Speaker: Luís G. Silva
-- Materials: 
+- Materials: TBD
 
 #### Astronomical source detection and background separation: a Bayesian nonparametric approach
 
 - Speaker: Andrea Sottosanti
-- Materials: 
+- Materials: TBD
 
 #### High dimensional sampling and volume computation
 
 - Speaker: Apostolos Chalkis
-- Materials: 
+- Materials: TBD
 
 #### BNPmix: an new package to estimate Bayesian nonparametric mixtures
 
 - Speaker: Riccardo Corradin
-- Materials: 
+- Materials: TBD
 
 ### Parallel Session 9 - R in Production
 
 #### Be proud of your code! Tools and patterns for making production-ready, clean R code
 
 - Speaker: Marcin Dubel
-- Materials: 
+- Materials: TBD
 
 #### R alongside Airflow, Docker and Gitlab CI
 
 - Speaker: Matthias Bannert
-- Materials: 
+- Materials: TBD
 
 #### Using XGBoost, Plumber and Docker in production to power a new banking product
 
 - Speaker: André Rivenæs & Markus Mortensen
-- Materials: 
+- Materials: TBD
 
 #### Creating drag-and-drop shiny applications using sortable
 
 - Speaker: Andrie De Vries
-- Materials: 
+- Materials: TBD
 
 ### Parallel Session 10 - Machine Learning / Applications
 
 #### FastAI in R: preserving wildlife with computer vision
 
 - Speaker: Jędrzej Świeżewski
-- Materials: 
+- Materials: TBD
 
 #### Manifoldgstat: an R package for spatial statistics of manifold data
 
 - Speaker: Luca Torriani & Ilaria Sartori
-- Materials: 
+- Materials: TBD
 
 #### varycoef: Modeling Spatially Varying Coefficients
 
 - Speaker: Jakob Dambon
-- Materials: 
+- Materials: TBD
 
 #### Computer Algebra Systems in R
 
 - Speaker: Mikkel Meyer Andersen
-- Materials: 
+- Materials: TBD
 
 ## Lightning Talks
 
@@ -405,123 +405,123 @@ Materials of all talks and workshops are collected below.
 #### Time Series Missing Data Visualizations
 
 - Speaker: Steffen Moritz
-- Materials: 
+- Materials: TBD
 
 #### effectclass: an R package to interpret effects and visualise uncertainty
 
 - Speaker: Thierry Onkelinx
-- Materials: 
+- Materials: TBD
 
 #### Supporting Twitter analytics application with graph-databases and the aRangodb package
 
 - Speaker: Gabriele Galatolo
-- Materials: 
+- Materials: TBD
 
 #### dm: working with relational data models in R
 
 - Speaker: Kirill Muller
-- Materials: 
+- Materials: TBD
 
 #### An innovative way to support your sales force
 
 - Speaker: Matilde Grecchi
-- Materials: 
+- Materials: TBD
 
 #### Keeping on top of R in Real-Time, High-Stakes trading systems
 
 - Speaker: Nicholas Jhirad
-- Materials: 
+- Materials: TBD
 
 ### Lightning Talks 2 - Life Sciences
 
 #### An enriched disease risk assessment model based on historical blood donors records
 
 - Speaker: Andrea Cappozzo
-- Materials: 
+- Materials: TBD
 
 #### A principal component analysis based method to detect biomarker captation from vibrational spectra
 
 - Speaker: Marco Calderisi
-- Materials: 
+- Materials: TBD
 
 #### ptmixed: an R package for flexible modelling of longitudinal overdispersed count data
 
 - Speaker: Mirko Signorelli
-- Materials: 
+- Materials: TBD
 
 #### Differential Enriched Scan 2 (DEScan2): an R pipeline for epigenomic analysis
 
 - Speaker: Dario Righelli
-- Materials: 
+- Materials: TBD
 
 #### Reproducible Data Visualization with CanvasXpress
 
 - Speaker: Ger Inberg
-- Materials: 
+- Materials: TBD
 
 #### Using open-access data to derive genome composition of emerging viruses
 
 - Speaker: Liam Brierley
-- Materials: 
+- Materials: TBD
 
 ### Lightning Talks 3 - Machine Learning
 
 #### Ultra fast penalized regressions with R package {bigstatsr}
 
 - Speaker: Florian Privé
-- Materials: 
+- Materials: TBD
 
 #### Explaining black-box models with xspliner to make deliberate business decisions
 
 - Speaker: Krystian Igras
-- Materials: 
+- Materials: TBD
 
 #### One-way non-normal ANOVA in reliability analysis using with doex
 
 - Speaker: Mustafa Cavus
-- Materials: 
+- Materials: TBD
 
 #### Analyzing Preference Data with the BayesMallows Package
 
 - Speaker: Øystein Sørensen
-- Materials: 
+- Materials: TBD
 
 #### Flexible deep learning via the JuliaConnectoR
 
 - Speaker: Stefan Lenz
-- Materials: 
+- Materials: TBD
 
 ### Lightning Talks 4 - Applications
 
 #### rdwd: R interface to German Weather Service data
 
 - Speaker: Berry Boessenkool
-- Materials: 
+- Materials: TBD
 
 #### tv: Show Data Frames in the Browser
 
 - Speaker: Christoph Sax
-- Materials: 
+- Materials: TBD
 
 #### Predicting the Euro 2020 results using tournament rank probabilities scores from the socceR package
 
 - Speaker: Claus Ekstrom
-- Materials: 
+- Materials: TBD
 
 #### Design your own quantum simulator with R
 
 - Speaker: Indranil Ghosh
-- Materials: 
+- Materials: TBD
 
 #### What are the potato eaters eating
 
 - Speaker: Keshav Bhatt
-- Materials: 
+- Materials: TBD
 
 #### Towards more structured data quality assessment in the process mining field: the DaQAPO package
 
 - Speaker: Niels Martin
-- Materials: 
+- Materials: TBD
 
 ## Shiny Demos
 
@@ -530,59 +530,59 @@ Materials of all talks and workshops are collected below.
 #### A demonstration of ABACUS: Apps Based Activities for Communicating and Understanding Statistics
 
 - Speaker: Mintu Nath
-- Materials: 
+- Materials: TBD
 
 #### tsviz: a data-scientist-friendly addin for RStudio
 
 - Speaker: Emanuele Fabbiani
-- Materials: 
+- Materials: TBD
 
 #### Media Shiny: Marketing Mix Models Builder
 
 - Speaker: Andrea Melloncelli
-- Materials: 
+- Materials: TBD
 
 #### Scoring the Implicit Association Test has never been easier: DscoreApp
 
 - Speaker: Ottavia M. Epifania
-- Materials: 
+- Materials: TBD
 
 #### rTRhexNG: Hexagon sticker app for rTRNG
 
 - Speaker: Riccardo Porreca
-- Materials: 
+- Materials: TBD
 
 #### How green is your portfolio ? Tracking C02 footprint in the insurance sector
 
 - Speaker: Antoine Logean
-- Materials: 
+- Materials: TBD
 
 ### Shiny Demo 2 - Mobility & Spatial
 
 #### Visualising and Modelling Bike Sharing Mobility usage in the city of Milan
 
 - Speaker: Agostino Torti
-- Materials: 
+- Materials: TBD
 
 #### ESPRES: A shiny web tool to support River Basin Management planning in European Watersheds
 
 - Speaker: Angel Udias
-- Materials: 
+- Materials: TBD
 
 #### Mobility scan
 
 - Speaker: Josue Aduna
-- Materials: 
+- Materials: TBD
 
 #### Developing Shiny applications to facilitate precision agriculture workflows
 
 - Speaker: Lorenzo Busetto
-- Materials: 
+- Materials: TBD
 
 #### “GUInterp”: a Shiny GUI to support spatial interpolation
 
 - Speaker: Luigi Ranghetti
-- Materials: 
+- Materials: TBD
 
 ## Poster Sessions
 
@@ -591,69 +591,69 @@ Materials of all talks and workshops are collected below.
 #### A flexible dashboard for monitoring platform trials
 
 - Speaker: Alessio Crippa
-- Materials: 
+- Materials: TBD
 
 #### PRDA package: Enhancing Statistical Inference via Prospective and Retrospective Design Analysis
 
 - Speaker: Angela Andreella
-- Materials: 
+- Materials: TBD
 
 #### EasyReporting: a Bioconductor package for Reproducible Research implementation
 
 - Speaker: Dario Righelli
-- Materials: 
+- Materials: TBD
 
 #### NewWave: a scalable R package for the dimensionality reduction of single-cell RNA-seq
 
 - Speaker: Federico Agostinis
-- Materials: 
+- Materials: TBD
 
 #### Integrating professional software engineering practices in medical research software
 
 - Speaker: Patricia Ryser-Welch
-- Materials: 
+- Materials: TBD
 
 #### Dealing with changing administrative boundaries: The case of Swiss municipalities
 
 - Speaker: Tobias Schieferdecker
-- Materials: 
+- Materials: TBD
 
 ### Poster Session 2 - DataViz & Machine Learning
 
 #### Automate flexdashboard with GitHub
 
 - Speaker: Binod Jung Bogati
-- Materials: 
+- Materials: TBD
 
 #### orf: Ordered Random Forests
 
 - Speaker: Gabriel Okasa
-- Materials: 
+- Materials: TBD
 
 #### Power Supply health status monitoring dashboard
 
 - Speaker: Marco Calderisi
-- Materials: 
+- Materials: TBD
 
 #### First-year ICT students dropout predicting with R models
 
 - Speaker: Olga Dunajeva
-- Materials: 
+- Materials: TBD
 
 #### Benchmark Percentage Disjoint Data Splitting in Cross Validation for Assessing the Skill of Machine
 
 - Speaker: Olalekan Joseph Akintande
-- Materials: 
+- Materials: TBD
 
 #### badDEA: An R package for measuring firms’ efficiency adjusted by undesirable outputs
 
 - Speaker: Hervé Dakpo
-- Materials: 
+- Materials: TBD
 
 #### CorpFinder- a new application to identify Large Corporate Risks
 
 - Speaker: Aurélien Severino
-- Materials: 
+- Materials: TBD
 
 ## Thematic Lounges
 
@@ -661,22 +661,22 @@ Materials of all talks and workshops are collected below.
 
 #### Developing Software and Careers in Life Sciences
 
-- Participants: NA
-- Materials: 
+- Participants: TBD
+- Materials: TBD
 
 ### Thematic Lounge 2
 
 #### Building Community & Diversity
 
-- Participants: NA
-- Materials: 
+- Participants: TBD
+- Materials: TBD
 
 ### Thematic Lounge 3
 
 #### Data science: freelancing and business
 
-- Participants: NA
-- Materials: 
+- Participants: TBD
+- Materials: TBD
 
 ## Workshops
 
@@ -685,56 +685,56 @@ Materials of all talks and workshops are collected below.
 #### Is R ready for Production? Let’s develop a Professional Shiny Application!
 
 - Instructor: Andrea Melloncelli
-- Materials: 
+- Materials: TBD
 
 #### Image processing and computer vision with R
 
 - Instructor: Lubomír Štěpánek, Jiří Novák
-- Materials: 
+- Materials: TBD
 
 #### Explanation and exploration of machine learning models with R
 
 - Instructor: Przemyslaw Biecek, Hubert Baniecki
-- Materials: 
+- Materials: TBD
 
 #### Non-disclosive federated analysis in R
 
 - Instructor: Patricia Ryser-Welch, Paul Burton, Demetris Avraam, Stuart Wheater, Olly Butters, Becca Wilson, Alex Westerberg, Leire Abarrategui-Martine
-- Materials: 
+- Materials: TBD
 
 #### A unified approach for writing automatic reports: parameterization and generalization of R-Markdown
 
 - Instructor: Cristina Muschitiello, Niccolò Stamboglis
-- Materials: 
+- Materials: TBD
 
 #### Build a website with blogdown in R
 
 - Instructor: Tatjana Kecojevic, Katarina Kosmina, Tijana Blagojev
-- Materials: 
+- Materials: TBD
 
 ### Afternoon Workshops
 
 #### Reproducible workflows with the RENKU platform
 
 - Instructor: Christine Choirat, The Renku Development Team
-- Materials: 
+- Materials: TBD
 
 #### How to build htmlwidgets
 
 - Instructor: Jean-Philippe Coene
-- Materials: 
+- Materials: TBD
 
 #### Semantic Web in R for Data Scientists
 
 - Instructor: Goran Milovanović
-- Materials: 
+- Materials: TBD
 
 #### Advanced User Interfaces for Shiny Developers
 
 - Instructor: David Granjon, Mustapha Larbaoui, Flavio Lombardo, Douglas Robinson
-- Materials: 
+- Materials: TBD
 
 #### Bring your R Application Safely to Production. Collaborate, Deploy, Automate
 
 - Instructor: Riccardo Porreca, Peter Schmid
-- Materials: 
+- Materials: TBD
