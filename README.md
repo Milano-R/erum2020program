@@ -89,15 +89,15 @@ Materials of all talks and workshops are collected below.
 
 #### Latent Markov models for longitudinal data in R by LMest package
 
-- Speaker: Francesco Bartolucci
-- Materials: TBD
+- Speaker: Francesco Bartolucci ([\@f_bartolucci](https://twitter.com/@f_bartolucci))
+- Materials: [slides](https://drive.google.com/file/d/1-QZrmhdHCquJ0AWsCDeJdmusNwraD_EL/view)
 
 ### Keynote 4 - Sharon Machlis - DataViz
 
 #### What I Learned as an R Journalist
 
-- Speaker: Sharon Machlis
-- Materials: TBD
+- Speaker: Sharon Machlis ([\@sharon000](https://twitter.com/@sharon000))
+- Materials: [sildes](http://www.machlis.com/eRum2020/)
 
 ### Keynote 5 - Tomas Kalibera - R World
 
@@ -134,8 +134,8 @@ Materials of all talks and workshops are collected below.
 
 #### Building Agile data products leveraging the R package structure
 
-- Speaker: Edwin Thoen
-- Materials: TBD
+- Speaker: Edwin Thoen ([\@edwin_thoen](https://twitter.com/@edwin_thoen))
+- Materials: [slides](https://github.com/EdwinTh/ADSwR/raw/master/presentations/20200617_eRum_publish.pdf)
 
 ### Invited Session 2 - Machine Learning & Models / DataViz (Shiny) / Applications
 
@@ -151,8 +151,8 @@ Materials of all talks and workshops are collected below.
 
 #### Testing Shiny: What, why, and how.
 
-- Speaker: Colin Fay
-- Materials: TBD
+- Speaker: Colin Fay ([\@_ColinFay](https://twitter.com/@_ColinFay))
+- Materials: [slides](https://speakerdeck.com/colinfay/erum-2020-testing-shiny-why-what-and-how)
 
 #### From writing code to infoRming policy: a case study of reproducible research in transport planning
 
@@ -173,13 +173,13 @@ Materials of all talks and workshops are collected below.
 
 #### How to improve your R package
 
-- Speaker: Maëlle Salmon
-- Materials: TBD
+- Speaker: Maëlle Salmon ([\@ma_salmon](https://twitter.com/@ma_salmon))
+- Materials: [slides](https://maelle.github.io/erum2020/index.html)
 
 #### dplyr 1.0.0
 
-- Speaker: Romain Francois
-- Materials: TBD
+- Speaker: Romain Francois ([\@romain_francois](https://twitter.com/@romain_francois))
+- Materials: [slides](https://speakerdeck.com/romainfrancois/dplyr-1-dot-0-0)
 
 ## Parallel Sessions
 
@@ -187,8 +187,8 @@ Materials of all talks and workshops are collected below.
 
 #### Deduplicating real estate ads using Naive Bayes record linkage
 
-- Speaker: Daniel Meister
-- Materials: TBD
+- Speaker: Daniel Meister ([\@danimeist](https://twitter.com/@danimeist))
+- Materials: [slides](https://slides.datahouse.ch/3fd640b/static/1c97060e67e41c04cc03d4f0c3497c03adb4a30b)
 
 #### Hydrological Modelling and R
 
@@ -202,8 +202,8 @@ Materials of all talks and workshops are collected below.
 
 #### Flexible Meta-Analysis of Generalized Additive Models with metagam
 
-- Speaker: Øystein Sørensen
-- Materials: TBD
+- Speaker: Øystein Sørensen ([\@SorensenOystein](https://twitter.com/@SorensenOystein))
+- Materials: [slides](https://osorensen.rbind.io/post/presentation-of-metagam-at-erum2020)
 
 ### Parallel Session 2 - Life Sciences
 
@@ -236,8 +236,8 @@ Materials of all talks and workshops are collected below.
 
 #### Design Patterns For Big Shiny Apps
 
-- Speaker: Alex Gold
-- Materials: TBD
+- Speaker: Alex Gold ([\@alexkgold](https://twitter.com/@alexkgold))
+- Materials: [slides](https://docs.google.com/presentation/d/1mAAU0sw7GIVwOeGVsvdZCWA86mHhu-GZgkjYgreqmBk/edit), [repo](https://github.com/akgold/erum-big-shiny)
 
 #### Fake News: AI on the battle ground
 
@@ -258,8 +258,8 @@ Materials of all talks and workshops are collected below.
 
 #### GeneTonic: enjoy RNA-seq data analysis, responsibly
 
-- Speaker: Federico Marini
-- Materials: TBD
+- Speaker: Federico Marini ([\@FedeBioinfo](https://twitter.com/@FedeBioinfo))
+- Materials: [slides](https://federicomarini.github.io/eRum2020)
 
 #### DaMiRseq 2.0: from high dimensional data to cost-effective reliable prediction models
 
@@ -297,8 +297,8 @@ Materials of all talks and workshops are collected below.
 
 #### Powering Turing e-Atlas with R
 
-- Speaker: Layik Hama
-- Materials: TBD
+- Speaker: Layik Hama ([\@layik](https://twitter.com/@layik))
+- Materials: [slides](https://layik.github.io/presentations/eRum2020/slides.html)
 
 #### Dplyr snowflake integration for cloud based massive and fast data manipulation
 
@@ -358,8 +358,8 @@ Materials of all talks and workshops are collected below.
 
 #### Be proud of your code! Tools and patterns for making production-ready, clean R code
 
-- Speaker: Marcin Dubel
-- Materials: TBD
+- Speaker: Marcin Dubel ([\@DubelMarcin](https://twitter.com/@DubelMarcin))
+- Materials: [slides](https://raw.githubusercontent.com/Appsilon/eRum2020/master/Marcin.%20Be%20proud%20of%20your%20code!.pdf)
 
 #### R alongside Airflow, Docker and Gitlab CI
 
@@ -390,8 +390,8 @@ Materials of all talks and workshops are collected below.
 
 #### varycoef: Modeling Spatially Varying Coefficients
 
-- Speaker: Jakob Dambon
-- Materials: TBD
+- Speaker: Jakob Dambon ([\@JakobDambon](https://twitter.com/@JakobDambon))
+- Materials: [slides](https://user.math.uzh.ch/dambon/talks/2020_eRum_varycoef.pdf)
 
 #### Computer Algebra Systems in R
 
@@ -446,8 +446,8 @@ Materials of all talks and workshops are collected below.
 
 #### ptmixed: an R package for flexible modelling of longitudinal overdispersed count data
 
-- Speaker: Mirko Signorelli
-- Materials: TBD
+- Speaker: Mirko Signorelli ([\@signormirko](https://twitter.com/@signormirko))
+- Materials: [slides](https://raw.githubusercontent.com/m-signo/erum2020/master/beamer-signorelli-erum2020.pdf), [resources](https://github.com/m-signo/erum2020#readme)
 
 #### Differential Enriched Scan 2 (DEScan2): an R pipeline for epigenomic analysis
 
@@ -456,8 +456,8 @@ Materials of all talks and workshops are collected below.
 
 #### Reproducible Data Visualization with CanvasXpress
 
-- Speaker: Ger Inberg
-- Materials: TBD
+- Speaker: Ger Inberg ([\@g_inberg](https://twitter.com/@g_inberg))
+- Materials: [slides](https://github.com/ginberg/conference-talks/raw/master/erum2020/reproducible_data_viz_cx.odp)
 
 #### Using open-access data to derive genome composition of emerging viruses
 
@@ -468,13 +468,13 @@ Materials of all talks and workshops are collected below.
 
 #### Ultra fast penalized regressions with R package {bigstatsr}
 
-- Speaker: Florian Privé
-- Materials: TBD
+- Speaker: Florian Privé ([\@privefl](https://twitter.com/@privefl))
+- Materials: [slides](https://privefl.github.io/R-presentation/slides-eRum2020.html)
 
 #### Explaining black-box models with xspliner to make deliberate business decisions
 
-- Speaker: Krystian Igras
-- Materials: TBD
+- Speaker: Krystian Igras ([\@krystian8207](https://twitter.com/@krystian8207))
+- Materials: [slides](https://raw.githubusercontent.com/Appsilon/eRum2020/master/Krystian.%20Surrogate%20Models%20with%20xspliner.pdf)
 
 #### One-way non-normal ANOVA in reliability analysis using with doex
 
@@ -483,8 +483,8 @@ Materials of all talks and workshops are collected below.
 
 #### Analyzing Preference Data with the BayesMallows Package
 
-- Speaker: Øystein Sørensen
-- Materials: TBD
+- Speaker: Øystein Sørensen ([\@SorensenOystein](https://twitter.com/@SorensenOystein))
+- Materials: [slides](https://osorensen.github.io/ERUM2020/BayesMallows/presentation.html)
 
 #### Flexible deep learning via the JuliaConnectoR
 
@@ -595,8 +595,8 @@ Materials of all talks and workshops are collected below.
 
 #### PRDA package: Enhancing Statistical Inference via Prospective and Retrospective Design Analysis
 
-- Speaker: Angela Andreella
-- Materials: TBD
+- Speaker: Angela Andreella ([\@aangeella](https://twitter.com/@aangeella))
+- Materials: [Poster materials](https://github.com/angeella/eRum_2020#readme)
 
 #### EasyReporting: a Bioconductor package for Reproducible Research implementation
 
