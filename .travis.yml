@@ -1,18 +1,24 @@
 # R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
 
 language: R
-cache: packages
+cache:
+  packages: true
+  directories:
+  - .htmlproofer-book-cache
+  - .htmlproofer-readme-cache
 
-# Install Ruby and html-proofer
+# Install html-proofer
 before_install:
   - gem install html-proofer
 env:
   global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true  # Speed up the html-proofer
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # Speed up the html-proofer install
 
 script:
 - Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
-- htmlproofer _book
+- htmlproofer --storage-dir .htmlproofer-book-cache --timeframe 28d _book
+- Rscript -e "rmarkdown::render('README.md', 'github_document', output_file = '/tmp/README.md')"
+- tools/_proof.sh --storage-dir .htmlproofer-readme-cache /tmp/README.html
 
 deploy:
   provider: pages
