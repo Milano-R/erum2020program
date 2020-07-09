@@ -4,18 +4,21 @@ language: R
 cache:
   packages: true
   directories:
-  - .htmlproofer-cache
+  - .htmlproofer-book-cache
+  - .htmlproofer-readme-cache
 
 # Install html-proofer
 before_install:
   - gem install html-proofer
 env:
   global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true  # Speed up the html-proofer
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # Speed up the html-proofer install
 
 script:
 - Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
-- htmlproofer _book
+- htmlproofer --storage-dir .htmlproofer-book-cache --timeframe 28d _book
+- Rscript -e "rmarkdown::render('README.md', 'github_document', output_file = '/tmp/README.md')"
+- tools/_proof.sh --storage-dir .htmlproofer-readme-cache /tmp/README.html
 
 deploy:
   provider: pages
