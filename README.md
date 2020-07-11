@@ -17,6 +17,8 @@ The detailed schedule of e-Rum2020 as [PDF booklet](http://2020.erum.io/wp-conte
 
 Materials of all talks and workshops are collected below.
 
+Conference materials are being populated based on **speakers and community contributions**. We recommend to _Watch_ and _Star_ the repository to be up-to-date with newly-collected materials. For larger contributions, we recommend creating [issues](https://github.com/Milano-R/erum2020program/issues) first for better coordination, and checking the existing ones for "help wanted".
+
 ----
 
 ## Index
