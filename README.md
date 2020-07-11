@@ -696,8 +696,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### Explanation and exploration of machine learning models with R
 
-- Instructor: Przemyslaw Biecek, Hubert Baniecki
-- Materials: TBD
+- Instructor: Przemyslaw Biecek, Anna Kozak, Szymon Maksymiuk
+- Materials: https://github.com/pbiecek/XAIatERUM2020
 
 #### Non-disclosive federated analysis in R
 
