@@ -204,8 +204,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### Flexible Meta-Analysis of Generalized Additive Models with metagam
 
-- Speaker: Øystein Sørensen ([\@SorensenOystein](https://twitter.com/@SorensenOystein))
-- Materials: [slides](https://osorensen.rbind.io/post/presentation-of-metagam-at-erum2020)
+- Speaker: Øystein Sørensen ([\@SorensenOystein](https://twitter.com/@SorensenOystein), [website](https://osorensen.rbind.io))
+- Materials: [slides](https://osorensen.rbind.io/post/presentation-of-metagam-at-erum2020), [blog post](https://osorensen.rbind.io/post/presentation-of-metagam-at-erum2020)
 
 ### Parallel Session 2 - Life Sciences
 
@@ -485,8 +485,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### Analyzing Preference Data with the BayesMallows Package
 
-- Speaker: Øystein Sørensen ([\@SorensenOystein](https://twitter.com/@SorensenOystein))
-- Materials: [slides](https://osorensen.github.io/ERUM2020/BayesMallows/presentation.html)
+- Speaker: Øystein Sørensen ([\@SorensenOystein](https://twitter.com/@SorensenOystein), [website](https://osorensen.rbind.io))
+- Materials: [slides](https://osorensen.github.io/ERUM2020/BayesMallows/presentation.html), [blog post](https://osorensen.rbind.io/post/bayesmallows-presentation-at-the-european-r-user-meeting-2020)
 
 #### Flexible deep learning via the JuliaConnectoR
 
