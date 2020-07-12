@@ -248,8 +248,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### progressr: An Inclusive, Unifying API for Progress Updates
 
-- Speaker: Henrik Bengtsson
-- Materials: TBD
+- Speaker: Henrik Bengtsson ([\@henrikbengtsson](https://twitter.com/henrikbengtsson), [website](https://www.jottr.org/))
+- Materials: [slides](https://www.jottr.org/presentations/eRum2020/BengtssonH_20200617-progressr-An_Inclusive,_Unifying_API_for_Progress_Updates.pdf), [blog post](https://www.jottr.org/2020/07/04/progressr-erum2020-slides)
 
 ### Parallel Session 4 - Life Sciences
 
