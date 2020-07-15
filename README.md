@@ -512,8 +512,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### Design your own quantum simulator with R
 
-- Speaker: Indranil Ghosh
-- Materials: TBD
+- Speaker: Indranil Ghosh ([\@indraghosh314](https://twitter.com/indraghosh314), [website](https://indrag49.github.io/))
+- Materials: [slides](https://speakerdeck.com/indrag49/design-your-own-quantum-simulator-with-r), [CRAN](https://cran.r-project.org/web/packages/QGameTheory/index.html)
 
 #### What are the potato eaters eating
 
