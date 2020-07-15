@@ -113,7 +113,7 @@ Conference materials are being populated based on **speakers and community contr
 #### Reflections on two years of solutions engineering at Rstudio
 
 - Speaker: Kelly O'Briant
-- Materials: TBD
+- Materials: [slides](https://speakerdeck.com/kellobri/erum-2020-reflections-on-r-in-production)
 
 ## Invited Sessions
 
