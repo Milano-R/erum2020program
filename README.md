@@ -99,7 +99,7 @@ Conference materials are being populated based on **speakers and community contr
 #### What I Learned as an R Journalist
 
 - Speaker: Sharon Machlis ([\@sharon000](https://twitter.com/@sharon000))
-- Materials: [sildes](http://www.machlis.com/eRum2020/)
+- Materials: [slides](http://www.machlis.com/eRum2020/)
 
 ### Keynote 5 - Tomas Kalibera - R World
 
@@ -448,7 +448,7 @@ Conference materials are being populated based on **speakers and community contr
 
 #### ptmixed: an R package for flexible modelling of longitudinal overdispersed count data
 
-- Speaker: Mirko Signorelli ([\@signormirko](https://twitter.com/@signormirko))
+- Speaker: Mirko Signorelli ([\@signormirko](https://twitter.com/@signormirko), [website](https://mirkosignorelli.wixsite.com/home))
 - Materials: [slides](https://raw.githubusercontent.com/m-signo/erum2020/master/beamer-signorelli-erum2020.pdf), [resources](https://github.com/m-signo/erum2020#readme)
 
 #### Differential Enriched Scan 2 (DEScan2): an R pipeline for epigenomic analysis
