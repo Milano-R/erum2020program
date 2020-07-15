@@ -707,7 +707,7 @@ Conference materials are being populated based on **speakers and community contr
 #### A unified approach for writing automatic reports: parameterization and generalization of R-Markdown
 
 - Instructor: Cristina Muschitiello, Niccolò Stamboglis
-- Materials: TBD
+- Materials: [repo (with sides inside each section)](https://github.com/muschitiello/e-Rum2020-Unified-Approach-For-Automatic-Reports)
 
 #### Build a website with blogdown in R
 
