@@ -463,8 +463,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### Using open-access data to derive genome composition of emerging viruses
 
-- Speaker: Liam Brierley
-- Materials: TBD
+- Speaker: Liam Brierley ([\@L_Brierley](https://twitter.com/@L_Brierley))
+- Materials: [slides](https://drive.google.com/file/d/1Udi55KnfXxbXoyJMcOhdlRp1fB6HOBJp/view?usp=sharing)
 
 ### Lightning Talks 3 - Machine Learning
 
