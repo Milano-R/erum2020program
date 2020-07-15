@@ -723,7 +723,7 @@ Conference materials are being populated based on **speakers and community contr
 
 #### How to build htmlwidgets
 
-- Instructor: John Coene
+- Instructor: [John Coene](https://john-coene.com/)
 - Materials: [repository](https://github.com/JohnCoene/how-to-build-htmlwidgets), [website](https://htmlwidgets.john-coene.com/), [slides](https://htmlwidgets.john-coene.com/presentation/)
 
 #### Semantic Web in R for Data Scientists
