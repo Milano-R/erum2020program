@@ -618,7 +618,7 @@ Conference materials are being populated based on **speakers and community contr
 #### Dealing with changing administrative boundaries: The case of Swiss municipalities
 
 - Speaker: Tobias Schieferdecker
-- Materials: TBD
+- Materials: [poster](https://cynkra.github.io/SwissCommunes-poster/), [package-repository](https://github.com/cynkra/SwissCommunes), [poster-repository](https://github.com/cynkra/SwissCommunes-poster/)
 
 ### Poster Session 2 - DataViz & Machine Learning
 
