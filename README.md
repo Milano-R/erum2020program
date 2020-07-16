@@ -176,7 +176,7 @@ Conference materials are being populated based on **speakers and community contr
 #### How to improve your R package
 
 - Speaker: Maëlle Salmon ([\@ma_salmon](https://twitter.com/@ma_salmon))
-- Materials: [slides](https://maelle.github.io/erum2020/index.html)
+- Materials: [slides](https://masalmon.eu/talks/2020-06-19-e-rum/)
 
 #### dplyr 1.0.0
 
