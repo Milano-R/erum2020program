@@ -546,8 +546,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### Scoring the Implicit Association Test has never been easier: DscoreApp
 
-- Speaker: Ottavia M. Epifania
-- Materials: TBD
+- Speaker: Ottavia M. Epifania [Linkedin](https://www.linkedin.com/in/ottavia-epifania-612ba9b3/), [Twitter](https://twitter.com/ExeOttavia), [Psicostat](https://ip146179.psy.unipd.it/psicostat/web/people.html)
+- Materials: [Slides](https://github.com/OttaviaE/eRum2020/blob/master/eRumShinyDemo-Epifania.Rmd), [App repository](https://github.com/OttaviaE/DscoreApp), [DscoreApp](http://fisppa.psy.unipd.it/DscoreApp/)
 
 #### rTRhexNG: Hexagon sticker app for rTRNG
 
