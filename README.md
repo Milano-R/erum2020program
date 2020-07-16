@@ -131,8 +131,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### COVOID: Modelling COVID-19 Transmission and Interventions
 
-- Speaker: Mark Hanly
-- Materials: TBD
+- Speaker: Mark Hanly ([bio](https://cbdrh.med.unsw.edu.au/people/dr-mark-hanly))
+- Materials: [slides](materials/Hanly-CovidR-joint-winner-COVOID-Package.pdf)
 
 #### Building Agile data products leveraging the R package structure
 
