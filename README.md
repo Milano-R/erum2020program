@@ -439,7 +439,7 @@ Conference materials are being populated based on **speakers and community contr
 #### An enriched disease risk assessment model based on historical blood donors records
 
 - Speaker: Andrea Cappozzo ([\@AndreaCappozzo](https://twitter.com/AndreaCappozzo), [website](https://andreacappozzo.rbind.io))
-- Materials: [slides](FIXME)
+- Materials: [slides](https://andreacappozzo.rbind.io/erum_2020_heartindata.html#1)
 
 #### A principal component analysis based method to detect biomarker captation from vibrational spectra
 
