@@ -537,7 +537,7 @@ Conference materials are being populated based on **speakers and community contr
 #### tsviz: a data-scientist-friendly addin for RStudio
 
 - Speaker: Emanuele Fabbiani
-- Materials: TBD
+- Materials: [Medium Post](https://towardsdatascience.com/introducing-tsviz-interactive-time-series-visualization-in-r-studio-a96cde507a14), [GitHub repo](https://github.com/xtreamsrl/tsviz), [CRAN package](https://cran.r-project.org/package=tsviz)
 
 #### Media Shiny: Marketing Mix Models Builder
 
