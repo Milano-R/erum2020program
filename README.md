@@ -490,8 +490,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### Flexible deep learning via the JuliaConnectoR
 
-- Speaker: Stefan Lenz
-- Materials: TBD
+- Speaker: Stefan Lenz ([website](https://www.uniklinik-freiburg.de/imbi-en/employees.html?imbiuser=lenz))
+- Materials: [slides](materials/lenz-JuliaConnectoR.pdf), [article](https://arxiv.org/abs/2005.06334), [CRAN](https://CRAN.R-project.org/package=JuliaConnectoR), [GitHub](https://github.com/stefan-m-lenz/JuliaConnectoR)
 
 ### Lightning Talks 4 - Applications
 
