@@ -583,8 +583,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### “GUInterp”: a Shiny GUI to support spatial interpolation
 
-- Speaker: Luigi Ranghetti
-- Materials: [documentation](https://guinterp.ranghetti.info), [source code](https://github.com/ranghetti/guinterp), [live demo](https://ranghetti.shinyapps.io/guinterp)
+- Speaker: [Luigi Ranghetti](https://luigi.ranghetti.info)
+- Materials: [documentation](https://guinterp.ranghetti.info), [source code](https://github.com/ranghetti/guinterp), [live demo](https://ranghetti.shinyapps.io/guinterp).
 
 ## Poster Sessions
 
