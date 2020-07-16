@@ -292,8 +292,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### {polite}: web etiquette for R users
 
-- Speaker: Dmytro Perepolkin
-- Materials: TBD
+- Speaker: Dmytro Perepolkin ([\@dmi3k](https://twitter.com/dmi3k))
+- Materials: [slides](bit.ly/polite20)
 
 ### Parallel Session 6 - R in Production / R World
 
