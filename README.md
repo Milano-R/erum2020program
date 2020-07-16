@@ -148,8 +148,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### Better than Deep Learning: Gradient Boosting Machines (GBM) – with 2020 updates
 
-- Speaker: Szilard Pafka
-- Materials: TBD
+- Speaker: Szilard Pafka ([LinkedIn](https://www.linkedin.com/in/szilard)/[Github](https://github.com/szilard)/[Twitter](https://twitter.com/DataScienceLA))
+- Materials: [slides](https://bit.ly/szilard-talk-erum20)
 
 #### Testing Shiny: What, why, and how.
 
