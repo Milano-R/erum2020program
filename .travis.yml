@@ -17,8 +17,9 @@ env:
 script:
 - Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
 - htmlproofer --storage-dir .htmlproofer-book-cache --timeframe 28d _book
-- Rscript -e "rmarkdown::render('README.md', 'github_document', output_file = '/tmp/README.md')"
-- tools/_proof.sh --storage-dir .htmlproofer-readme-cache /tmp/README.html
+- Rscript -e "rmarkdown::render('README.md', 'github_document', output_file = 'proof-README.md')"
+- tools/_proof.sh --storage-dir .htmlproofer-readme-cache proof-README.html
+- rm proof-README.*
 
 deploy:
   provider: pages
