@@ -411,8 +411,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### effectclass: an R package to interpret effects and visualise uncertainty
 
-- Speaker: Thierry Onkelinx
-- Materials: TBD
+- Speaker: Thierry Onkelinx ([github](https://github.com/thierryo), [blog](https://www.muscardinus.be))
+- Materials: [presentation](materials/onkelinx_effectclass.pdf), [package documentation](https://effectclass.netlify.app/), [package source code](https://github.com/inbo/effectclass/)
 
 #### Supporting Twitter analytics application with graph-databases and the aRangodb package
 
