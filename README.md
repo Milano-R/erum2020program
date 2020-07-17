@@ -702,7 +702,7 @@ Conference materials are being populated based on **speakers and community contr
 #### Non-disclosive federated analysis in R
 
 - Instructor: Patricia Ryser-Welch, Paul Burton, Demetris Avraam, Stuart Wheater, Olly Butters, Becca Wilson, Alex Westerberg, Leire Abarrategui-Martine
-- Materials: TBD
+- Materials: https://github.com/patRyserWelch8/DataSHIELD.eRUM.2020/wiki
 
 #### A unified approach for writing automatic reports: parameterization and generalization of R-Markdown
 
