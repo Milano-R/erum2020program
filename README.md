@@ -233,8 +233,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### Using process mining principles to extract a collaboration graph from a version control system log
 
-- Speaker: Leen JOOKEN
-- Materials: TBD
+- Speaker: Leen Jooken
+- Materials: [slides](materials/Jooken-CollaborateR.pdf), [repo](https://github.com/bupaverse/collaborateR)
 
 #### Design Patterns For Big Shiny Apps
 
