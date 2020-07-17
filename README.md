@@ -655,7 +655,7 @@ Conference materials are being populated based on **speakers and community contr
 #### CorpFinder- a new application to identify Large Corporate Risks
 
 - Speaker: Aurélien Severino
-- Materials: TBD
+- Materials: [slides](materials/Severino-CorpFinder-Application_to_identify_Large_Corporate_Risks.pdf)
 
 ## Thematic Lounges
 
