@@ -629,8 +629,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### orf: Ordered Random Forests
 
-- Speaker: Gabriel Okasa
-- Materials: TBD
+- Speaker: [Gabriel Okasa](https://okasag.github.io/)
+- Materials: [Poster](https://okasag.github.io/assets/pdf/orf_erum_poster_okasa.pdf), [Slides](https://okasag.github.io/assets/pdf/orf_erum_milano_okasa.pdf), [Paper](https://arxiv.org/pdf/1907.02436.pdf), [Repository](https://github.com/okasag/orf), [CRAN](https://CRAN.R-project.org/package=orf)
 
 #### Power Supply health status monitoring dashboard
 
