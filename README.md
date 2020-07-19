@@ -170,8 +170,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### And you thought CRAN was harsh
 
-- Speaker: Colin Gillespie
-- Materials: TBD
+- Speaker: Colin Gillespie ([\@csgillespie](https://twitter.com/@csgillespie))
+- Materials: [slides](materials/gillespie_harsh-cran.pdf), [repo](https://github.com/jumpingrivers/inteRgrate)
 
 #### How to improve your R package
 
