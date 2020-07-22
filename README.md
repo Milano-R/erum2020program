@@ -77,42 +77,42 @@ Conference materials are being populated based on **speakers and community contr
 
 #### Using R and data science to improve human health
 
-- Speaker: Stephanie Hicks
-- Materials: TBD
+- Speaker: Stephanie Hicks ([\@stephaniehicks](https://twitter.com/@stephaniehicks), [website](https://www.stephaniehicks.com), [LinkedIn](https://www.linkedin.com/in/hicksstephanie))
+- Materials: [slides](https://docs.google.com/presentation/d/1TRmPRv4k4aceJbdVQDub4hCXYvIdTeQfDJZfpBu28PQ)
 
 ### Keynote 2 - Jared Lander - Applications
 
 #### Applying R at Work
 
-- Speaker: Jared Lander
-- Materials: TBD
+- Speaker: Jared Lander ([\@jaredlander](https://twitter.com/@jaredlander), [website](https://www.jaredlander.com), [LinkedIn](https://www.linkedin.com/in/jaredlander))
+- Materials: [slides](https://jaredlander.com/content/2020/06/ApplyingRAtWork.html)
 
 ### Keynote 3 - Francesco Bartolucci - Machine Learning & Models
 
 #### Latent Markov models for longitudinal data in R by LMest package
 
-- Speaker: Francesco Bartolucci ([\@f_bartolucci](https://twitter.com/@f_bartolucci))
+- Speaker: Francesco Bartolucci ([\@f_bartolucci](https://twitter.com/@f_bartolucci), [website](https://sites.google.com/site/bartstatistics), [LinkedIn](https://www.linkedin.com/in/francesco-bartolucci-b6365a74))
 - Materials: [slides](https://drive.google.com/file/d/1-QZrmhdHCquJ0AWsCDeJdmusNwraD_EL/view)
 
 ### Keynote 4 - Sharon Machlis - DataViz
 
 #### What I Learned as an R Journalist
 
-- Speaker: Sharon Machlis ([\@sharon000](https://twitter.com/@sharon000))
+- Speaker: Sharon Machlis ([\@sharon000](https://twitter.com/@sharon000), [LinkedIn](https://www.linkedin.com/in/sharonmachlis))
 - Materials: [slides](http://www.machlis.com/eRum2020/)
 
 ### Keynote 5 - Tomas Kalibera - R World
 
 #### The Invisible Work on R
 
-- Speaker: Tomas Kalibera
+- Speaker: Tomas Kalibera ([LinkedIn](https://www.linkedin.com/in/kalibera))
 - Materials: TBD
 
 ### Keynote 6 - Kelly O'Briant - R in Production
 
 #### Reflections on two years of solutions engineering at Rstudio
 
-- Speaker: Kelly O'Briant
+- Speaker: Kelly O'Briant ([\@kellrstats](https://twitter.com/@kellrstats), [website](https://kellobri.github.io), [LinkedIn](https://www.linkedin.com/in/kellyobriant))
 - Materials: [slides](https://speakerdeck.com/kellobri/erum-2020-reflections-on-r-in-production)
 
 ## Invited Sessions
