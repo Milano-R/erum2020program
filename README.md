@@ -691,8 +691,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### Image processing and computer vision with R
 
-- Instructor: Lubomír Štěpánek, Jiří Novák
-- Materials: TBD
+- Instructor: [Lubomír Štěpánek](https://twitter.com/LubomirStepanek), Jiří Novák
+- Materials: [repository](https://github.com/LStepanek/eRum_2020_image_processing_and_computer_vision_with_R)
 
 #### Explanation and exploration of machine learning models with R
 
