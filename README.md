@@ -195,7 +195,7 @@ Conference materials are being populated based on **speakers and community contr
 #### Hydrological Modelling and R
 
 - Speaker: Emanuele Cordano
-- Materials: TBD
+- Materials: [slides](materials/cordanoe_geotopbricks_presenetation.pdf)
 
 #### gWQS: An R Package for Linear and Generalized Weighted Quantile Sum (WQS) Regression
 
