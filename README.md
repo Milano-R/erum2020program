@@ -143,8 +143,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### brquasi: Improved quasi-likelihood estimation
 
-- Speaker: Ioannis Kosmidis
-- Materials: TBD
+- Speaker: Ioannis Kosmidis ([\@IKosmidis_](https://twitter.com/@IKosmidis_), [website](http://www.ikosmidis.com), [LinkedIn](https://www.linkedin.com/in/kosmidis))
+- Materials: [slides](http://www.ikosmidis.com/files/ikosmidis_brquasi_eRum2020)
 
 #### Better than Deep Learning: Gradient Boosting Machines (GBM) – with 2020 updates
 
