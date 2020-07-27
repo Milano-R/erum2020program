@@ -663,22 +663,22 @@ Conference materials are being populated based on **speakers and community contr
 
 #### Developing Software and Careers in Life Sciences
 
-- Participants: TBD
-- Materials: TBD
+- Chairs: Federico Marini ([\@FedeBioinfo](https://twitter.com/@FedeBioinfo)), Charlotte Soneson ([\@CSoneson](https://twitter.com/@CSoneson)), Davide Risso ([\@drisso1893](https://twitter.com/@drisso1893))
+- Materials: https://docs.google.com/document/d/1R2lhSG7B3HqeGAWRqenvd9XdxWQ7JmGELUbmwY7a_ug/edit?usp=sharing
 
 ### Thematic Lounge 2 - Building Community & Diversity
 
 #### Building Community & Diversity
 
-- Participants: TBD
-- Materials: TBD
+- Chairs: Sara Iacozza ([\@IacozzaSara](https://twitter.com/@IacozzaSara)), Levi Waldron ([\@leviwaldron1](https://twitter.com/@leviwaldron1)), Janine Khuc ([\@Janinekhuc](https://twitter.com/@Janinekhuc)), Parvaneh Shafiei ([\@parvanehshafiei](https://twitter.com/@parvanehshafiei))
+- Materials: https://docs.google.com/document/d/1HlzARyRmobvvYli99BL-ChWCorx1ogibJTlDLXU3KrY/edit?usp=sharing
 
 ### Thematic Lounge 3 - Data science: freelancing and business
 
 #### Data science: freelancing and business
 
-- Participants: TBD
-- Materials: TBD
+- Chairs: Enrico Deusebio ([\@enrico_deusebio](https://twitter.com/@enrico_deusebio)), Mariachiara Fortuna ([\@maryclaryf](https://twitter.com/@maryclaryf)), Riccardo L. Rossi ([\@ricreds](https://twitter.com/@ricreds))
+- Materials: https://docs.google.com/document/d/1dEKXtALLaOCf2x-ZJIhsen5iZS0gZEZwG8JupkRqVKE/edit?usp=sharing
 
 ## Workshops
 
