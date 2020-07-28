@@ -522,8 +522,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### Towards more structured data quality assessment in the process mining field: the DaQAPO package
 
-- Speaker: Niels Martin
-- Materials: TBD
+- Speaker: Niels Martin ([\@Niels_Martin](https://twitter.com/Niels_Martin))
+- Materials: [slides](https://www.slideshare.net/NielsMartin/erum-2020-daqapo-235962835), [CRAN](https://cran.r-project.org/web/packages/daqapo/index.html)
 
 ## Shiny Demos
 
