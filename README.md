@@ -126,8 +126,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### COVID-19 Data Hub
 
-- Speaker: Emanuele Guidotti
-- Materials: TBD
+- Speaker: Emanuele Guidotti ([website](https://guidotti.dev), [LinkedIn](https://www.linkedin.com/in/emanuele-guidotti/), [GitHub](https://github.com/eguidotti))
+- Materials: [COVID19 R Package](https://covid19datahub.io/articles/api/r.html)
 
 #### COVOID: Modelling COVID-19 Transmission and Interventions
 
