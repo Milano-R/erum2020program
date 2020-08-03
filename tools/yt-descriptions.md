@@ -386,7 +386,7 @@ Speaker information and materials for this session are available at https://gith
 - Andrea Melloncelli: "Is R ready for Production? Let’s develop a Professional Shiny Application!"
 - Lubomír Štěpánek, Jiří Novák: "Image processing and computer vision with R"
 - Przemyslaw Biecek, Anna Kozak, Szymon Maksymiuk: "Explanation and exploration of machine learning models with R"
-- Patricia Ryser-Welch, Paul Burton, Demetris Avraam, Stuart Wheater, Olly Butters, Becca Wilson, Alex Westerberg, Leire Abarrategui-Martine: "Non-disclosive federated analysis in R"
+- Patricia Ryser-Welch, Paul Burton, Demetris Avraam, Stuart Wheater, Olly Butters, Becca Wilson, Alex Westerberg, Leire Abarrategui-Martinez: "Non-disclosive federated analysis in R"
 - Cristina Muschitiello, Niccolò Stamboglis: "A unified approach for writing automatic reports: parameterization and generalization of R-Markdown"
 - Tatjana Kecojevic, Katarina Kosmina, Tijana Blagojev: "Build a website with blogdown in R"
 
