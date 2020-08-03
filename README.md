@@ -106,7 +106,7 @@ Conference materials are being populated based on **speakers and community contr
 #### The Invisible Work on R
 
 - Speaker: Tomas Kalibera ([LinkedIn](https://www.linkedin.com/in/kalibera))
-- Materials: TBD
+- Materials: [slides](materials/kalibera-invisible-work-on-r.pdf)
 
 ### Keynote 6 - Kelly O'Briant - R in Production
 
