@@ -110,7 +110,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Keynote 6 - Kelly O'Briant - R in Production
 
-#### Reflections on two years of solutions engineering at Rstudio
+#### Reflections on two years of solutions engineering at RStudio
 
 - Speaker: Kelly O'Briant ([\@kellrstats](https://twitter.com/@kellrstats), [website](https://kellobri.github.io), [LinkedIn](https://www.linkedin.com/in/kellyobriant))
 - Materials: [slides](https://speakerdeck.com/kellobri/erum-2020-reflections-on-r-in-production)
