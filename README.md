@@ -541,8 +541,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### Media Shiny: Marketing Mix Models Builder
 
-- Speaker: Andrea Melloncelli
-- Materials: TBD
+- Speaker: Andrea Melloncelli [\@akirocode](https://twitter.com/akirocode)
+- Materials: [Slides and Demo](https://docs.google.com/presentation/d/1MxgrmBQBenzBJs4vsmgLTgFcPtfporzafQXria4Y5Bo/edit?usp=sharing)
 
 #### Scoring the Implicit Association Test has never been easier: DscoreApp
 
