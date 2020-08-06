@@ -121,8 +121,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### Multi-Omics Factor Analysis Plus: A probabilistic framework for comprehensive and scalable integration of multi-modal data
 
-- Speaker: Britta Velten
-- Materials: TBD
+- Speaker: Britta Velten ([website](https://bv2.github.io), [LinkedIn](https://www.linkedin.com/in/britta-velten-22a36813a), [GitHub](https://github.com/bv2))
+- Materials: [slides](materials/MOFA_bvelten.pdf)
 
 #### COVID-19 Data Hub
 
