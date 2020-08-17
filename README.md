@@ -406,8 +406,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### Time Series Missing Data Visualizations
 
-- Speaker: Steffen Moritz
-- Materials: TBD
+- Speaker: Steffen Moritz ([\@_SteffenMoritz](https://twitter.com/@_SteffenMoritz), [website](https://www.data-science-decaf.com))
+- Materials: [presentation](materials/moritz_time-series-missing-value-visualizations.pdf), [package](http://steffenmoritz.github.io/imputeTS/), [github](https://github.com/SteffenMoritz/imputeTS)
 
 #### effectclass: an R package to interpret effects and visualise uncertainty
 
