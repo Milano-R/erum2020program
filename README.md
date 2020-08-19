@@ -497,8 +497,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### rdwd: R interface to German Weather Service data
 
-- Speaker: Berry Boessenkool
-- Materials: TBD
+- Speaker: Berry Boessenkool ([website](https://brry.github.io))
+- Materials: slides [pdf](https://github.com/brry/rdwd/raw/master/misc/eRum/rdwd.pdf)/[source](https://github.com/brry/rdwd/tree/master/misc/eRum), [github](https://github.com/brry/rdwd#rdwd), [CRAN](https://cran.r-project.org/package=rdwd), [Homepage](https://bookdown.org/brry/rdwd)
 
 #### tv: Show Data Frames in the Browser
 
