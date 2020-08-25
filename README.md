@@ -7,7 +7,7 @@
 
 ## Book of abstracts for accepted contributions
 
-The abstracts of accepted contributions organized by session type is available as a bookdown at https://milano-r.github.io/erum2020program.
+The abstracts of accepted contributions organized by session type is available as a bookdown at https://milano-r.github.io/erum2020program/erum2020-contributed-program.html.
 
 ## Detailed program schedule
 
