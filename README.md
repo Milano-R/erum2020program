@@ -1,11 +1,11 @@
 
 # e-Rum2020 Program
 
-## Book of abstracts for accepted contributions
-
 <!-- badges: start -->
 [![Travis build status](https://travis-ci.com/Milano-R/erum2020program.svg?branch=master)](https://travis-ci.com/Milano-R/erum2020program)
 <!-- badges: end -->
+
+## Book of abstracts for accepted contributions
 
 The abstracts of accepted contributions organized by session type is available as a bookdown at https://milano-r.github.io/erum2020program.
 

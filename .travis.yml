@@ -15,17 +15,25 @@ env:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # Speed up the html-proofer install
 
 script:
+# proof README to check links
+- Rscript -e "rmarkdown::render('README.md', 'github_document', output_file = 'proof-README.md')"
+- tools/_proof.sh --storage-dir .htmlproofer-readme-cache proof-README.html
+- rm proof-README.*
+# site
+# > bookdown
 - Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
-- htmlproofer --storage-dir .htmlproofer-book-cache --timeframe 28d _book
-- Rscript -e "rmarkdown::render('README.md', 'github_document', output_file = 'program-readme.md', output_dir = '_book')"
-- cp -r materials _book
-- tools/_proof.sh --storage-dir .htmlproofer-readme-cache _book/program-readme.html
-- rm _book/program-readme.md
+# > conference materials page
+- Rscript tools/render-conference-materials.R
+# > hosted materials
+- cp -r materials _site
+# > proof
+- htmlproofer --file-ignore /conference-materials/ --storage-dir .htmlproofer-site-cache --timeframe 28d _site
+- tools/_proof.sh --storage-dir .htmlproofer-materials-cache _site/conference-materials.html
 
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_PAT  # Set in the settings page of your repository, as a secure variable
-  local_dir: _book
+  local_dir: _site
   on:
     branch: master
