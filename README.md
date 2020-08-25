@@ -739,4 +739,4 @@ Conference materials are being populated based on **speakers and community contr
 #### Bring your R Application Safely to Production. Collaborate, Deploy, Automate
 
 - Instructor: Riccardo Porreca, Peter Schmid
-- Materials: [repository](https://github.com/miraisolutions/eRum2020Workshop), [slides](http://mirai-solutions.ch/eRum2020Workshop/workshop-slides.html)
+- Materials: [blog post](https://mirai-solutions.ch/news/2020/08/25/erum2020-workshop), [repository](https://github.com/miraisolutions/eRum2020Workshop), [slides](http://mirai-solutions.ch/eRum2020Workshop/workshop-slides.html), [video](https://youtu.be/dPc10Ka-L94)
