@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - [Detailed program schedule booklet](http://2020.erum.io/wp-content/uploads/2020/06/program_brochure_v5_20200617.pdf)
 
-- [Conference materials](https://github.com/Milano-R/erum2020program#conference-materials) (collected in a [GitHub](https://github.com/Milano-R/erum2020program#conference-materials) repository)
+- [Conference materials](conference-materials.html) (collected in a [GitHub](https://github.com/Milano-R/erum2020program#conference-materials) repository)
 
 
 # eRum2020 Contributed Program

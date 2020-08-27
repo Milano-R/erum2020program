@@ -17,4 +17,6 @@ Imports:
     readxl,
     rmarkdown,
     tidyr,
-    purrr
+    purrr,
+    xml2,
+    rvest
