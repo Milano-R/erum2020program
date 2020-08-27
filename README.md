@@ -23,7 +23,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Index
 
-- [Keynotes](#keynotes) [[:movie_camera: videos](https://www.youtube.com/playlist?list=PLX5iPLTva9UkHBP323LcXE8Nz1FBQc4iL)]
+- [Keynotes](#keynotes) [[:movie_camera: playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UkHBP323LcXE8Nz1FBQc4iL)]
   - [Keynote 1 - Stephanie Hicks - Life Sciences](#keynote-1---stephanie-hicks---life-sciences) [[:movie_camera: video](https://youtu.be/YqLb6gCyUGw)]
   - [Keynote 2 - Jared Lander - Applications](#keynote-2---jared-lander---applications) [[:movie_camera: video](https://youtu.be/wYxUdjW8vDg)]
   - [Keynote 3 - Francesco Bartolucci - Machine Learning & Models](#keynote-3---francesco-bartolucci---machine-learning--models) [[:movie_camera: video](https://youtu.be/NUSnkL0PLEo)]
@@ -31,12 +31,12 @@ Conference materials are being populated based on **speakers and community contr
   - [Keynote 5 - Tomas Kalibera - R World](#keynote-5---tomas-kalibera---r-world) [[:movie_camera: video](https://youtu.be/aKJ7c-Wm6VA)]
   - [Keynote 6 - Kelly O'Briant - R in Production](#keynote-6---kelly-obriant---r-in-production) [[:movie_camera: video](https://youtu.be/Qbwm9rWErfU)]
 
-- [Invited Sessions](#invited-sessions) [[:movie_camera: videos](https://www.youtube.com/playlist?list=PLX5iPLTva9UlOtwXchd1TaneFDfMHNQEd)]
+- [Invited Sessions](#invited-sessions) [[:movie_camera: playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UlOtwXchd1TaneFDfMHNQEd)]
   - [Invited Session 1 - Life Sciences / CovidR / R World](#invited-session-1---life-sciences--covidr--r-world) [[:movie_camera: video](https://youtu.be/EhqiA2RMzEU)]
   - [Invited Session 2 - Machine Learning & Models / DataViz (Shiny) / Applications](#invited-session-2---machine-learning--models--dataviz-shiny--applications) [[:movie_camera: video](https://youtu.be/awj5dEkgsTI)]
   - [Invited Session 3 - Shiny / R in Production / R World](#invited-session-3---shiny--r-in-production--r-world) [[:movie_camera: video](https://youtu.be/t7IK1uirEKo)]
 
-- [Parallel Sessions](#parallel-sessions) [[:movie_camera: videos](https://www.youtube.com/playlist?list=PLX5iPLTva9UkGBO7PkPHGqubm6aRwS9TM)]
+- [Parallel Sessions](#parallel-sessions) [[:movie_camera: playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UkGBO7PkPHGqubm6aRwS9TM)]
   - [Parallel Session 1 - Machine Learning](#parallel-session-1---machine-learning) [[:movie_camera: video](https://youtu.be/4Kf6BBSdBoE)]
   - [Parallel Session 2 - Life Sciences](#parallel-session-2---life-sciences) [[:movie_camera: video](https://youtu.be/qU3ob0t6dHE)]
   - [Parallel Session 3 - Applications / R in Production](#parallel-session-3---applications--r-in-production) [[:movie_camera: video](https://youtu.be/NwVOvfpGq4o)]
@@ -48,17 +48,17 @@ Conference materials are being populated based on **speakers and community contr
   - [Parallel Session 9 - R in Production](#parallel-session-9---r-in-production) [[:movie_camera: video](https://youtu.be/VQtEI-akVyk)]
   - [Parallel Session 10 - Machine Learning / Applications](#parallel-session-10---machine-learning--applications) [[:movie_camera: video](https://youtu.be/MoM31cFoe8g)]
 
-- [Lightning Talks](#lightning-talks) [[:movie_camera: videos](https://www.youtube.com/playlist?list=PLX5iPLTva9UlmVS_t-A8OQicxYKODVfqH)]
+- [Lightning Talks](#lightning-talks) [[:movie_camera: playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UlmVS_t-A8OQicxYKODVfqH)]
   - [Lightning Talks 1 - Data Visualization & Production](#lightning-talks-1---data-visualization--production) [[:movie_camera: video](https://youtu.be/hFKwzJBXvIU)]
   - [Lightning Talks 2 - Life Sciences](#lightning-talks-2---life-sciences) [[:movie_camera: video](https://youtu.be/79lUgThZ4HE)]
   - [Lightning Talks 3 - Machine Learning](#lightning-talks-3---machine-learning) [[:movie_camera: video](https://youtu.be/sHlj_H8K2RI)]
   - [Lightning Talks 4 - Applications](#lightning-talks-4---applications) [[:movie_camera: video](https://youtu.be/KOYZPMMgiHo)]
 
-- [Shiny Demos](#shiny-demos) [[:movie_camera: videos](https://www.youtube.com/playlist?list=PLX5iPLTva9UlCY2qFZBSRydU1oPEAJNig)]
+- [Shiny Demos](#shiny-demos) [[:movie_camera: playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UlCY2qFZBSRydU1oPEAJNig)]
   - [Shiny Demo 1 - Machine Learning & Applications](#shiny-demo-1---machine-learning--applications) [[:movie_camera: video](https://youtu.be/t8PZbP5b8EM)]
   - [Shiny Demo 2 - Mobility & Spatial](#shiny-demo-2---mobility--spatial) [[:movie_camera: video](https://youtu.be/sU_iT3Spc-Q)]
 
-- [Poster Sessions](#poster-sessions) [[:movie_camera: videos](https://www.youtube.com/playlist?list=PLX5iPLTva9Ukknkenms-VDx94QlRcHgmM)]
+- [Poster Sessions](#poster-sessions) [[:movie_camera: playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9Ukknkenms-VDx94QlRcHgmM)]
   - [Poster Session 1 - Life Sciences & Applications](#poster-session-1---life-sciences--applications) [[:movie_camera: video](https://youtu.be/HDLpw3gCouQ)]
   - [Poster Session 2 - DataViz & Machine Learning](#poster-session-2---dataviz--machine-learning) [[:movie_camera: video](https://youtu.be/dwIXqhk1NdM)]
 
@@ -67,14 +67,14 @@ Conference materials are being populated based on **speakers and community contr
   - [Thematic Lounge 2 - Building Community & Diversity](#thematic-lounge-2---building-community--diversity)
   - [Thematic Lounge 3 - Data science: freelancing and business](#thematic-lounge-3---data-science-freelancing-and-business)
 
-- [Workshops](#workshops) [[:movie_camera: videos](https://www.youtube.com/playlist?list=PLX5iPLTva9UnZmlzry0_YNB8rH85DuLRa)]
+- [Workshops](#workshops) [[:movie_camera: playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UnZmlzry0_YNB8rH85DuLRa)]
 
   - [Morning Workshops](#morning-workshops)
   - [Afternoon Workshops](#afternoon-workshops)
 
 ## Keynotes
 
-[:movie_camera: **Video Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UkHBP323LcXE8Nz1FBQc4iL)
+[:movie_camera: **Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UkHBP323LcXE8Nz1FBQc4iL)
 
 ### Keynote 1 - Stephanie Hicks - Life Sciences
 
@@ -126,7 +126,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Invited Sessions
 
-[:movie_camera: **Video Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UlOtwXchd1TaneFDfMHNQEd)
+[:movie_camera: **Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UlOtwXchd1TaneFDfMHNQEd)
 
 ### Invited Session 1 - Life Sciences / CovidR / R World
 
@@ -202,7 +202,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Parallel Sessions
 
-[:movie_camera: **Video Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UkGBO7PkPHGqubm6aRwS9TM)
+[:movie_camera: **Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UkGBO7PkPHGqubm6aRwS9TM)
 
 ### Parallel Session 1 - Machine Learning
 
@@ -441,7 +441,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Lightning Talks
 
-[:movie_camera: **Video Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UlmVS_t-A8OQicxYKODVfqH)
+[:movie_camera: **Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UlmVS_t-A8OQicxYKODVfqH)
 
 ### Lightning Talks 1 - Data Visualization & Production
 
@@ -576,7 +576,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Shiny Demos
 
-[:movie_camera: **Video Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UlCY2qFZBSRydU1oPEAJNig)
+[:movie_camera: **Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UlCY2qFZBSRydU1oPEAJNig)
 
 ### Shiny Demo 1 - Machine Learning & Applications
 
@@ -643,7 +643,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Poster Sessions
 
-[:movie_camera: **Video Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9Ukknkenms-VDx94QlRcHgmM)
+[:movie_camera: **Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9Ukknkenms-VDx94QlRcHgmM)
 
 ### Poster Session 1 - Life Sciences & Applications
 
@@ -743,7 +743,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Workshops
 
-[:movie_camera: **Video Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UnZmlzry0_YNB8rH85DuLRa)
+[:movie_camera: **Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UnZmlzry0_YNB8rH85DuLRa)
 
 ### Morning Workshops
 
