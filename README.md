@@ -799,7 +799,7 @@ Conference materials are being populated based on **speakers and community contr
 #### Advanced User Interfaces for Shiny Developers
 
 - Instructor: David Granjon, Mustapha Larbaoui, Flavio Lombardo, Douglas Robinson
-- Materials: TBD
+- Materials: https://github.com/Novartis/Advanced-User-Interfaces-for-Shiny-Developers
 
 #### Bring your R Application Safely to Production. Collaborate, Deploy, Automate
 
