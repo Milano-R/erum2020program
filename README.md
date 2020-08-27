@@ -23,61 +23,65 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Index
 
-- [Keynotes](#keynotes)
-  - [Keynote 1 - Stephanie Hicks - Life Sciences](#keynote-1---stephanie-hicks---life-sciences)
-  - [Keynote 2 - Jared Lander - Applications](#keynote-2---jared-lander---applications)
-  - [Keynote 3 - Francesco Bartolucci - Machine Learning & Models](#keynote-3---francesco-bartolucci---machine-learning--models)
-  - [Keynote 4 - Sharon Machlis - DataViz](#keynote-4---sharon-machlis---dataviz)
-  - [Keynote 5 - Tomas Kalibera - R World](#keynote-5---tomas-kalibera---r-world)
-  - [Keynote 6 - Kelly O'Briant - R in Production](#keynote-6---kelly-obriant---r-in-production)
+- [Keynotes](#keynotes) [[videos](https://www.youtube.com/playlist?list=PLX5iPLTva9UkHBP323LcXE8Nz1FBQc4iL)]
+  - [Keynote 1 - Stephanie Hicks - Life Sciences](#keynote-1---stephanie-hicks---life-sciences) [[video](https://youtu.be/YqLb6gCyUGw)]
+  - [Keynote 2 - Jared Lander - Applications](#keynote-2---jared-lander---applications) [[video](https://youtu.be/wYxUdjW8vDg)]
+  - [Keynote 3 - Francesco Bartolucci - Machine Learning & Models](#keynote-3---francesco-bartolucci---machine-learning--models) [[video](https://youtu.be/NUSnkL0PLEo)]
+  - [Keynote 4 - Sharon Machlis - DataViz](#keynote-4---sharon-machlis---dataviz) [[video](https://youtu.be/Ar8msLCYroM)]
+  - [Keynote 5 - Tomas Kalibera - R World](#keynote-5---tomas-kalibera---r-world) [[video](https://youtu.be/aKJ7c-Wm6VA)]
+  - [Keynote 6 - Kelly O'Briant - R in Production](#keynote-6---kelly-obriant---r-in-production) [[video](https://youtu.be/Qbwm9rWErfU)]
 
-- [Invited Sessions](#invited-sessions)
-  - [Invited Session 1 - Life Sciences / CovidR / R World](#invited-session-1---life-sciences--covidr--r-world)
-  - [Invited Session 2 - Machine Learning & Models / DataViz (Shiny) / Applications](#invited-session-2---machine-learning--models--dataviz-shiny--applications)
-  - [Invited Session 3 - Shiny / R in Production / R World](#invited-session-3---shiny--r-in-production--r-world)
+- [Invited Sessions](#invited-sessions) [[videos](https://www.youtube.com/playlist?list=PLX5iPLTva9UlOtwXchd1TaneFDfMHNQEd)]
+  - [Invited Session 1 - Life Sciences / CovidR / R World](#invited-session-1---life-sciences--covidr--r-world) [[video](https://youtu.be/EhqiA2RMzEU)]
+  - [Invited Session 2 - Machine Learning & Models / DataViz (Shiny) / Applications](#invited-session-2---machine-learning--models--dataviz-shiny--applications) [[video](https://youtu.be/awj5dEkgsTI)]
+  - [Invited Session 3 - Shiny / R in Production / R World](#invited-session-3---shiny--r-in-production--r-world) [[video](https://youtu.be/t7IK1uirEKo)]
 
-- [Parallel Sessions](#parallel-sessions)
-  - [Parallel Session 1 - Machine Learning](#parallel-session-1---machine-learning)
-  - [Parallel Session 2 - Life Sciences](#parallel-session-2---life-sciences)
-  - [Parallel Session 3 - Applications / R in Production](#parallel-session-3---applications--r-in-production)
-  - [Parallel Session 4 - Life Sciences](#parallel-session-4---life-sciences)
-  - [Parallel Session 5 - R World](#parallel-session-5---r-world)
-  - [Parallel Session 6 - R in Production / R World](#parallel-session-6---r-in-production--r-world)
-  - [Parallel Session 7 - Data Visualization & Shiny](#parallel-session-7---data-visualization--shiny)
-  - [Parallel Session 8 - Machine Learning & Models](#parallel-session-8---machine-learning--models)
-  - [Parallel Session 9 - R in Production](#parallel-session-9---r-in-production)
-  - [Parallel Session 10 - Machine Learning / Applications](#parallel-session-10---machine-learning--applications)
+- [Parallel Sessions](#parallel-sessions) [[videos](https://www.youtube.com/playlist?list=PLX5iPLTva9UkGBO7PkPHGqubm6aRwS9TM)]
+  - [Parallel Session 1 - Machine Learning](#parallel-session-1---machine-learning) [[video](https://youtu.be/4Kf6BBSdBoE)]
+  - [Parallel Session 2 - Life Sciences](#parallel-session-2---life-sciences) [[video](https://youtu.be/qU3ob0t6dHE)]
+  - [Parallel Session 3 - Applications / R in Production](#parallel-session-3---applications--r-in-production) [[video](https://youtu.be/NwVOvfpGq4o)]
+  - [Parallel Session 4 - Life Sciences](#parallel-session-4---life-sciences) [[video](https://youtu.be/vj_dwE4iFrs)]
+  - [Parallel Session 5 - R World](#parallel-session-5---r-world) [[video](https://youtu.be/Z2KBhz-xDIM)]
+  - [Parallel Session 6 - R in Production / R World](#parallel-session-6---r-in-production--r-world) [[video](https://youtu.be/RbGHIqVQ6OA)]
+  - [Parallel Session 7 - Data Visualization & Shiny](#parallel-session-7---data-visualization--shiny) [[video](https://youtu.be/r70YV-4ktIY)]
+  - [Parallel Session 8 - Machine Learning & Models](#parallel-session-8---machine-learning--models) [[video](https://youtu.be/RhiEEeMfklM)]
+  - [Parallel Session 9 - R in Production](#parallel-session-9---r-in-production) [[video](https://youtu.be/VQtEI-akVyk)]
+  - [Parallel Session 10 - Machine Learning / Applications](#parallel-session-10---machine-learning--applications) [[video](https://youtu.be/MoM31cFoe8g)]
 
-- [Lightning Talks](#lightning-talks)
-  - [Lightning Talks 1 - Data Visualization & Production](#lightning-talks-1---data-visualization--production)
-  - [Lightning Talks 2 - Life Sciences](#lightning-talks-2---life-sciences)
-  - [Lightning Talks 3 - Machine Learning](#lightning-talks-3---machine-learning)
-  - [Lightning Talks 4 - Applications](#lightning-talks-4---applications)
+- [Lightning Talks](#lightning-talks) [[videos](https://www.youtube.com/playlist?list=PLX5iPLTva9UlmVS_t-A8OQicxYKODVfqH)]
+  - [Lightning Talks 1 - Data Visualization & Production](#lightning-talks-1---data-visualization--production) [[video](https://youtu.be/hFKwzJBXvIU)]
+  - [Lightning Talks 2 - Life Sciences](#lightning-talks-2---life-sciences) [[video](https://youtu.be/79lUgThZ4HE)]
+  - [Lightning Talks 3 - Machine Learning](#lightning-talks-3---machine-learning) [[video](https://youtu.be/sHlj_H8K2RI)]
+  - [Lightning Talks 4 - Applications](#lightning-talks-4---applications) [[video](https://youtu.be/KOYZPMMgiHo)]
 
-- [Shiny Demos](#shiny-demos)
-  - [Shiny Demo 1 - Machine Learning & Applications](#shiny-demo-1---machine-learning--applications)
-  - [Shiny Demo 2 - Mobility & Spatial](#shiny-demo-2---mobility--spatial)
+- [Shiny Demos](#shiny-demos) [[videos](https://www.youtube.com/playlist?list=PLX5iPLTva9UlCY2qFZBSRydU1oPEAJNig)]
+  - [Shiny Demo 1 - Machine Learning & Applications](#shiny-demo-1---machine-learning--applications) [[video](https://youtu.be/t8PZbP5b8EM)]
+  - [Shiny Demo 2 - Mobility & Spatial](#shiny-demo-2---mobility--spatial) [[video](https://youtu.be/sU_iT3Spc-Q)]
 
-- [Poster Sessions](#poster-sessions)
-  - [Poster Session 1 - Life Sciences & Applications](#poster-session-1---life-sciences--applications)
-  - [Poster Session 2 - DataViz & Machine Learning](#poster-session-2---dataviz--machine-learning)
+- [Poster Sessions](#poster-sessions) [[videos](https://www.youtube.com/playlist?list=PLX5iPLTva9Ukknkenms-VDx94QlRcHgmM)]
+  - [Poster Session 1 - Life Sciences & Applications](#poster-session-1---life-sciences--applications) [[video](https://youtu.be/HDLpw3gCouQ)]
+  - [Poster Session 2 - DataViz & Machine Learning](#poster-session-2---dataviz--machine-learning) [[video](https://youtu.be/dwIXqhk1NdM)]
 
 - [Thematic Lounges](#thematic-lounges)
   - [Thematic Lounge 1 - Developing Software and Careers in Life Sciences](#thematic-lounge-1---developing-software-and-careers-in-life-sciences)
   - [Thematic Lounge 2 - Building Community & Diversity](#thematic-lounge-2---building-community--diversity)
   - [Thematic Lounge 3 - Data science: freelancing and business](#thematic-lounge-3---data-science-freelancing-and-business)
 
-- [Workshops](#workshops)
+- [Workshops](#workshops) [[videos](https://www.youtube.com/playlist?list=PLX5iPLTva9UnZmlzry0_YNB8rH85DuLRa)]
+
   - [Morning Workshops](#morning-workshops)
   - [Afternoon Workshops](#afternoon-workshops)
 
 ## Keynotes
+
+[Video Playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UkHBP323LcXE8Nz1FBQc4iL)
 
 ### Keynote 1 - Stephanie Hicks - Life Sciences
 
 #### Using R and data science to improve human health
 
 - Speaker: Stephanie Hicks ([\@stephaniehicks](https://twitter.com/@stephaniehicks), [website](https://www.stephaniehicks.com), [LinkedIn](https://www.linkedin.com/in/hicksstephanie))
+- [Video](https://youtu.be/YqLb6gCyUGw)
 - Materials: [slides](https://docs.google.com/presentation/d/1TRmPRv4k4aceJbdVQDub4hCXYvIdTeQfDJZfpBu28PQ)
 
 ### Keynote 2 - Jared Lander - Applications
@@ -85,6 +89,7 @@ Conference materials are being populated based on **speakers and community contr
 #### Applying R at Work
 
 - Speaker: Jared Lander ([\@jaredlander](https://twitter.com/@jaredlander), [website](https://www.jaredlander.com), [LinkedIn](https://www.linkedin.com/in/jaredlander))
+- [Video](https://youtu.be/wYxUdjW8vDg)
 - Materials: [slides](https://jaredlander.com/content/2020/06/ApplyingRAtWork.html)
 
 ### Keynote 3 - Francesco Bartolucci - Machine Learning & Models
@@ -92,6 +97,7 @@ Conference materials are being populated based on **speakers and community contr
 #### Latent Markov models for longitudinal data in R by LMest package
 
 - Speaker: Francesco Bartolucci ([\@f_bartolucci](https://twitter.com/@f_bartolucci), [website](https://sites.google.com/site/bartstatistics), [LinkedIn](https://www.linkedin.com/in/francesco-bartolucci-b6365a74))
+- [Video](https://youtu.be/NUSnkL0PLEo)
 - Materials: [slides](https://drive.google.com/file/d/1-QZrmhdHCquJ0AWsCDeJdmusNwraD_EL/view)
 
 ### Keynote 4 - Sharon Machlis - DataViz
@@ -99,6 +105,7 @@ Conference materials are being populated based on **speakers and community contr
 #### What I Learned as an R Journalist
 
 - Speaker: Sharon Machlis ([\@sharon000](https://twitter.com/@sharon000), [LinkedIn](https://www.linkedin.com/in/sharonmachlis))
+- [Video](https://youtu.be/Ar8msLCYroM)
 - Materials: [slides](http://www.machlis.com/eRum2020/)
 
 ### Keynote 5 - Tomas Kalibera - R World
@@ -106,6 +113,7 @@ Conference materials are being populated based on **speakers and community contr
 #### The Invisible Work on R
 
 - Speaker: Tomas Kalibera ([LinkedIn](https://www.linkedin.com/in/kalibera))
+- [Video](https://youtu.be/aKJ7c-Wm6VA)
 - Materials: [slides](materials/kalibera-invisible-work-on-r.pdf)
 
 ### Keynote 6 - Kelly O'Briant - R in Production
@@ -113,11 +121,16 @@ Conference materials are being populated based on **speakers and community contr
 #### Reflections on two years of solutions engineering at RStudio
 
 - Speaker: Kelly O'Briant ([\@kellrstats](https://twitter.com/@kellrstats), [website](https://kellobri.github.io), [LinkedIn](https://www.linkedin.com/in/kellyobriant))
+- [Video](https://youtu.be/Qbwm9rWErfU)
 - Materials: [slides](https://speakerdeck.com/kellobri/erum-2020-reflections-on-r-in-production)
 
 ## Invited Sessions
 
+[Video Playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UlOtwXchd1TaneFDfMHNQEd)
+
 ### Invited Session 1 - Life Sciences / CovidR / R World
+
+[Video](https://youtu.be/EhqiA2RMzEU)
 
 #### Multi-Omics Factor Analysis Plus: A probabilistic framework for comprehensive and scalable integration of multi-modal data
 
@@ -141,6 +154,8 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Invited Session 2 - Machine Learning & Models / DataViz (Shiny) / Applications
 
+[Video](https://youtu.be/awj5dEkgsTI)
+
 #### brquasi: Improved quasi-likelihood estimation
 
 - Speaker: Ioannis Kosmidis ([\@IKosmidis_](https://twitter.com/@IKosmidis_), [website](http://www.ikosmidis.com), [LinkedIn](https://www.linkedin.com/in/kosmidis))
@@ -162,6 +177,8 @@ Conference materials are being populated based on **speakers and community contr
 - Materials: TBD
 
 ### Invited Session 3 - Shiny / R in Production / R World
+
+[Video](https://youtu.be/t7IK1uirEKo)
 
 #### CRANalerts: A Shinyapp-as-a-Service for Impatient R Users
 
@@ -185,7 +202,11 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Parallel Sessions
 
+[Video Playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UkGBO7PkPHGqubm6aRwS9TM)
+
 ### Parallel Session 1 - Machine Learning
+
+[Video](https://youtu.be/4Kf6BBSdBoE)
 
 #### Deduplicating real estate ads using Naive Bayes record linkage
 
@@ -209,6 +230,8 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Parallel Session 2 - Life Sciences
 
+[Video](https://youtu.be/qU3ob0t6dHE)
+
 #### CONNECTOR: a computational approach to study intratumor heterogeneity
 
 - Speaker: Simone Pernice
@@ -230,6 +253,8 @@ Conference materials are being populated based on **speakers and community contr
 - Materials: TBD
 
 ### Parallel Session 3 - Applications / R in Production
+
+[Video](https://youtu.be/NwVOvfpGq4o)
 
 #### Using process mining principles to extract a collaboration graph from a version control system log
 
@@ -253,6 +278,8 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Parallel Session 4 - Life Sciences
 
+[Video](https://youtu.be/vj_dwE4iFrs)
+
 #### Interpretable and accessible Deep Learning for omics data with R and friends
 
 - Speaker: Moritz Hess
@@ -274,6 +301,8 @@ Conference materials are being populated based on **speakers and community contr
 - Materials: TBD
 
 ### Parallel Session 5 - R World
+
+[Video](https://youtu.be/Z2KBhz-xDIM)
 
 #### The R Consortium 2020: adapting to rapid change and global crisis
 
@@ -297,6 +326,8 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Parallel Session 6 - R in Production / R World
 
+[Video](https://youtu.be/RbGHIqVQ6OA)
+
 #### Powering Turing e-Atlas with R
 
 - Speaker: Layik Hama ([\@layik](https://twitter.com/@layik))
@@ -313,6 +344,8 @@ Conference materials are being populated based on **speakers and community contr
 - Materials: TBD
 
 ### Parallel Session 7 - Data Visualization & Shiny
+
+[Video](https://youtu.be/r70YV-4ktIY)
 
 #### Transparent Journalism Through the Power of R
 
@@ -336,6 +369,8 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Parallel Session 8 - Machine Learning & Models
 
+[Video](https://youtu.be/RhiEEeMfklM)
+
 #### Voronoi Linkage for Spatially Misaligned Data
 
 - Speaker: Luís G. Silva
@@ -357,6 +392,8 @@ Conference materials are being populated based on **speakers and community contr
 - Materials: TBD
 
 ### Parallel Session 9 - R in Production
+
+[Video](https://youtu.be/VQtEI-akVyk)
 
 #### Be proud of your code! Tools and patterns for making production-ready, clean R code
 
@@ -380,6 +417,8 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Parallel Session 10 - Machine Learning / Applications
 
+[Video](https://youtu.be/MoM31cFoe8g)
+
 #### FastAI in R: preserving wildlife with computer vision
 
 - Speaker: Jędrzej Świeżewski
@@ -402,7 +441,11 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Lightning Talks
 
+[Video Playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UlmVS_t-A8OQicxYKODVfqH)
+
 ### Lightning Talks 1 - Data Visualization & Production
+
+[Video](https://youtu.be/hFKwzJBXvIU)
 
 #### Time Series Missing Data Visualizations
 
@@ -436,6 +479,8 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Lightning Talks 2 - Life Sciences
 
+[Video](https://youtu.be/79lUgThZ4HE)
+
 #### An enriched disease risk assessment model based on historical blood donors records
 
 - Speaker: Andrea Cappozzo ([\@AndreaCappozzo](https://twitter.com/AndreaCappozzo), [website](https://andreacappozzo.rbind.io))
@@ -468,6 +513,8 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Lightning Talks 3 - Machine Learning
 
+[Video](https://youtu.be/sHlj_H8K2RI)
+
 #### Ultra fast penalized regressions with R package {bigstatsr}
 
 - Speaker: Florian Privé ([\@privefl](https://twitter.com/@privefl))
@@ -494,6 +541,8 @@ Conference materials are being populated based on **speakers and community contr
 - Materials: [slides](materials/lenz-JuliaConnectoR.pdf), [article](https://arxiv.org/abs/2005.06334), [CRAN](https://CRAN.R-project.org/package=JuliaConnectoR), [GitHub](https://github.com/stefan-m-lenz/JuliaConnectoR)
 
 ### Lightning Talks 4 - Applications
+
+[Video](https://youtu.be/KOYZPMMgiHo)
 
 #### rdwd: R interface to German Weather Service data
 
@@ -527,7 +576,11 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Shiny Demos
 
+[Video Playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UlCY2qFZBSRydU1oPEAJNig)
+
 ### Shiny Demo 1 - Machine Learning & Applications
+
+[Video](https://youtu.be/t8PZbP5b8EM)
 
 #### A demonstration of ABACUS: Apps Based Activities for Communicating and Understanding Statistics
 
@@ -561,6 +614,8 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Shiny Demo 2 - Mobility & Spatial
 
+[Video](https://youtu.be/sU_iT3Spc-Q)
+
 #### Visualising and Modelling Bike Sharing Mobility usage in the city of Milan
 
 - Speaker: Agostino Torti
@@ -588,7 +643,11 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Poster Sessions
 
+[Video Playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9Ukknkenms-VDx94QlRcHgmM)
+
 ### Poster Session 1 - Life Sciences & Applications
+
+[Video](https://youtu.be/HDLpw3gCouQ)
 
 #### A flexible dashboard for monitoring platform trials
 
@@ -621,6 +680,8 @@ Conference materials are being populated based on **speakers and community contr
 - Materials: [poster](https://cynkra.github.io/SwissCommunes-poster/), [package-repository](https://github.com/cynkra/SwissCommunes), [poster-repository](https://github.com/cynkra/SwissCommunes-poster/)
 
 ### Poster Session 2 - DataViz & Machine Learning
+
+[Video](https://youtu.be/dwIXqhk1NdM)
 
 #### Automate flexdashboard with GitHub
 
@@ -682,6 +743,8 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Workshops
 
+[Video Playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UnZmlzry0_YNB8rH85DuLRa)
+
 ### Morning Workshops
 
 #### Is R ready for Production? Let’s develop a Professional Shiny Application!
@@ -702,11 +765,13 @@ Conference materials are being populated based on **speakers and community contr
 #### Non-disclosive federated analysis in R
 
 - Instructor: Patricia Ryser-Welch, Paul Burton, Demetris Avraam, Stuart Wheater, Olly Butters, Becca Wilson, Alex Westerberg, Leire Abarrategui-Martinez
+- [Video](https://youtu.be/WpQFCfe1n_Q)
 - Materials: https://github.com/patRyserWelch8/DataSHIELD.eRUM.2020/wiki
 
 #### A unified approach for writing automatic reports: parameterization and generalization of R-Markdown
 
 - Instructor: Cristina Muschitiello, Niccolò Stamboglis
+- [Video](https://youtu.be/XFHGBX5bN_E)
 - Materials: [repo (with sides inside each section)](https://github.com/muschitiello/e-Rum2020-Unified-Approach-For-Automatic-Reports)
 
 #### Build a website with blogdown in R
@@ -739,4 +804,5 @@ Conference materials are being populated based on **speakers and community contr
 #### Bring your R Application Safely to Production. Collaborate, Deploy, Automate
 
 - Instructor: Riccardo Porreca, Peter Schmid
-- Materials: [blog post](https://mirai-solutions.ch/news/2020/08/25/erum2020-workshop), [repository](https://github.com/miraisolutions/eRum2020Workshop), [slides](http://mirai-solutions.ch/eRum2020Workshop/workshop-slides.html), [video](https://youtu.be/dPc10Ka-L94)
+- [Video](https://youtu.be/dPc10Ka-L94)
+- Materials: [blog post](https://mirai-solutions.ch/news/2020/08/25/erum2020-workshop), [repository](https://github.com/miraisolutions/eRum2020Workshop), [slides](http://mirai-solutions.ch/eRum2020Workshop/workshop-slides.html)
