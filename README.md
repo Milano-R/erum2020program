@@ -794,7 +794,7 @@ Conference materials are being populated based on **speakers and community contr
 #### Semantic Web in R for Data Scientists
 
 - Instructor: Goran Milovanović
-- Materials: TBD
+- Materials: https://github.com/datakolektiv/e-Rum2020_SemanticWeb
 
 #### Advanced User Interfaces for Shiny Developers
 
