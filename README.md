@@ -777,7 +777,7 @@ Conference materials are being populated based on **speakers and community contr
 #### Build a website with blogdown in R
 
 - Instructor: Tatjana Kecojevic, Katarina Kosmina, Tijana Blagojev
-- Materials: TBD
+- Materials: [repository](https://github.com/TanjaKec/eRum2020), [website](https://websiteinr.netlify.app/), [slides](https://erum2020.netlify.app)
 
 ### Afternoon Workshops
 
