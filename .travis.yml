@@ -4,8 +4,9 @@ language: R
 cache:
   packages: true
   directories:
-  - .htmlproofer-book-cache
   - .htmlproofer-readme-cache
+  - .htmlproofer-book-cache
+  - .htmlproofer-materials-cache
 
 # Install html-proofer
 before_install:
