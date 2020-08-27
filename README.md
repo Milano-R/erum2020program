@@ -74,7 +74,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Keynotes
 
-[Video Playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UkHBP323LcXE8Nz1FBQc4iL)
+[**Video Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UkHBP323LcXE8Nz1FBQc4iL)
 
 ### Keynote 1 - Stephanie Hicks - Life Sciences
 
@@ -126,11 +126,11 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Invited Sessions
 
-[Video Playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UlOtwXchd1TaneFDfMHNQEd)
+[**Video Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UlOtwXchd1TaneFDfMHNQEd)
 
 ### Invited Session 1 - Life Sciences / CovidR / R World
 
-[Video](https://youtu.be/EhqiA2RMzEU)
+[**Video**](https://youtu.be/EhqiA2RMzEU)
 
 #### Multi-Omics Factor Analysis Plus: A probabilistic framework for comprehensive and scalable integration of multi-modal data
 
@@ -154,7 +154,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Invited Session 2 - Machine Learning & Models / DataViz (Shiny) / Applications
 
-[Video](https://youtu.be/awj5dEkgsTI)
+[**Video**](https://youtu.be/awj5dEkgsTI)
 
 #### brquasi: Improved quasi-likelihood estimation
 
@@ -178,7 +178,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Invited Session 3 - Shiny / R in Production / R World
 
-[Video](https://youtu.be/t7IK1uirEKo)
+[**Video**](https://youtu.be/t7IK1uirEKo)
 
 #### CRANalerts: A Shinyapp-as-a-Service for Impatient R Users
 
@@ -202,11 +202,11 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Parallel Sessions
 
-[Video Playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UkGBO7PkPHGqubm6aRwS9TM)
+[**Video Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UkGBO7PkPHGqubm6aRwS9TM)
 
 ### Parallel Session 1 - Machine Learning
 
-[Video](https://youtu.be/4Kf6BBSdBoE)
+[**Video**](https://youtu.be/4Kf6BBSdBoE)
 
 #### Deduplicating real estate ads using Naive Bayes record linkage
 
@@ -230,7 +230,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Parallel Session 2 - Life Sciences
 
-[Video](https://youtu.be/qU3ob0t6dHE)
+[**Video**](https://youtu.be/qU3ob0t6dHE)
 
 #### CONNECTOR: a computational approach to study intratumor heterogeneity
 
@@ -254,7 +254,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Parallel Session 3 - Applications / R in Production
 
-[Video](https://youtu.be/NwVOvfpGq4o)
+[**Video**](https://youtu.be/NwVOvfpGq4o)
 
 #### Using process mining principles to extract a collaboration graph from a version control system log
 
@@ -278,7 +278,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Parallel Session 4 - Life Sciences
 
-[Video](https://youtu.be/vj_dwE4iFrs)
+[**Video**](https://youtu.be/vj_dwE4iFrs)
 
 #### Interpretable and accessible Deep Learning for omics data with R and friends
 
@@ -302,7 +302,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Parallel Session 5 - R World
 
-[Video](https://youtu.be/Z2KBhz-xDIM)
+[**Video**](https://youtu.be/Z2KBhz-xDIM)
 
 #### The R Consortium 2020: adapting to rapid change and global crisis
 
@@ -326,7 +326,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Parallel Session 6 - R in Production / R World
 
-[Video](https://youtu.be/RbGHIqVQ6OA)
+[**Video**](https://youtu.be/RbGHIqVQ6OA)
 
 #### Powering Turing e-Atlas with R
 
@@ -345,7 +345,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Parallel Session 7 - Data Visualization & Shiny
 
-[Video](https://youtu.be/r70YV-4ktIY)
+[**Video**](https://youtu.be/r70YV-4ktIY)
 
 #### Transparent Journalism Through the Power of R
 
@@ -369,7 +369,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Parallel Session 8 - Machine Learning & Models
 
-[Video](https://youtu.be/RhiEEeMfklM)
+[**Video**](https://youtu.be/RhiEEeMfklM)
 
 #### Voronoi Linkage for Spatially Misaligned Data
 
@@ -393,7 +393,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Parallel Session 9 - R in Production
 
-[Video](https://youtu.be/VQtEI-akVyk)
+[**Video**](https://youtu.be/VQtEI-akVyk)
 
 #### Be proud of your code! Tools and patterns for making production-ready, clean R code
 
@@ -417,7 +417,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Parallel Session 10 - Machine Learning / Applications
 
-[Video](https://youtu.be/MoM31cFoe8g)
+[**Video**](https://youtu.be/MoM31cFoe8g)
 
 #### FastAI in R: preserving wildlife with computer vision
 
@@ -441,11 +441,11 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Lightning Talks
 
-[Video Playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UlmVS_t-A8OQicxYKODVfqH)
+[**Video Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UlmVS_t-A8OQicxYKODVfqH)
 
 ### Lightning Talks 1 - Data Visualization & Production
 
-[Video](https://youtu.be/hFKwzJBXvIU)
+[**Video**](https://youtu.be/hFKwzJBXvIU)
 
 #### Time Series Missing Data Visualizations
 
@@ -479,7 +479,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Lightning Talks 2 - Life Sciences
 
-[Video](https://youtu.be/79lUgThZ4HE)
+[**Video**](https://youtu.be/79lUgThZ4HE)
 
 #### An enriched disease risk assessment model based on historical blood donors records
 
@@ -513,7 +513,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Lightning Talks 3 - Machine Learning
 
-[Video](https://youtu.be/sHlj_H8K2RI)
+[**Video**](https://youtu.be/sHlj_H8K2RI)
 
 #### Ultra fast penalized regressions with R package {bigstatsr}
 
@@ -542,7 +542,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Lightning Talks 4 - Applications
 
-[Video](https://youtu.be/KOYZPMMgiHo)
+[**Video**](https://youtu.be/KOYZPMMgiHo)
 
 #### rdwd: R interface to German Weather Service data
 
@@ -576,11 +576,11 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Shiny Demos
 
-[Video Playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UlCY2qFZBSRydU1oPEAJNig)
+[**Video Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UlCY2qFZBSRydU1oPEAJNig)
 
 ### Shiny Demo 1 - Machine Learning & Applications
 
-[Video](https://youtu.be/t8PZbP5b8EM)
+[**Video**](https://youtu.be/t8PZbP5b8EM)
 
 #### A demonstration of ABACUS: Apps Based Activities for Communicating and Understanding Statistics
 
@@ -614,7 +614,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Shiny Demo 2 - Mobility & Spatial
 
-[Video](https://youtu.be/sU_iT3Spc-Q)
+[**Video**](https://youtu.be/sU_iT3Spc-Q)
 
 #### Visualising and Modelling Bike Sharing Mobility usage in the city of Milan
 
@@ -643,11 +643,11 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Poster Sessions
 
-[Video Playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9Ukknkenms-VDx94QlRcHgmM)
+[**Video Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9Ukknkenms-VDx94QlRcHgmM)
 
 ### Poster Session 1 - Life Sciences & Applications
 
-[Video](https://youtu.be/HDLpw3gCouQ)
+[**Video**](https://youtu.be/HDLpw3gCouQ)
 
 #### A flexible dashboard for monitoring platform trials
 
@@ -681,7 +681,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ### Poster Session 2 - DataViz & Machine Learning
 
-[Video](https://youtu.be/dwIXqhk1NdM)
+[**Video**](https://youtu.be/dwIXqhk1NdM)
 
 #### Automate flexdashboard with GitHub
 
@@ -743,7 +743,7 @@ Conference materials are being populated based on **speakers and community contr
 
 ## Workshops
 
-[Video Playlist](https://www.youtube.com/playlist?list=PLX5iPLTva9UnZmlzry0_YNB8rH85DuLRa)
+[**Video Playlist**](https://www.youtube.com/playlist?list=PLX5iPLTva9UnZmlzry0_YNB8rH85DuLRa)
 
 ### Morning Workshops
 
