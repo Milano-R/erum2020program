@@ -174,7 +174,7 @@ Conference materials are being populated based on **speakers and community contr
 #### From writing code to infoRming policy: a case study of reproducible research in transport planning
 
 - Speaker: Robin Lovelace
-- Materials: TBD
+- Materials: [slides](https://www.robinlovelace.net/presentations/c4p-slides.html)
 
 ### Invited Session 3 - Shiny / R in Production / R World
 
