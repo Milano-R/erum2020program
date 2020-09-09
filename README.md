@@ -798,8 +798,13 @@ Conference materials are being populated based on **speakers and community contr
 
 #### Advanced User Interfaces for Shiny Developers
 
-- Instructor: David Granjon, Mustapha Larbaoui, Flavio Lombardo, Douglas Robinson
-- Materials: https://github.com/Novartis/Advanced-User-Interfaces-for-Shiny-Developers
+- Instructor: [David Granjon](https://divadnojnarg.github.io/), Mustapha Larbaoui, Flavio Lombardo, Douglas Robinson
+- Materials: [repository](https://github.com/Novartis/Advanced-User-Interfaces-for-Shiny-Developers),
+[slides](https://rinterface.com/shiny/talks/eRum2020/dg/index.html),
+[Rstudio Cloud](https://rstudio.cloud/project/1395473),
+[:blue_book: book](https://divadnojnarg.github.io/outstanding-shiny-ui/), 
+[tidymodules](https://github.com/Novartis/tidymodules),
+[RinteRface](https://rinterface.com/)
 
 #### Bring your R Application Safely to Production. Collaborate, Deploy, Automate
 
