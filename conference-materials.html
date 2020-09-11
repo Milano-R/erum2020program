@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="generator" content="pandoc">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+@font-face {
+font-family: octicons-link;
+src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAZwABAAAAAACFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEU0lHAAAGaAAAAAgAAAAIAAAAAUdTVUIAAAZcAAAACgAAAAoAAQAAT1MvMgAAAyQAAABJAAAAYFYEU3RjbWFwAAADcAAAAEUAAACAAJThvmN2dCAAAATkAAAABAAAAAQAAAAAZnBnbQAAA7gAAACyAAABCUM+8IhnYXNwAAAGTAAAABAAAAAQABoAI2dseWYAAAFsAAABPAAAAZwcEq9taGVhZAAAAsgAAAA0AAAANgh4a91oaGVhAAADCAAAABoAAAAkCA8DRGhtdHgAAAL8AAAADAAAAAwGAACfbG9jYQAAAsAAAAAIAAAACABiATBtYXhwAAACqAAAABgAAAAgAA8ASm5hbWUAAAToAAABQgAAAlXu73sOcG9zdAAABiwAAAAeAAAAME3QpOBwcmVwAAAEbAAAAHYAAAB/aFGpk3jaTY6xa8JAGMW/O62BDi0tJLYQincXEypYIiGJjSgHniQ6umTsUEyLm5BV6NDBP8Tpts6F0v+k/0an2i+itHDw3v2+9+DBKTzsJNnWJNTgHEy4BgG3EMI9DCEDOGEXzDADU5hBKMIgNPZqoD3SilVaXZCER3/I7AtxEJLtzzuZfI+VVkprxTlXShWKb3TBecG11rwoNlmmn1P2WYcJczl32etSpKnziC7lQyWe1smVPy/Lt7Kc+0vWY/gAgIIEqAN9we0pwKXreiMasxvabDQMM4riO+qxM2ogwDGOZTXxwxDiycQIcoYFBLj5K3EIaSctAq2kTYiw+ymhce7vwM9jSqO8JyVd5RH9gyTt2+J/yUmYlIR0s04n6+7Vm1ozezUeLEaUjhaDSuXHwVRgvLJn1tQ7xiuVv/ocTRF42mNgZGBgYGbwZOBiAAFGJBIMAAizAFoAAABiAGIAznjaY2BkYGAA4in8zwXi+W2+MjCzMIDApSwvXzC97Z4Ig8N/BxYGZgcgl52BCSQKAA3jCV8CAABfAAAAAAQAAEB42mNgZGBg4f3vACQZQABIMjKgAmYAKEgBXgAAeNpjYGY6wTiBgZWBg2kmUxoDA4MPhGZMYzBi1AHygVLYQUCaawqDA4PChxhmh/8ODDEsvAwHgMKMIDnGL0x7gJQCAwMAJd4MFwAAAHjaY2BgYGaA4DAGRgYQkAHyGMF8NgYrIM3JIAGVYYDT+AEjAwuDFpBmA9KMDEwMCh9i/v8H8sH0/4dQc1iAmAkALaUKLgAAAHjaTY9LDsIgEIbtgqHUPpDi3gPoBVyRTmTddOmqTXThEXqrob2gQ1FjwpDvfwCBdmdXC5AVKFu3e5MfNFJ29KTQT48Ob9/lqYwOGZxeUelN2U2R6+cArgtCJpauW7UQBqnFkUsjAY/kOU1cP+DAgvxwn1chZDwUbd6CFimGXwzwF6tPbFIcjEl+vvmM/byA48e6tWrKArm4ZJlCbdsrxksL1AwWn/yBSJKpYbq8AXaaTb8AAHja28jAwOC00ZrBeQNDQOWO//sdBBgYGRiYWYAEELEwMTE4uzo5Zzo5b2BxdnFOcALxNjA6b2ByTswC8jYwg0VlNuoCTWAMqNzMzsoK1rEhNqByEyerg5PMJlYuVueETKcd/89uBpnpvIEVomeHLoMsAAe1Id4AAAAAAAB42oWQT07CQBTGv0JBhagk7HQzKxca2sJCE1hDt4QF+9JOS0nbaaYDCQfwCJ7Au3AHj+LO13FMmm6cl7785vven0kBjHCBhfpYuNa5Ph1c0e2Xu3jEvWG7UdPDLZ4N92nOm+EBXuAbHmIMSRMs+4aUEd4Nd3CHD8NdvOLTsA2GL8M9PODbcL+hD7C1xoaHeLJSEao0FEW14ckxC+TU8TxvsY6X0eLPmRhry2WVioLpkrbp84LLQPGI7c6sOiUzpWIWS5GzlSgUzzLBSikOPFTOXqly7rqx0Z1Q5BAIoZBSFihQYQOOBEdkCOgXTOHA07HAGjGWiIjaPZNW13/+lm6S9FT7rLHFJ6fQbkATOG1j2OFMucKJJsxIVfQORl+9Jyda6Sl1dUYhSCm1dyClfoeDve4qMYdLEbfqHf3O/AdDumsjAAB42mNgYoAAZQYjBmyAGYQZmdhL8zLdDEydARfoAqIAAAABAAMABwAKABMAB///AA8AAQAAAAAAAAAAAAAAAAABAAAAAA==) format('woff');
+}
+body {
+-webkit-text-size-adjust: 100%;
+text-size-adjust: 100%;
+color: #333;
+font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 16px;
+line-height: 1.6;
+word-wrap: break-word;
+}
+a {
+background-color: transparent;
+}
+a:active,
+a:hover {
+outline: 0;
+}
+strong {
+font-weight: bold;
+}
+h1 {
+font-size: 2em;
+margin: 0.67em 0;
+}
+img {
+border: 0;
+}
+hr {
+box-sizing: content-box;
+height: 0;
+}
+pre {
+overflow: auto;
+}
+code,
+kbd,
+pre {
+font-family: monospace, monospace;
+font-size: 1em;
+}
+input {
+color: inherit;
+font: inherit;
+margin: 0;
+}
+html input[disabled] {
+cursor: default;
+}
+input {
+line-height: normal;
+}
+input[type="checkbox"] {
+box-sizing: border-box;
+padding: 0;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+td,
+th {
+padding: 0;
+}
+* {
+box-sizing: border-box;
+}
+input {
+font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+a {
+color: #4078c0;
+text-decoration: none;
+}
+a:hover,
+a:active {
+text-decoration: underline;
+}
+hr {
+height: 0;
+margin: 15px 0;
+overflow: hidden;
+background: transparent;
+border: 0;
+border-bottom: 1px solid #ddd;
+}
+hr:before {
+display: table;
+content: "";
+}
+hr:after {
+display: table;
+clear: both;
+content: "";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 15px;
+margin-bottom: 15px;
+line-height: 1.1;
+}
+h1 {
+font-size: 30px;
+}
+h2 {
+font-size: 21px;
+}
+h3 {
+font-size: 16px;
+}
+h4 {
+font-size: 14px;
+}
+h5 {
+font-size: 12px;
+}
+h6 {
+font-size: 11px;
+}
+blockquote {
+margin: 0;
+}
+ul,
+ol {
+padding: 0;
+margin-top: 0;
+margin-bottom: 0;
+}
+ol ol,
+ul ol {
+list-style-type: lower-roman;
+}
+ul ul ol,
+ul ol ol,
+ol ul ol,
+ol ol ol {
+list-style-type: lower-alpha;
+}
+dd {
+margin-left: 0;
+}
+code {
+font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+font-size: 12px;
+}
+pre {
+margin-top: 0;
+margin-bottom: 0;
+font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.select::-ms-expand {
+opacity: 0;
+}
+.octicon {
+font: normal normal normal 16px/1 octicons-link;
+display: inline-block;
+text-decoration: none;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.octicon-link:before {
+content: '\f05c';
+}
+.markdown-body:before {
+display: table;
+content: "";
+}
+.markdown-body:after {
+display: table;
+clear: both;
+content: "";
+}
+.markdown-body>*:first-child {
+margin-top: 0 !important;
+}
+.markdown-body>*:last-child {
+margin-bottom: 0 !important;
+}
+a:not([href]) {
+color: inherit;
+text-decoration: none;
+}
+.anchor {
+display: inline-block;
+padding-right: 2px;
+margin-left: -18px;
+}
+.anchor:focus {
+outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 1em;
+margin-bottom: 16px;
+font-weight: bold;
+line-height: 1.4;
+}
+h1 .octicon-link,
+h2 .octicon-link,
+h3 .octicon-link,
+h4 .octicon-link,
+h5 .octicon-link,
+h6 .octicon-link {
+color: #000;
+vertical-align: middle;
+visibility: hidden;
+}
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor,
+h4:hover .anchor,
+h5:hover .anchor,
+h6:hover .anchor {
+text-decoration: none;
+}
+h1:hover .anchor .octicon-link,
+h2:hover .anchor .octicon-link,
+h3:hover .anchor .octicon-link,
+h4:hover .anchor .octicon-link,
+h5:hover .anchor .octicon-link,
+h6:hover .anchor .octicon-link {
+visibility: visible;
+}
+h1 {
+padding-bottom: 0.3em;
+font-size: 2.25em;
+line-height: 1.2;
+border-bottom: 1px solid #eee;
+}
+h1 .anchor {
+line-height: 1;
+}
+h2 {
+padding-bottom: 0.3em;
+font-size: 1.75em;
+line-height: 1.225;
+border-bottom: 1px solid #eee;
+}
+h2 .anchor {
+line-height: 1;
+}
+h3 {
+font-size: 1.5em;
+line-height: 1.43;
+}
+h3 .anchor {
+line-height: 1.2;
+}
+h4 {
+font-size: 1.25em;
+}
+h4 .anchor {
+line-height: 1.2;
+}
+h5 {
+font-size: 1em;
+}
+h5 .anchor {
+line-height: 1.1;
+}
+h6 {
+font-size: 1em;
+color: #777;
+}
+h6 .anchor {
+line-height: 1.1;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table,
+pre {
+margin-top: 0;
+margin-bottom: 16px;
+}
+hr {
+height: 4px;
+padding: 0;
+margin: 16px 0;
+background-color: #e7e7e7;
+border: 0 none;
+}
+ul,
+ol {
+padding-left: 2em;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+margin-top: 0;
+margin-bottom: 0;
+}
+li>p {
+margin-top: 16px;
+}
+dl {
+padding: 0;
+}
+dl dt {
+padding: 0;
+margin-top: 16px;
+font-size: 1em;
+font-style: italic;
+font-weight: bold;
+}
+dl dd {
+padding: 0 16px;
+margin-bottom: 16px;
+}
+blockquote {
+padding: 0 15px;
+color: #777;
+border-left: 4px solid #ddd;
+}
+blockquote>:first-child {
+margin-top: 0;
+}
+blockquote>:last-child {
+margin-bottom: 0;
+}
+table {
+display: block;
+width: 100%;
+overflow: auto;
+word-break: normal;
+word-break: keep-all;
+}
+table th {
+font-weight: bold;
+}
+table th,
+table td {
+padding: 6px 13px;
+border: 1px solid #ddd;
+}
+table tr {
+background-color: #fff;
+border-top: 1px solid #ccc;
+}
+table tr:nth-child(2n) {
+background-color: #f8f8f8;
+}
+img {
+max-width: 100%;
+box-sizing: content-box;
+background-color: #fff;
+}
+code {
+padding: 0;
+padding-top: 0.2em;
+padding-bottom: 0.2em;
+margin: 0;
+font-size: 85%;
+background-color: rgba(0,0,0,0.04);
+border-radius: 3px;
+}
+code:before,
+code:after {
+letter-spacing: -0.2em;
+content: "\00a0";
+}
+pre>code {
+padding: 0;
+margin: 0;
+font-size: 100%;
+word-break: normal;
+white-space: pre;
+background: transparent;
+border: 0;
+}
+.highlight {
+margin-bottom: 16px;
+}
+.highlight pre,
+pre {
+padding: 16px;
+overflow: auto;
+font-size: 85%;
+line-height: 1.45;
+background-color: #f7f7f7;
+border-radius: 3px;
+}
+.highlight pre {
+margin-bottom: 0;
+word-break: normal;
+}
+pre {
+word-wrap: normal;
+}
+pre code {
+display: inline;
+max-width: initial;
+padding: 0;
+margin: 0;
+overflow: initial;
+line-height: inherit;
+word-wrap: normal;
+background-color: transparent;
+border: 0;
+}
+pre code:before,
+pre code:after {
+content: normal;
+}
+kbd {
+display: inline-block;
+padding: 3px 5px;
+font-size: 11px;
+line-height: 10px;
+color: #555;
+vertical-align: middle;
+background-color: #fcfcfc;
+border: solid 1px #ccc;
+border-bottom-color: #bbb;
+border-radius: 3px;
+box-shadow: inset 0 -1px 0 #bbb;
+}
+.pl-c {
+color: #969896;
+}
+.pl-c1,
+.pl-s .pl-v {
+color: #0086b3;
+}
+.pl-e,
+.pl-en {
+color: #795da3;
+}
+.pl-s .pl-s1,
+.pl-smi {
+color: #333;
+}
+.pl-ent {
+color: #63a35c;
+}
+.pl-k {
+color: #a71d5d;
+}
+.pl-pds,
+.pl-s,
+.pl-s .pl-pse .pl-s1,
+.pl-sr,
+.pl-sr .pl-cce,
+.pl-sr .pl-sra,
+.pl-sr .pl-sre {
+color: #183691;
+}
+.pl-v {
+color: #ed6a43;
+}
+.pl-id {
+color: #b52a1d;
+}
+.pl-ii {
+background-color: #b52a1d;
+color: #f8f8f8;
+}
+.pl-sr .pl-cce {
+color: #63a35c;
+font-weight: bold;
+}
+.pl-ml {
+color: #693a17;
+}
+.pl-mh,
+.pl-mh .pl-en,
+.pl-ms {
+color: #1d3e81;
+font-weight: bold;
+}
+.pl-mq {
+color: #008080;
+}
+.pl-mi {
+color: #333;
+font-style: italic;
+}
+.pl-mb {
+color: #333;
+font-weight: bold;
+}
+.pl-md {
+background-color: #ffecec;
+color: #bd2c00;
+}
+.pl-mi1 {
+background-color: #eaffea;
+color: #55a532;
+}
+.pl-mdr {
+color: #795da3;
+font-weight: bold;
+}
+.pl-mo {
+color: #1d3e81;
+}
+kbd {
+display: inline-block;
+padding: 3px 5px;
+font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+line-height: 10px;
+color: #555;
+vertical-align: middle;
+background-color: #fcfcfc;
+border: solid 1px #ccc;
+border-bottom-color: #bbb;
+border-radius: 3px;
+box-shadow: inset 0 -1px 0 #bbb;
+}
+.task-list-item {
+list-style-type: none;
+}
+.task-list-item+.task-list-item {
+margin-top: 3px;
+}
+.task-list-item input {
+margin: 0 0.35em 0.25em -1.6em;
+vertical-align: middle;
+}
+:checked+.radio-label {
+z-index: 1;
+position: relative;
+border-color: #4078c0;
+}
+.sourceLine {
+display: inline-block;
+}
+code .kw { color: #000000; }
+code .dt { color: #ed6a43; }
+code .dv { color: #009999; }
+code .bn { color: #009999; }
+code .fl { color: #009999; }
+code .ch { color: #009999; }
+code .st { color: #183691; }
+code .co { color: #969896; }
+code .ot { color: #0086b3; }
+code .al { color: #a61717; }
+code .fu { color: #63a35c; }
+code .er { color: #a61717; background-color: #e3d2d2; }
+code .wa { color: #000000; }
+code .cn { color: #008080; }
+code .sc { color: #008080; }
+code .vs { color: #183691; }
+code .ss { color: #183691; }
+code .im { color: #000000; }
+code .va {color: #008080; }
+code .cf { color: #000000; }
+code .op { color: #000000; }
+code .bu { color: #000000; }
+code .ex { color: #000000; }
+code .pp { color: #999999; }
+code .at { color: #008080; }
+code .do { color: #969896; }
+code .an { color: #008080; }
+code .cv { color: #008080; }
+code .in { color: #008080; }
+</style>
+<style>
+body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 45px;
+  padding-top: 0px;
+}
+</style>
+</head>
+<body>
+
+<h2 id="e-rum2020-conference-materials">e-Rum2020 Conference Materials</h2>
+<ul>
+<li>
+<p><a href="#keynotes">Keynotes</a> [<a href="https://www.youtube.com/playlist?list=PLX5iPLTva9UkHBP323LcXE8Nz1FBQc4iL" target="_blank">🎥 playlist</a>]</p>
+<ul>
+<li>
+<a href="#keynote-1---stephanie-hicks---life-sciences">Keynote 1 - Stephanie Hicks - Life Sciences</a> [<a href="https://youtu.be/YqLb6gCyUGw" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#keynote-2---jared-lander---applications">Keynote 2 - Jared Lander - Applications</a> [<a href="https://youtu.be/wYxUdjW8vDg" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#keynote-3---francesco-bartolucci---machine-learning--models">Keynote 3 - Francesco Bartolucci - Machine Learning &amp; Models</a> [<a href="https://youtu.be/NUSnkL0PLEo" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#keynote-4---sharon-machlis---dataviz">Keynote 4 - Sharon Machlis - DataViz</a> [<a href="https://youtu.be/Ar8msLCYroM" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#keynote-5---tomas-kalibera---r-world">Keynote 5 - Tomas Kalibera - R World</a> [<a href="https://youtu.be/aKJ7c-Wm6VA" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#keynote-6---kelly-obriant---r-in-production">Keynote 6 - Kelly O’Briant - R in Production</a> [<a href="https://youtu.be/Qbwm9rWErfU" target="_blank">🎥 video</a>]</li>
+</ul>
+</li>
+<li>
+<p><a href="#invited-sessions">Invited Sessions</a> [<a href="https://www.youtube.com/playlist?list=PLX5iPLTva9UlOtwXchd1TaneFDfMHNQEd" target="_blank">🎥 playlist</a>]</p>
+<ul>
+<li>
+<a href="#invited-session-1---life-sciences--covidr--r-world">Invited Session 1 - Life Sciences / CovidR / R World</a> [<a href="https://youtu.be/EhqiA2RMzEU" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#invited-session-2---machine-learning--models--dataviz-shiny--applications">Invited Session 2 - Machine Learning &amp; Models / DataViz (Shiny) / Applications</a> [<a href="https://youtu.be/awj5dEkgsTI" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#invited-session-3---shiny--r-in-production--r-world">Invited Session 3 - Shiny / R in Production / R World</a> [<a href="https://youtu.be/t7IK1uirEKo" target="_blank">🎥 video</a>]</li>
+</ul>
+</li>
+<li>
+<p><a href="#parallel-sessions">Parallel Sessions</a> [<a href="https://www.youtube.com/playlist?list=PLX5iPLTva9UkGBO7PkPHGqubm6aRwS9TM" target="_blank">🎥 playlist</a>]</p>
+<ul>
+<li>
+<a href="#parallel-session-1---machine-learning">Parallel Session 1 - Machine Learning</a> [<a href="https://youtu.be/4Kf6BBSdBoE" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#parallel-session-2---life-sciences">Parallel Session 2 - Life Sciences</a> [<a href="https://youtu.be/qU3ob0t6dHE" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#parallel-session-3---applications--r-in-production">Parallel Session 3 - Applications / R in Production</a> [<a href="https://youtu.be/NwVOvfpGq4o" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#parallel-session-4---life-sciences">Parallel Session 4 - Life Sciences</a> [<a href="https://youtu.be/vj_dwE4iFrs" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#parallel-session-5---r-world">Parallel Session 5 - R World</a> [<a href="https://youtu.be/Z2KBhz-xDIM" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#parallel-session-6---r-in-production--r-world">Parallel Session 6 - R in Production / R World</a> [<a href="https://youtu.be/RbGHIqVQ6OA" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#parallel-session-7---data-visualization--shiny">Parallel Session 7 - Data Visualization &amp; Shiny</a> [<a href="https://youtu.be/r70YV-4ktIY" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#parallel-session-8---machine-learning--models">Parallel Session 8 - Machine Learning &amp; Models</a> [<a href="https://youtu.be/RhiEEeMfklM" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#parallel-session-9---r-in-production">Parallel Session 9 - R in Production</a> [<a href="https://youtu.be/VQtEI-akVyk" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#parallel-session-10---machine-learning--applications">Parallel Session 10 - Machine Learning / Applications</a> [<a href="https://youtu.be/MoM31cFoe8g" target="_blank">🎥 video</a>]</li>
+</ul>
+</li>
+<li>
+<p><a href="#lightning-talks">Lightning Talks</a> [<a href="https://www.youtube.com/playlist?list=PLX5iPLTva9UlmVS_t-A8OQicxYKODVfqH" target="_blank">🎥 playlist</a>]</p>
+<ul>
+<li>
+<a href="#lightning-talks-1---data-visualization--production">Lightning Talks 1 - Data Visualization &amp; Production</a> [<a href="https://youtu.be/hFKwzJBXvIU" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#lightning-talks-2---life-sciences">Lightning Talks 2 - Life Sciences</a> [<a href="https://youtu.be/79lUgThZ4HE" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#lightning-talks-3---machine-learning">Lightning Talks 3 - Machine Learning</a> [<a href="https://youtu.be/sHlj_H8K2RI" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#lightning-talks-4---applications">Lightning Talks 4 - Applications</a> [<a href="https://youtu.be/KOYZPMMgiHo" target="_blank">🎥 video</a>]</li>
+</ul>
+</li>
+<li>
+<p><a href="#shiny-demos">Shiny Demos</a> [<a href="https://www.youtube.com/playlist?list=PLX5iPLTva9UlCY2qFZBSRydU1oPEAJNig" target="_blank">🎥 playlist</a>]</p>
+<ul>
+<li>
+<a href="#shiny-demo-1---machine-learning--applications">Shiny Demo 1 - Machine Learning &amp; Applications</a> [<a href="https://youtu.be/t8PZbP5b8EM" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#shiny-demo-2---mobility--spatial">Shiny Demo 2 - Mobility &amp; Spatial</a> [<a href="https://youtu.be/sU_iT3Spc-Q" target="_blank">🎥 video</a>]</li>
+</ul>
+</li>
+<li>
+<p><a href="#poster-sessions">Poster Sessions</a> [<a href="https://www.youtube.com/playlist?list=PLX5iPLTva9Ukknkenms-VDx94QlRcHgmM" target="_blank">🎥 playlist</a>]</p>
+<ul>
+<li>
+<a href="#poster-session-1---life-sciences--applications">Poster Session 1 - Life Sciences &amp; Applications</a> [<a href="https://youtu.be/HDLpw3gCouQ" target="_blank">🎥 video</a>]</li>
+<li>
+<a href="#poster-session-2---dataviz--machine-learning">Poster Session 2 - DataViz &amp; Machine Learning</a> [<a href="https://youtu.be/dwIXqhk1NdM" target="_blank">🎥 video</a>]</li>
+</ul>
+</li>
+<li>
+<p><a href="#thematic-lounges">Thematic Lounges</a></p>
+<ul>
+<li><a href="#thematic-lounge-1---developing-software-and-careers-in-life-sciences">Thematic Lounge 1 - Developing Software and Careers in Life Sciences</a></li>
+<li><a href="#thematic-lounge-2---building-community--diversity">Thematic Lounge 2 - Building Community &amp; Diversity</a></li>
+<li><a href="#thematic-lounge-3---data-science-freelancing-and-business">Thematic Lounge 3 - Data science: freelancing and business</a></li>
+</ul>
+</li>
+<li>
+<p><a href="#workshops">Workshops</a> [<a href="https://www.youtube.com/playlist?list=PLX5iPLTva9UnZmlzry0_YNB8rH85DuLRa" target="_blank">🎥 playlist</a>]</p>
+<ul>
+<li><a href="#morning-workshops">Morning Workshops</a></li>
+<li><a href="#afternoon-workshops">Afternoon Workshops</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="keynotes">Keynotes</h2>
+<p><a href="https://www.youtube.com/playlist?list=PLX5iPLTva9UkHBP323LcXE8Nz1FBQc4iL" target="_blank">🎥 <strong>Playlist</strong></a></p>
+<h3 id="keynote-1---stephanie-hicks---life-sciences">Keynote 1 - Stephanie Hicks - Life Sciences</h3>
+<h4 id="using-r-and-data-science-to-improve-human-health">Using R and data science to improve human health</h4>
+<ul>
+<li>Speaker: Stephanie Hicks (<a href="https://twitter.com/@stephaniehicks" target="_blank">@stephaniehicks</a>, <a href="https://www.stephaniehicks.com" target="_blank">website</a>, <a href="https://www.linkedin.com/in/hicksstephanie" target="_blank">LinkedIn</a>)</li>
+<li><a href="https://youtu.be/YqLb6gCyUGw" target="_blank">🎥 Video</a></li>
+<li>Materials: <a href="https://docs.google.com/presentation/d/1TRmPRv4k4aceJbdVQDub4hCXYvIdTeQfDJZfpBu28PQ" target="_blank">slides</a>
+</li>
+</ul>
+<h3 id="keynote-2---jared-lander---applications">Keynote 2 - Jared Lander - Applications</h3>
+<h4 id="applying-r-at-work">Applying R at Work</h4>
+<ul>
+<li>Speaker: Jared Lander (<a href="https://twitter.com/@jaredlander" target="_blank">@jaredlander</a>, <a href="https://www.jaredlander.com" target="_blank">website</a>, <a href="https://www.linkedin.com/in/jaredlander" target="_blank">LinkedIn</a>)</li>
+<li><a href="https://youtu.be/wYxUdjW8vDg" target="_blank">🎥 Video</a></li>
+<li>Materials: <a href="https://jaredlander.com/content/2020/06/ApplyingRAtWork.html" target="_blank">slides</a>
+</li>
+</ul>
+<h3 id="keynote-3---francesco-bartolucci---machine-learning--models">Keynote 3 - Francesco Bartolucci - Machine Learning &amp; Models</h3>
+<h4 id="latent-markov-models-for-longitudinal-data-in-r-by-lmest-package">Latent Markov models for longitudinal data in R by LMest package</h4>
+<ul>
+<li>Speaker: Francesco Bartolucci (<a href="https://twitter.com/@f_bartolucci" target="_blank">@f_bartolucci</a>, <a href="https://sites.google.com/site/bartstatistics" target="_blank">website</a>, <a href="https://www.linkedin.com/in/francesco-bartolucci-b6365a74" target="_blank">LinkedIn</a>)</li>
+<li><a href="https://youtu.be/NUSnkL0PLEo" target="_blank">🎥 Video</a></li>
+<li>Materials: <a href="https://drive.google.com/file/d/1-QZrmhdHCquJ0AWsCDeJdmusNwraD_EL/view" target="_blank">slides</a>
+</li>
+</ul>
+<h3 id="keynote-4---sharon-machlis---dataviz">Keynote 4 - Sharon Machlis - DataViz</h3>
+<h4 id="what-i-learned-as-an-r-journalist">What I Learned as an R Journalist</h4>
+<ul>
+<li>Speaker: Sharon Machlis (<a href="https://twitter.com/@sharon000" target="_blank">@sharon000</a>, <a href="https://www.linkedin.com/in/sharonmachlis" target="_blank">LinkedIn</a>)</li>
+<li><a href="https://youtu.be/Ar8msLCYroM" target="_blank">🎥 Video</a></li>
+<li>Materials: <a href="http://www.machlis.com/eRum2020/" target="_blank">slides</a>
+</li>
+</ul>
+<h3 id="keynote-5---tomas-kalibera---r-world">Keynote 5 - Tomas Kalibera - R World</h3>
+<h4 id="the-invisible-work-on-r">The Invisible Work on R</h4>
+<ul>
+<li>Speaker: Tomas Kalibera (<a href="https://www.linkedin.com/in/kalibera" target="_blank">LinkedIn</a>)</li>
+<li><a href="https://youtu.be/aKJ7c-Wm6VA" target="_blank">🎥 Video</a></li>
+<li>Materials: <a href="materials/kalibera-invisible-work-on-r.pdf" target="_blank">slides</a>
+</li>
+</ul>
+<h3 id="keynote-6---kelly-obriant---r-in-production">Keynote 6 - Kelly O’Briant - R in Production</h3>
+<h4 id="reflections-on-two-years-of-solutions-engineering-at-rstudio">Reflections on two years of solutions engineering at RStudio</h4>
+<ul>
+<li>Speaker: Kelly O’Briant (<a href="https://twitter.com/@kellrstats" target="_blank">@kellrstats</a>, <a href="https://kellobri.github.io" target="_blank">website</a>, <a href="https://www.linkedin.com/in/kellyobriant" target="_blank">LinkedIn</a>)</li>
+<li><a href="https://youtu.be/Qbwm9rWErfU" target="_blank">🎥 Video</a></li>
+<li>Materials: <a href="https://speakerdeck.com/kellobri/erum-2020-reflections-on-r-in-production" target="_blank">slides</a>
+</li>
+</ul>
+<h2 id="invited-sessions">Invited Sessions</h2>
+<p><a href="https://www.youtube.com/playlist?list=PLX5iPLTva9UlOtwXchd1TaneFDfMHNQEd" target="_blank">🎥 <strong>Playlist</strong></a></p>
+<h3 id="invited-session-1---life-sciences--covidr--r-world">Invited Session 1 - Life Sciences / CovidR / R World</h3>
+<p><a href="https://youtu.be/EhqiA2RMzEU" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="multi-omics-factor-analysis-plus-a-probabilistic-framework-for-comprehensive-and-scalable-integration-of-multi-modal-data">Multi-Omics Factor Analysis Plus: A probabilistic framework for comprehensive and scalable integration of multi-modal data</h4>
+<ul>
+<li>Speaker: Britta Velten (<a href="https://bv2.github.io" target="_blank">website</a>, <a href="https://www.linkedin.com/in/britta-velten-22a36813a" target="_blank">LinkedIn</a>, <a href="https://github.com/bv2" target="_blank">GitHub</a>)</li>
+<li>Materials: <a href="materials/MOFA_bvelten.pdf" target="_blank">slides</a>
+</li>
+</ul>
+<h4 id="covid-19-data-hub">COVID-19 Data Hub</h4>
+<ul>
+<li>Speaker: Emanuele Guidotti (<a href="https://guidotti.dev" target="_blank">website</a>, <a href="https://www.linkedin.com/in/emanuele-guidotti/" target="_blank">LinkedIn</a>, <a href="https://github.com/eguidotti" target="_blank">GitHub</a>)</li>
+<li>Materials: <a href="https://covid19datahub.io/articles/api/r.html" target="_blank">COVID19 R Package</a>
+</li>
+</ul>
+<h4 id="covoid-modelling-covid-19-transmission-and-interventions">COVOID: Modelling COVID-19 Transmission and Interventions</h4>
+<ul>
+<li>Speaker: Mark Hanly (<a href="https://cbdrh.med.unsw.edu.au/people/dr-mark-hanly" target="_blank">bio</a>)</li>
+<li>Materials: <a href="materials/Hanly-CovidR-joint-winner-COVOID-Package.pdf" target="_blank">slides</a>
+</li>
+</ul>
+<h4 id="building-agile-data-products-leveraging-the-r-package-structure">Building Agile data products leveraging the R package structure</h4>
+<ul>
+<li>Speaker: Edwin Thoen (<a href="https://twitter.com/@edwin_thoen" target="_blank">@edwin_thoen</a>)</li>
+<li>Materials: <a href="https://github.com/EdwinTh/ADSwR/raw/master/presentations/20200617_eRum_publish.pdf" target="_blank">slides</a>
+</li>
+</ul>
+<h3 id="invited-session-2---machine-learning--models--dataviz-shiny--applications">Invited Session 2 - Machine Learning &amp; Models / DataViz (Shiny) / Applications</h3>
+<p><a href="https://youtu.be/awj5dEkgsTI" target="_blank"><strong>🎥 Video</strong></a></p>
+<h4 id="brquasi-improved-quasi-likelihood-estimation">brquasi: Improved quasi-likelihood estimation</h4>
+<ul>
+<li>Speaker: Ioannis Kosmidis (<a href="https://twitter.com/@IKosmidis_" target="_blank">@IKosmidis_</a>, <a href="http://www.ikosmidis.com" target="_blank">website</a>, <a href="https://www.linkedin.com/in/kosmidis" target="_blank">LinkedIn</a>)</li>
+<li>Materials: <a href="http://www.ikosmidis.com/files/ikosmidis_brquasi_eRum2020" target="_blank">slides</a>
+</li>
+</ul>
+<h4 id="better-than-deep-learning-gradient-boosting-machines-gbm--with-2020-updates">Better than Deep Learning: Gradient Boosting Machines (GBM) – with 2020 updates</h4>
+<ul>
+<li>Speaker: Szilard Pafka (<a href="https://www.linkedin.com/in/szilard" target="_blank">LinkedIn</a>/<a href="https://github.com/szilard" target="_blank">Github</a>/<a href="https://twitter.com/DataScienceLA" target="_blank">Twitter</a>)</li>
+<li>Materials: <a href="https://bit.ly/szilard-talk-erum20" target="_blank">slides</a>
+</li>
+</ul>
+<h4 id="testing-shiny-what-why-and-how">Testing Shiny: What, why, and how.</h4>
+<ul>
+<li>Speaker: Colin Fay (<a href="https://twitter.com/@_ColinFay" target="_blank">@_ColinFay</a>)</li>
+<li>Materials: <a href="https://speakerdeck.com/colinfay/erum-2020-testing-shiny-why-what-and-how" target="_blank">slides</a>
+</li>
+</ul>
+<h4 id="from-writing-code-to-informing-policy-a-case-study-of-reproducible-research-in-transport-planning">From writing code to infoRming policy: a case study of reproducible research in transport planning</h4>
+<ul>
+<li>Speaker: Robin Lovelace</li>
+<li>Materials: <a href="https://www.robinlovelace.net/presentations/c4p-slides.html" target="_blank">slides</a>
+</li>
+</ul>
+<h3 id="invited-session-3---shiny--r-in-production--r-world">Invited Session 3 - Shiny / R in Production / R World</h3>
+<p><a href="https://youtu.be/t7IK1uirEKo" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="cranalerts-a-shinyapp-as-a-service-for-impatient-r-users">CRANalerts: A Shinyapp-as-a-Service for Impatient R Users</h4>
+<ul>
+<li>Speaker: Dean Attali</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="and-you-thought-cran-was-harsh">And you thought CRAN was harsh</h4>
+<ul>
+<li>Speaker: Colin Gillespie (<a href="https://twitter.com/@csgillespie" target="_blank">@csgillespie</a>)</li>
+<li>Materials: <a href="materials/gillespie_harsh-cran.pdf" target="_blank">slides</a>, <a href="https://github.com/jumpingrivers/inteRgrate" target="_blank">repo</a>
+</li>
+</ul>
+<h4 id="how-to-improve-your-r-package">How to improve your R package</h4>
+<ul>
+<li>Speaker: Maëlle Salmon (<a href="https://twitter.com/@ma_salmon" target="_blank">@ma_salmon</a>)</li>
+<li>Materials: <a href="https://masalmon.eu/talks/2020-06-19-e-rum/" target="_blank">slides</a>
+</li>
+</ul>
+<h4 id="dplyr-100">dplyr 1.0.0</h4>
+<ul>
+<li>Speaker: Romain Francois (<a href="https://twitter.com/@romain_francois" target="_blank">@romain_francois</a>)</li>
+<li>Materials: <a href="https://speakerdeck.com/romainfrancois/dplyr-1-dot-0-0" target="_blank">slides</a>
+</li>
+</ul>
+<h2 id="parallel-sessions">Parallel Sessions</h2>
+<p><a href="https://www.youtube.com/playlist?list=PLX5iPLTva9UkGBO7PkPHGqubm6aRwS9TM" target="_blank">🎥 <strong>Playlist</strong></a></p>
+<h3 id="parallel-session-1---machine-learning">Parallel Session 1 - Machine Learning</h3>
+<p><a href="https://youtu.be/4Kf6BBSdBoE" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="deduplicating-real-estate-ads-using-naive-bayes-record-linkage">Deduplicating real estate ads using Naive Bayes record linkage</h4>
+<ul>
+<li>Speaker: Daniel Meister (<a href="https://twitter.com/@danimeist" target="_blank">@danimeist</a>)</li>
+<li>Materials: <a href="https://slides.datahouse.ch/3fd640b/static/1c97060e67e41c04cc03d4f0c3497c03adb4a30b" target="_blank">slides</a>
+</li>
+</ul>
+<h4 id="hydrological-modelling-and-r">Hydrological Modelling and R</h4>
+<ul>
+<li>Speaker: Emanuele Cordano</li>
+<li>Materials: <a href="materials/cordanoe_geotopbricks_presenetation.pdf" target="_blank">slides</a>
+</li>
+</ul>
+<h4 id="gwqs-an-r-package-for-linear-and-generalized-weighted-quantile-sum-wqs-regression">gWQS: An R Package for Linear and Generalized Weighted Quantile Sum (WQS) Regression</h4>
+<ul>
+<li>Speaker: Stefano Renzetti</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="flexible-meta-analysis-of-generalized-additive-models-with-metagam">Flexible Meta-Analysis of Generalized Additive Models with metagam</h4>
+<ul>
+<li>Speaker: Øystein Sørensen (<a href="https://twitter.com/@SorensenOystein" target="_blank">@SorensenOystein</a>, <a href="https://osorensen.rbind.io" target="_blank">website</a>)</li>
+<li>Materials: <a href="https://osorensen.rbind.io/post/presentation-of-metagam-at-erum2020" target="_blank">slides</a>, <a href="https://osorensen.rbind.io/post/presentation-of-metagam-at-erum2020" target="_blank">blog post</a>
+</li>
+</ul>
+<h3 id="parallel-session-2---life-sciences">Parallel Session 2 - Life Sciences</h3>
+<p><a href="https://youtu.be/qU3ob0t6dHE" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="connector-a-computational-approach-to-study-intratumor-heterogeneity">CONNECTOR: a computational approach to study intratumor heterogeneity</h4>
+<ul>
+<li>Speaker: Simone Pernice</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="epimod-a-computational-framework-for-studying-epidemiological-systems">EPIMOD: A computational framework for studying epidemiological systems</h4>
+<ul>
+<li>Speaker: Paolo Castagno</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="how-to-apply-r-in-a-hospital-environment-on-standard-available-hospital-wide-data">How to apply R in a hospital environment on standard available hospital-wide data</h4>
+<ul>
+<li>Speaker: Mieke Deschepper</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="apfr-average-power-function-and-bayes-fdr-for-robust-brain-networks-construction">APFr: Average Power Function and Bayes FDR for Robust Brain Networks Construction</h4>
+<ul>
+<li>Speaker: Nicolò Margaritella</li>
+<li>Materials: TBD</li>
+</ul>
+<h3 id="parallel-session-3---applications--r-in-production">Parallel Session 3 - Applications / R in Production</h3>
+<p><a href="https://youtu.be/NwVOvfpGq4o" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="using-process-mining-principles-to-extract-a-collaboration-graph-from-a-version-control-system-log">Using process mining principles to extract a collaboration graph from a version control system log</h4>
+<ul>
+<li>Speaker: Leen Jooken</li>
+<li>Materials: <a href="materials/Jooken-CollaborateR.pdf" target="_blank">slides</a>, <a href="https://github.com/bupaverse/collaborateR" target="_blank">repo</a>
+</li>
+</ul>
+<h4 id="design-patterns-for-big-shiny-apps">Design Patterns For Big Shiny Apps</h4>
+<ul>
+<li>Speaker: Alex Gold (<a href="https://twitter.com/@alexkgold" target="_blank">@alexkgold</a>)</li>
+<li>Materials: <a href="https://docs.google.com/presentation/d/1mAAU0sw7GIVwOeGVsvdZCWA86mHhu-GZgkjYgreqmBk/edit" target="_blank">slides</a>, <a href="https://github.com/akgold/erum-big-shiny" target="_blank">repo</a>
+</li>
+</ul>
+<h4 id="fake-news-ai-on-the-battle-ground">Fake News: AI on the battle ground</h4>
+<ul>
+<li>Speaker: Ayomide Shodipo</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="progressr-an-inclusive-unifying-api-for-progress-updates">progressr: An Inclusive, Unifying API for Progress Updates</h4>
+<ul>
+<li>Speaker: Henrik Bengtsson (<a href="https://twitter.com/henrikbengtsson" target="_blank">@henrikbengtsson</a>, <a href="https://www.jottr.org/" target="_blank">website</a>)</li>
+<li>Materials: <a href="https://www.jottr.org/presentations/eRum2020/BengtssonH_20200617-progressr-An_Inclusive,_Unifying_API_for_Progress_Updates.pdf" target="_blank">slides</a>, <a href="https://www.jottr.org/2020/07/04/progressr-erum2020-slides" target="_blank">blog post</a>
+</li>
+</ul>
+<h3 id="parallel-session-4---life-sciences">Parallel Session 4 - Life Sciences</h3>
+<p><a href="https://youtu.be/vj_dwE4iFrs" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="interpretable-and-accessible-deep-learning-for-omics-data-with-r-and-friends">Interpretable and accessible Deep Learning for omics data with R and friends</h4>
+<ul>
+<li>Speaker: Moritz Hess</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="genetonic-enjoy-rna-seq-data-analysis-responsibly">GeneTonic: enjoy RNA-seq data analysis, responsibly</h4>
+<ul>
+<li>Speaker: Federico Marini (<a href="https://twitter.com/@FedeBioinfo" target="_blank">@FedeBioinfo</a>)</li>
+<li>Materials: <a href="https://federicomarini.github.io/eRum2020" target="_blank">slides</a>
+</li>
+</ul>
+<h4 id="damirseq-20-from-high-dimensional-data-to-cost-effective-reliable-prediction-models">DaMiRseq 2.0: from high dimensional data to cost-effective reliable prediction models</h4>
+<ul>
+<li>Speaker: Mattia Chiesa</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="a-simple-and-flexible-inactivitysleep-detection-r-package">A simple and flexible inactivity/sleep detection R package</h4>
+<ul>
+<li>Speaker: Francesca Giorgolo</li>
+<li>Materials: TBD</li>
+</ul>
+<h3 id="parallel-session-5---r-world">Parallel Session 5 - R World</h3>
+<p><a href="https://youtu.be/Z2KBhz-xDIM" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="the-r-consortium-2020-adapting-to-rapid-change-and-global-crisis">The R Consortium 2020: adapting to rapid change and global crisis</h4>
+<ul>
+<li>Speaker: Joseph Rickert</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="correlaidx---building-r-focused-communities-for-social-good-on-the-local-level">CorrelAidX - Building R-focused Communities for Social Good on the Local Level</h4>
+<ul>
+<li>Speaker: Regina Siegers</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="from-consulting-to-open-source-and-back">From consulting to open-source and back</h4>
+<ul>
+<li>Speaker: Christoph Sax</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="polite-web-etiquette-for-r-users">{polite}: web etiquette for R users</h4>
+<ul>
+<li>Speaker: Dmytro Perepolkin (<a href="https://twitter.com/dmi3k" target="_blank">@dmi3k</a>)</li>
+<li>Materials: <a href="https://bit.ly/polite20" target="_blank">slides</a>
+</li>
+</ul>
+<h3 id="parallel-session-6---r-in-production--r-world">Parallel Session 6 - R in Production / R World</h3>
+<p><a href="https://youtu.be/RbGHIqVQ6OA" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="powering-turing-e-atlas-with-r">Powering Turing e-Atlas with R</h4>
+<ul>
+<li>Speaker: Layik Hama (<a href="https://twitter.com/@layik" target="_blank">@layik</a>)</li>
+<li>Materials: <a href="https://layik.github.io/presentations/eRum2020/slides.html" target="_blank">slides</a>
+</li>
+</ul>
+<h4 id="dplyr-snowflake-integration-for-cloud-based-massive-and-fast-data-manipulation">Dplyr snowflake integration for cloud based massive and fast data manipulation</h4>
+<ul>
+<li>Speaker: Massimiliano Silano</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="supporting-r-in-the-binder-community">Supporting R in the Binder Community</h4>
+<ul>
+<li>Speaker: Sarah Gibson</li>
+<li>Materials: TBD</li>
+</ul>
+<h3 id="parallel-session-7---data-visualization--shiny">Parallel Session 7 - Data Visualization &amp; Shiny</h3>
+<p><a href="https://youtu.be/r70YV-4ktIY" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="transparent-journalism-through-the-power-of-r">Transparent Journalism Through the Power of R</h4>
+<ul>
+<li>Speaker: Tatjana Kecojevic</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="elevating-shiny-module-with-tidymodules">Elevating shiny module with {tidymodules}</h4>
+<ul>
+<li>Speaker: Mustapha Larbaoui</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="interactive-visualization-of-complex-texts">Interactive visualization of complex texts</h4>
+<ul>
+<li>Speaker: Renate Delucchi Danhier</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="whats-new-in-shinyproxy">What’s New in ShinyProxy</h4>
+<ul>
+<li>Speaker: Tobias Verbeke</li>
+<li>Materials: TBD</li>
+</ul>
+<h3 id="parallel-session-8---machine-learning--models">Parallel Session 8 - Machine Learning &amp; Models</h3>
+<p><a href="https://youtu.be/RhiEEeMfklM" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="voronoi-linkage-for-spatially-misaligned-data">Voronoi Linkage for Spatially Misaligned Data</h4>
+<ul>
+<li>Speaker: Luís G. Silva</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="astronomical-source-detection-and-background-separation-a-bayesian-nonparametric-approach">Astronomical source detection and background separation: a Bayesian nonparametric approach</h4>
+<ul>
+<li>Speaker: Andrea Sottosanti</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="high-dimensional-sampling-and-volume-computation">High dimensional sampling and volume computation</h4>
+<ul>
+<li>Speaker: Apostolos Chalkis</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="bnpmix-an-new-package-to-estimate-bayesian-nonparametric-mixtures">BNPmix: an new package to estimate Bayesian nonparametric mixtures</h4>
+<ul>
+<li>Speaker: Riccardo Corradin</li>
+<li>Materials: TBD</li>
+</ul>
+<h3 id="parallel-session-9---r-in-production">Parallel Session 9 - R in Production</h3>
+<p><a href="https://youtu.be/VQtEI-akVyk" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="be-proud-of-your-code-tools-and-patterns-for-making-production-ready-clean-r-code">Be proud of your code! Tools and patterns for making production-ready, clean R code</h4>
+<ul>
+<li>Speaker: Marcin Dubel (<a href="https://twitter.com/@DubelMarcin" target="_blank">@DubelMarcin</a>)</li>
+<li>Materials: <a href="https://raw.githubusercontent.com/Appsilon/eRum2020/master/Marcin.%20Be%20proud%20of%20your%20code!.pdf" target="_blank">slides</a>
+</li>
+</ul>
+<h4 id="r-alongside-airflow-docker-and-gitlab-ci">R alongside Airflow, Docker and Gitlab CI</h4>
+<ul>
+<li>Speaker: Matthias Bannert</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="using-xgboost-plumber-and-docker-in-production-to-power-a-new-banking-product">Using XGBoost, Plumber and Docker in production to power a new banking product</h4>
+<ul>
+<li>Speaker: André Rivenæs &amp; Markus Mortensen</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="creating-drag-and-drop-shiny-applications-using-sortable">Creating drag-and-drop shiny applications using sortable</h4>
+<ul>
+<li>Speaker: Andrie De Vries</li>
+<li>Materials: TBD</li>
+</ul>
+<h3 id="parallel-session-10---machine-learning--applications">Parallel Session 10 - Machine Learning / Applications</h3>
+<p><a href="https://youtu.be/MoM31cFoe8g" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="fastai-in-r-preserving-wildlife-with-computer-vision">FastAI in R: preserving wildlife with computer vision</h4>
+<ul>
+<li>Speaker: Jędrzej Świeżewski</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="manifoldgstat-an-r-package-for-spatial-statistics-of-manifold-data">Manifoldgstat: an R package for spatial statistics of manifold data</h4>
+<ul>
+<li>Speaker: Luca Torriani &amp; Ilaria Sartori</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="varycoef-modeling-spatially-varying-coefficients">varycoef: Modeling Spatially Varying Coefficients</h4>
+<ul>
+<li>Speaker: Jakob Dambon (<a href="https://twitter.com/@JakobDambon" target="_blank">@JakobDambon</a>)</li>
+<li>Materials: <a href="https://user.math.uzh.ch/dambon/talks/2020_eRum_varycoef.pdf" target="_blank">slides</a>
+</li>
+</ul>
+<h4 id="computer-algebra-systems-in-r">Computer Algebra Systems in R</h4>
+<ul>
+<li>Speaker: Mikkel Meyer Andersen</li>
+<li>Materials: TBD</li>
+</ul>
+<h2 id="lightning-talks">Lightning Talks</h2>
+<p><a href="https://www.youtube.com/playlist?list=PLX5iPLTva9UlmVS_t-A8OQicxYKODVfqH" target="_blank">🎥 <strong>Playlist</strong></a></p>
+<h3 id="lightning-talks-1---data-visualization--production">Lightning Talks 1 - Data Visualization &amp; Production</h3>
+<p><a href="https://youtu.be/hFKwzJBXvIU" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="time-series-missing-data-visualizations">Time Series Missing Data Visualizations</h4>
+<ul>
+<li>Speaker: Steffen Moritz (<a href="https://twitter.com/@_SteffenMoritz" target="_blank">@_SteffenMoritz</a>, <a href="https://www.data-science-decaf.com" target="_blank">website</a>)</li>
+<li>Materials: <a href="materials/moritz_time-series-missing-value-visualizations.pdf" target="_blank">presentation</a>, <a href="http://steffenmoritz.github.io/imputeTS/" target="_blank">package</a>, <a href="https://github.com/SteffenMoritz/imputeTS" target="_blank">github</a>
+</li>
+</ul>
+<h4 id="effectclass-an-r-package-to-interpret-effects-and-visualise-uncertainty">effectclass: an R package to interpret effects and visualise uncertainty</h4>
+<ul>
+<li>Speaker: Thierry Onkelinx (<a href="https://github.com/thierryo" target="_blank">github</a>, <a href="https://www.muscardinus.be" target="_blank">blog</a>)</li>
+<li>Materials: <a href="materials/onkelinx_effectclass.pdf" target="_blank">presentation</a>, <a href="https://effectclass.netlify.app/" target="_blank">package documentation</a>, <a href="https://github.com/inbo/effectclass/" target="_blank">package source code</a>
+</li>
+</ul>
+<h4 id="supporting-twitter-analytics-application-with-graph-databases-and-the-arangodb-package">Supporting Twitter analytics application with graph-databases and the aRangodb package</h4>
+<ul>
+<li>Speaker: Gabriele Galatolo</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="dm-working-with-relational-data-models-in-r">dm: working with relational data models in R</h4>
+<ul>
+<li>Speaker: Kirill Muller</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="an-innovative-way-to-support-your-sales-force">An innovative way to support your sales force</h4>
+<ul>
+<li>Speaker: Matilde Grecchi</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="keeping-on-top-of-r-in-real-time-high-stakes-trading-systems">Keeping on top of R in Real-Time, High-Stakes trading systems</h4>
+<ul>
+<li>Speaker: Nicholas Jhirad</li>
+<li>Materials: TBD</li>
+</ul>
+<h3 id="lightning-talks-2---life-sciences">Lightning Talks 2 - Life Sciences</h3>
+<p><a href="https://youtu.be/79lUgThZ4HE" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="an-enriched-disease-risk-assessment-model-based-on-historical-blood-donors-records">An enriched disease risk assessment model based on historical blood donors records</h4>
+<ul>
+<li>Speaker: Andrea Cappozzo (<a href="https://twitter.com/AndreaCappozzo" target="_blank">@AndreaCappozzo</a>, <a href="https://andreacappozzo.rbind.io" target="_blank">website</a>)</li>
+<li>Materials: <a href="https://andreacappozzo.rbind.io/erum_2020_heartindata.html#1" target="_blank">slides</a>
+</li>
+</ul>
+<h4 id="a-principal-component-analysis-based-method-to-detect-biomarker-captation-from-vibrational-spectra">A principal component analysis based method to detect biomarker captation from vibrational spectra</h4>
+<ul>
+<li>Speaker: Marco Calderisi</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="ptmixed-an-r-package-for-flexible-modelling-of-longitudinal-overdispersed-count-data">ptmixed: an R package for flexible modelling of longitudinal overdispersed count data</h4>
+<ul>
+<li>Speaker: Mirko Signorelli (<a href="https://twitter.com/@signormirko" target="_blank">@signormirko</a>, <a href="https://mirkosignorelli.wixsite.com/home" target="_blank">website</a>)</li>
+<li>Materials: <a href="https://raw.githubusercontent.com/m-signo/erum2020/master/beamer-signorelli-erum2020.pdf" target="_blank">slides</a>, <a href="https://github.com/m-signo/erum2020#readme" target="_blank">resources</a>
+</li>
+</ul>
+<h4 id="differential-enriched-scan-2-descan2-an-r-pipeline-for-epigenomic-analysis">Differential Enriched Scan 2 (DEScan2): an R pipeline for epigenomic analysis</h4>
+<ul>
+<li>Speaker: Dario Righelli</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="reproducible-data-visualization-with-canvasxpress">Reproducible Data Visualization with CanvasXpress</h4>
+<ul>
+<li>Speaker: Ger Inberg (<a href="https://twitter.com/@g_inberg" target="_blank">@g_inberg</a>)</li>
+<li>Materials: <a href="https://github.com/ginberg/conference-talks/raw/master/erum2020/reproducible_data_viz_cx.odp" target="_blank">slides</a>
+</li>
+</ul>
+<h4 id="using-open-access-data-to-derive-genome-composition-of-emerging-viruses">Using open-access data to derive genome composition of emerging viruses</h4>
+<ul>
+<li>Speaker: Liam Brierley (<a href="https://twitter.com/@L_Brierley" target="_blank">@L_Brierley</a>)</li>
+<li>Materials: <a href="https://drive.google.com/file/d/1Udi55KnfXxbXoyJMcOhdlRp1fB6HOBJp/view?usp=sharing" target="_blank">slides</a>
+</li>
+</ul>
+<h3 id="lightning-talks-3---machine-learning">Lightning Talks 3 - Machine Learning</h3>
+<p><a href="https://youtu.be/sHlj_H8K2RI" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="ultra-fast-penalized-regressions-with-r-package-bigstatsr">Ultra fast penalized regressions with R package {bigstatsr}</h4>
+<ul>
+<li>Speaker: Florian Privé (<a href="https://twitter.com/@privefl" target="_blank">@privefl</a>)</li>
+<li>Materials: <a href="https://privefl.github.io/R-presentation/slides-eRum2020.html" target="_blank">slides</a>
+</li>
+</ul>
+<h4 id="explaining-black-box-models-with-xspliner-to-make-deliberate-business-decisions">Explaining black-box models with xspliner to make deliberate business decisions</h4>
+<ul>
+<li>Speaker: Krystian Igras (<a href="https://twitter.com/@krystian8207" target="_blank">@krystian8207</a>)</li>
+<li>Materials: <a href="https://raw.githubusercontent.com/Appsilon/eRum2020/master/Krystian.%20Surrogate%20Models%20with%20xspliner.pdf" target="_blank">slides</a>
+</li>
+</ul>
+<h4 id="one-way-non-normal-anova-in-reliability-analysis-using-with-doex">One-way non-normal ANOVA in reliability analysis using with doex</h4>
+<ul>
+<li>Speaker: Mustafa Cavus</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="analyzing-preference-data-with-the-bayesmallows-package">Analyzing Preference Data with the BayesMallows Package</h4>
+<ul>
+<li>Speaker: Øystein Sørensen (<a href="https://twitter.com/@SorensenOystein" target="_blank">@SorensenOystein</a>, <a href="https://osorensen.rbind.io" target="_blank">website</a>)</li>
+<li>Materials: <a href="https://osorensen.github.io/ERUM2020/BayesMallows/presentation.html" target="_blank">slides</a>, <a href="https://osorensen.rbind.io/post/bayesmallows-presentation-at-the-european-r-user-meeting-2020" target="_blank">blog post</a>
+</li>
+</ul>
+<h4 id="flexible-deep-learning-via-the-juliaconnector">Flexible deep learning via the JuliaConnectoR</h4>
+<ul>
+<li>Speaker: Stefan Lenz (<a href="https://www.uniklinik-freiburg.de/imbi-en/employees.html?imbiuser=lenz" target="_blank">website</a>)</li>
+<li>Materials: <a href="materials/lenz-JuliaConnectoR.pdf" target="_blank">slides</a>, <a href="https://arxiv.org/abs/2005.06334" target="_blank">article</a>, <a href="https://CRAN.R-project.org/package=JuliaConnectoR" target="_blank">CRAN</a>, <a href="https://github.com/stefan-m-lenz/JuliaConnectoR" target="_blank">GitHub</a>
+</li>
+</ul>
+<h3 id="lightning-talks-4---applications">Lightning Talks 4 - Applications</h3>
+<p><a href="https://youtu.be/KOYZPMMgiHo" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="rdwd-r-interface-to-german-weather-service-data">rdwd: R interface to German Weather Service data</h4>
+<ul>
+<li>Speaker: Berry Boessenkool (<a href="https://brry.github.io" target="_blank">website</a>)</li>
+<li>Materials: slides <a href="https://github.com/brry/rdwd/raw/master/misc/eRum/rdwd.pdf" target="_blank">pdf</a>/<a href="https://github.com/brry/rdwd/tree/master/misc/eRum" target="_blank">source</a>, <a href="https://github.com/brry/rdwd#rdwd" target="_blank">github</a>, <a href="https://cran.r-project.org/package=rdwd" target="_blank">CRAN</a>, <a href="https://bookdown.org/brry/rdwd" target="_blank">Homepage</a>
+</li>
+</ul>
+<h4 id="tv-show-data-frames-in-the-browser">tv: Show Data Frames in the Browser</h4>
+<ul>
+<li>Speaker: Christoph Sax</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="predicting-the-euro-2020-results-using-tournament-rank-probabilities-scores-from-the-soccer-package">Predicting the Euro 2020 results using tournament rank probabilities scores from the socceR package</h4>
+<ul>
+<li>Speaker: Claus Ekstrom</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="design-your-own-quantum-simulator-with-r">Design your own quantum simulator with R</h4>
+<ul>
+<li>Speaker: Indranil Ghosh (<a href="https://twitter.com/indraghosh314" target="_blank">@indraghosh314</a>, <a href="https://indrag49.github.io/" target="_blank">website</a>)</li>
+<li>Materials: <a href="https://speakerdeck.com/indrag49/design-your-own-quantum-simulator-with-r" target="_blank">slides</a>, <a href="https://cran.r-project.org/web/packages/QGameTheory/index.html" target="_blank">CRAN</a>
+</li>
+</ul>
+<h4 id="what-are-the-potato-eaters-eating">What are the potato eaters eating</h4>
+<ul>
+<li>Speaker: Keshav Bhatt</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="towards-more-structured-data-quality-assessment-in-the-process-mining-field-the-daqapo-package">Towards more structured data quality assessment in the process mining field: the DaQAPO package</h4>
+<ul>
+<li>Speaker: Niels Martin (<a href="https://twitter.com/Niels_Martin" target="_blank">@Niels_Martin</a>)</li>
+<li>Materials: <a href="https://www.slideshare.net/NielsMartin/erum-2020-daqapo-235962835" target="_blank">slides</a>, <a href="https://cran.r-project.org/web/packages/daqapo/index.html" target="_blank">CRAN</a>
+</li>
+</ul>
+<h2 id="shiny-demos">Shiny Demos</h2>
+<p><a href="https://www.youtube.com/playlist?list=PLX5iPLTva9UlCY2qFZBSRydU1oPEAJNig" target="_blank">🎥 <strong>Playlist</strong></a></p>
+<h3 id="shiny-demo-1---machine-learning--applications">Shiny Demo 1 - Machine Learning &amp; Applications</h3>
+<p><a href="https://youtu.be/t8PZbP5b8EM" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="a-demonstration-of-abacus-apps-based-activities-for-communicating-and-understanding-statistics">A demonstration of ABACUS: Apps Based Activities for Communicating and Understanding Statistics</h4>
+<ul>
+<li>Speaker: Mintu Nath</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="tsviz-a-data-scientist-friendly-addin-for-rstudio">tsviz: a data-scientist-friendly addin for RStudio</h4>
+<ul>
+<li>Speaker: Emanuele Fabbiani</li>
+<li>Materials: <a href="https://towardsdatascience.com/introducing-tsviz-interactive-time-series-visualization-in-r-studio-a96cde507a14" target="_blank">Medium Post</a>, <a href="https://github.com/xtreamsrl/tsviz" target="_blank">GitHub repo</a>, <a href="https://cran.r-project.org/package=tsviz" target="_blank">CRAN package</a>
+</li>
+</ul>
+<h4 id="media-shiny-marketing-mix-models-builder">Media Shiny: Marketing Mix Models Builder</h4>
+<ul>
+<li>Speaker: Andrea Melloncelli <a href="https://twitter.com/akirocode" target="_blank">@akirocode</a>
+</li>
+<li>Materials: <a href="https://docs.google.com/presentation/d/1MxgrmBQBenzBJs4vsmgLTgFcPtfporzafQXria4Y5Bo/edit?usp=sharing" target="_blank">Slides and Demo</a>
+</li>
+</ul>
+<h4 id="scoring-the-implicit-association-test-has-never-been-easier-dscoreapp">Scoring the Implicit Association Test has never been easier: DscoreApp</h4>
+<ul>
+<li>Speaker: Ottavia M. Epifania <a href="https://www.linkedin.com/in/ottavia-epifania-612ba9b3/" target="_blank">Linkedin</a>, <a href="https://twitter.com/ExeOttavia" target="_blank">Twitter</a>, <a href="https://ip146179.psy.unipd.it/psicostat/web/people.html" target="_blank">Psicostat</a>
+</li>
+<li>Materials: <a href="https://github.com/OttaviaE/eRum2020/blob/master/eRumShinyDemo-Epifania.Rmd" target="_blank">Slides</a>, <a href="https://github.com/OttaviaE/DscoreApp" target="_blank">App repository</a>, <a href="http://fisppa.psy.unipd.it/DscoreApp/" target="_blank">DscoreApp</a>
+</li>
+</ul>
+<h4 id="rtrhexng-hexagon-sticker-app-for-rtrng">rTRhexNG: Hexagon sticker app for rTRNG</h4>
+<ul>
+<li>Speaker: Riccardo Porreca</li>
+<li>Materials: <a href="https://miraisolutions.shinyapps.io/rTRhexNG" target="_blank">live app</a>, <a href="https://github.com/miraisolutions/rTRhexNG#readme" target="_blank">GitHub repo</a>
+</li>
+</ul>
+<h4 id="how-green-is-your-portfolio--tracking-c02-footprint-in-the-insurance-sector">How green is your portfolio ? Tracking C02 footprint in the insurance sector</h4>
+<ul>
+<li>Speaker: Antoine Logean</li>
+<li>Materials: TBD</li>
+</ul>
+<h3 id="shiny-demo-2---mobility--spatial">Shiny Demo 2 - Mobility &amp; Spatial</h3>
+<p><a href="https://youtu.be/sU_iT3Spc-Q" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="visualising-and-modelling-bike-sharing-mobility-usage-in-the-city-of-milan">Visualising and Modelling Bike Sharing Mobility usage in the city of Milan</h4>
+<ul>
+<li>Speaker: Agostino Torti</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="espres-a-shiny-web-tool-to-support-river-basin-management-planning-in-european-watersheds">ESPRES: A shiny web tool to support River Basin Management planning in European Watersheds</h4>
+<ul>
+<li>Speaker: Angel Udias</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="mobility-scan">Mobility scan</h4>
+<ul>
+<li>Speaker: Josue Aduna</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="developing-shiny-applications-to-facilitate-precision-agriculture-workflows">Developing Shiny applications to facilitate precision agriculture workflows</h4>
+<ul>
+<li>Speaker: Lorenzo Busetto</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="guinterp-a-shiny-gui-to-support-spatial-interpolation">“GUInterp”: a Shiny GUI to support spatial interpolation</h4>
+<ul>
+<li>Speaker: <a href="https://luigi.ranghetti.info" target="_blank">Luigi Ranghetti</a>
+</li>
+<li>Materials: <a href="https://guinterp.ranghetti.info" target="_blank">documentation</a>, <a href="https://github.com/ranghetti/guinterp" target="_blank">source code</a>, <a href="https://ranghetti.shinyapps.io/guinterp" target="_blank">live demo</a>.</li>
+</ul>
+<h2 id="poster-sessions">Poster Sessions</h2>
+<p><a href="https://www.youtube.com/playlist?list=PLX5iPLTva9Ukknkenms-VDx94QlRcHgmM" target="_blank">🎥 <strong>Playlist</strong></a></p>
+<h3 id="poster-session-1---life-sciences--applications">Poster Session 1 - Life Sciences &amp; Applications</h3>
+<p><a href="https://youtu.be/HDLpw3gCouQ" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="a-flexible-dashboard-for-monitoring-platform-trials">A flexible dashboard for monitoring platform trials</h4>
+<ul>
+<li>Speaker: Alessio Crippa</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="prda-package-enhancing-statistical-inference-via-prospective-and-retrospective-design-analysis">PRDA package: Enhancing Statistical Inference via Prospective and Retrospective Design Analysis</h4>
+<ul>
+<li>Speaker: Angela Andreella (<a href="https://twitter.com/@aangeella" target="_blank">@aangeella</a>)</li>
+<li>Materials: <a href="https://github.com/angeella/eRum_2020#readme" target="_blank">Poster materials</a>
+</li>
+</ul>
+<h4 id="easyreporting-a-bioconductor-package-for-reproducible-research-implementation">EasyReporting: a Bioconductor package for Reproducible Research implementation</h4>
+<ul>
+<li>Speaker: Dario Righelli</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="newwave-a-scalable-r-package-for-the-dimensionality-reduction-of-single-cell-rna-seq">NewWave: a scalable R package for the dimensionality reduction of single-cell RNA-seq</h4>
+<ul>
+<li>Speaker: Federico Agostinis</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="integrating-professional-software-engineering-practices-in-medical-research-software">Integrating professional software engineering practices in medical research software</h4>
+<ul>
+<li>Speaker: Patricia Ryser-Welch</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="dealing-with-changing-administrative-boundaries-the-case-of-swiss-municipalities">Dealing with changing administrative boundaries: The case of Swiss municipalities</h4>
+<ul>
+<li>Speaker: Tobias Schieferdecker</li>
+<li>Materials: <a href="https://cynkra.github.io/SwissCommunes-poster/" target="_blank">poster</a>, <a href="https://github.com/cynkra/SwissCommunes" target="_blank">package-repository</a>, <a href="https://github.com/cynkra/SwissCommunes-poster/" target="_blank">poster-repository</a>
+</li>
+</ul>
+<h3 id="poster-session-2---dataviz--machine-learning">Poster Session 2 - DataViz &amp; Machine Learning</h3>
+<p><a href="https://youtu.be/dwIXqhk1NdM" target="_blank">🎥 <strong>Video</strong></a></p>
+<h4 id="automate-flexdashboard-with-github">Automate flexdashboard with GitHub</h4>
+<ul>
+<li>Speaker: Binod Jung Bogati</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="orf-ordered-random-forests">orf: Ordered Random Forests</h4>
+<ul>
+<li>Speaker: <a href="https://okasag.github.io/" target="_blank">Gabriel Okasa</a>
+</li>
+<li>Materials: <a href="https://okasag.github.io/assets/pdf/orf_erum_poster_okasa.pdf" target="_blank">Poster</a>, <a href="https://okasag.github.io/assets/pdf/orf_erum_milano_okasa.pdf" target="_blank">Slides</a>, <a href="https://arxiv.org/pdf/1907.02436.pdf" target="_blank">Paper</a>, <a href="https://github.com/okasag/orf" target="_blank">Repository</a>, <a href="https://CRAN.R-project.org/package=orf" target="_blank">CRAN</a>
+</li>
+</ul>
+<h4 id="power-supply-health-status-monitoring-dashboard">Power Supply health status monitoring dashboard</h4>
+<ul>
+<li>Speaker: Marco Calderisi</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="first-year-ict-students-dropout-predicting-with-r-models">First-year ICT students dropout predicting with R models</h4>
+<ul>
+<li>Speaker: Olga Dunajeva</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="benchmark-percentage-disjoint-data-splitting-in-cross-validation-for-assessing-the-skill-of-machine">Benchmark Percentage Disjoint Data Splitting in Cross Validation for Assessing the Skill of Machine</h4>
+<ul>
+<li>Speaker: Olalekan Joseph Akintande</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="baddea-an-r-package-for-measuring-firms-efficiency-adjusted-by-undesirable-outputs">badDEA: An R package for measuring firms’ efficiency adjusted by undesirable outputs</h4>
+<ul>
+<li>Speaker: Hervé Dakpo</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="corpfinder--a-new-application-to-identify-large-corporate-risks">CorpFinder- a new application to identify Large Corporate Risks</h4>
+<ul>
+<li>Speaker: Aurélien Severino</li>
+<li>Materials: <a href="materials/Severino-CorpFinder-Application_to_identify_Large_Corporate_Risks.pdf" target="_blank">slides</a>
+</li>
+</ul>
+<h2 id="thematic-lounges">Thematic Lounges</h2>
+<h3 id="thematic-lounge-1---developing-software-and-careers-in-life-sciences">Thematic Lounge 1 - Developing Software and Careers in Life Sciences</h3>
+<h4 id="developing-software-and-careers-in-life-sciences">Developing Software and Careers in Life Sciences</h4>
+<ul>
+<li>Chairs: Federico Marini (<a href="https://twitter.com/@FedeBioinfo" target="_blank">@FedeBioinfo</a>), Charlotte Soneson (<a href="https://twitter.com/@CSoneson" target="_blank">@CSoneson</a>), Davide Risso (<a href="https://twitter.com/@drisso1893" target="_blank">@drisso1893</a>)</li>
+<li>Materials: <a href="https://docs.google.com/document/d/1R2lhSG7B3HqeGAWRqenvd9XdxWQ7JmGELUbmwY7a_ug/edit?usp=sharing" class="uri" target="_blank">https://docs.google.com/document/d/1R2lhSG7B3HqeGAWRqenvd9XdxWQ7JmGELUbmwY7a_ug/edit?usp=sharing</a>
+</li>
+</ul>
+<h3 id="thematic-lounge-2---building-community--diversity">Thematic Lounge 2 - Building Community &amp; Diversity</h3>
+<h4 id="building-community--diversity">Building Community &amp; Diversity</h4>
+<ul>
+<li>Chairs: Sara Iacozza (<a href="https://twitter.com/@IacozzaSara" target="_blank">@IacozzaSara</a>), Levi Waldron (<a href="https://twitter.com/@leviwaldron1" target="_blank">@leviwaldron1</a>), Janine Khuc (<a href="https://twitter.com/@Janinekhuc" target="_blank">@Janinekhuc</a>), Parvaneh Shafiei (<a href="https://twitter.com/@parvanehshafiei" target="_blank">@parvanehshafiei</a>)</li>
+<li>Materials: <a href="https://docs.google.com/document/d/1HlzARyRmobvvYli99BL-ChWCorx1ogibJTlDLXU3KrY/edit?usp=sharing" class="uri" target="_blank">https://docs.google.com/document/d/1HlzARyRmobvvYli99BL-ChWCorx1ogibJTlDLXU3KrY/edit?usp=sharing</a>
+</li>
+</ul>
+<h3 id="thematic-lounge-3---data-science-freelancing-and-business">Thematic Lounge 3 - Data science: freelancing and business</h3>
+<h4 id="data-science-freelancing-and-business">Data science: freelancing and business</h4>
+<ul>
+<li>Chairs: Enrico Deusebio (<a href="https://twitter.com/@enrico_deusebio" target="_blank">@enrico_deusebio</a>), Mariachiara Fortuna (<a href="https://twitter.com/@maryclaryf" target="_blank">@maryclaryf</a>), Riccardo L. Rossi (<a href="https://twitter.com/@ricreds" target="_blank">@ricreds</a>)</li>
+<li>Materials: <a href="https://docs.google.com/document/d/1dEKXtALLaOCf2x-ZJIhsen5iZS0gZEZwG8JupkRqVKE/edit?usp=sharing" class="uri" target="_blank">https://docs.google.com/document/d/1dEKXtALLaOCf2x-ZJIhsen5iZS0gZEZwG8JupkRqVKE/edit?usp=sharing</a>
+</li>
+</ul>
+<h2 id="workshops">Workshops</h2>
+<p><a href="https://www.youtube.com/playlist?list=PLX5iPLTva9UnZmlzry0_YNB8rH85DuLRa" target="_blank">🎥 <strong>Playlist</strong></a></p>
+<h3 id="morning-workshops">Morning Workshops</h3>
+<h4 id="is-r-ready-for-production-lets-develop-a-professional-shiny-application">Is R ready for Production? Let’s develop a Professional Shiny Application!</h4>
+<ul>
+<li>Instructor: Andrea Melloncelli (<a href="https://twitter.com/akirocode" target="_blank">@akirocode</a>)</li>
+<li>Materials: <a href="https://github.com/vanlog/vincent" target="_blank">repository</a>
+</li>
+</ul>
+<h4 id="image-processing-and-computer-vision-with-r">Image processing and computer vision with R</h4>
+<ul>
+<li>Instructor: <a href="https://twitter.com/LubomirStepanek" target="_blank">Lubomír Štěpánek</a>, Jiří Novák</li>
+<li>Materials: <a href="https://github.com/LStepanek/eRum_2020_image_processing_and_computer_vision_with_R" target="_blank">repository</a>
+</li>
+</ul>
+<h4 id="explanation-and-exploration-of-machine-learning-models-with-r">Explanation and exploration of machine learning models with R</h4>
+<ul>
+<li>Instructor: Przemyslaw Biecek, Anna Kozak, Szymon Maksymiuk</li>
+<li>Materials: <a href="https://github.com/pbiecek/XAIatERUM2020" class="uri" target="_blank">https://github.com/pbiecek/XAIatERUM2020</a>
+</li>
+</ul>
+<h4 id="non-disclosive-federated-analysis-in-r">Non-disclosive federated analysis in R</h4>
+<ul>
+<li>Instructor: Patricia Ryser-Welch, Paul Burton, Demetris Avraam, Stuart Wheater, Olly Butters, Becca Wilson, Alex Westerberg, Leire Abarrategui-Martinez</li>
+<li><a href="https://youtu.be/WpQFCfe1n_Q" target="_blank">🎥 Video</a></li>
+<li>Materials: <a href="https://github.com/patRyserWelch8/DataSHIELD.eRUM.2020/wiki" class="uri" target="_blank">https://github.com/patRyserWelch8/DataSHIELD.eRUM.2020/wiki</a>
+</li>
+</ul>
+<h4 id="a-unified-approach-for-writing-automatic-reports-parameterization-and-generalization-of-r-markdown">A unified approach for writing automatic reports: parameterization and generalization of R-Markdown</h4>
+<ul>
+<li>Instructor: Cristina Muschitiello, Niccolò Stamboglis</li>
+<li><a href="https://youtu.be/XFHGBX5bN_E" target="_blank">🎥 Video</a></li>
+<li>Materials: <a href="https://github.com/muschitiello/e-Rum2020-Unified-Approach-For-Automatic-Reports" target="_blank">repo (with sides inside each section)</a>
+</li>
+</ul>
+<h4 id="build-a-website-with-blogdown-in-r">Build a website with blogdown in R</h4>
+<ul>
+<li>Instructor: Tatjana Kecojevic, Katarina Kosmina, Tijana Blagojev</li>
+<li>Materials: <a href="https://github.com/TanjaKec/eRum2020" target="_blank">repository</a>, <a href="https://websiteinr.netlify.app/" target="_blank">website</a>, <a href="https://erum2020.netlify.app" target="_blank">slides</a>
+</li>
+</ul>
+<h3 id="afternoon-workshops">Afternoon Workshops</h3>
+<h4 id="reproducible-workflows-with-the-renku-platform">Reproducible workflows with the RENKU platform</h4>
+<ul>
+<li>Instructor: Christine Choirat, The Renku Development Team</li>
+<li>Materials: TBD</li>
+</ul>
+<h4 id="how-to-build-htmlwidgets">How to build htmlwidgets</h4>
+<ul>
+<li>Instructor: <a href="https://john-coene.com/" target="_blank">John Coene</a>
+</li>
+<li>Materials: <a href="https://github.com/JohnCoene/how-to-build-htmlwidgets" target="_blank">repository</a>, <a href="https://htmlwidgets.john-coene.com/" target="_blank">website</a>, <a href="https://htmlwidgets.john-coene.com/presentation/" target="_blank">slides</a>
+</li>
+</ul>
+<h4 id="semantic-web-in-r-for-data-scientists">Semantic Web in R for Data Scientists</h4>
+<ul>
+<li>Instructor: Goran Milovanović</li>
+<li>Materials: <a href="https://github.com/datakolektiv/e-Rum2020_SemanticWeb" class="uri" target="_blank">https://github.com/datakolektiv/e-Rum2020_SemanticWeb</a>
+</li>
+</ul>
+<h4 id="advanced-user-interfaces-for-shiny-developers">Advanced User Interfaces for Shiny Developers</h4>
+<ul>
+<li>Instructor: <a href="https://divadnojnarg.github.io/" target="_blank">David Granjon</a>, Mustapha Larbaoui, Flavio Lombardo, Douglas Robinson</li>
+<li>Materials: <a href="https://github.com/Novartis/Advanced-User-Interfaces-for-Shiny-Developers" target="_blank">repository</a>, <a href="https://rinterface.com/shiny/talks/eRum2020/dg/index.html" target="_blank">slides</a>, <a href="https://rstudio.cloud/project/1395473" target="_blank">Rstudio Cloud</a>, <a href="https://divadnojnarg.github.io/outstanding-shiny-ui/" target="_blank">📘 book</a>, <a href="https://github.com/Novartis/tidymodules" target="_blank">tidymodules</a>, <a href="https://rinterface.com/" target="_blank">RinteRface</a>
+</li>
+</ul>
+<h4 id="bring-your-r-application-safely-to-production-collaborate-deploy-automate">Bring your R Application Safely to Production. Collaborate, Deploy, Automate</h4>
+<ul>
+<li>Instructor: Riccardo Porreca, Peter Schmid</li>
+<li><a href="https://youtu.be/dPc10Ka-L94" target="_blank">🎥 Video</a></li>
+<li>Materials: <a href="https://mirai-solutions.ch/news/2020/08/25/erum2020-workshop" target="_blank">blog post</a>, <a href="https://github.com/miraisolutions/eRum2020Workshop" target="_blank">repository</a>, <a href="http://mirai-solutions.ch/eRum2020Workshop/workshop-slides.html" target="_blank">slides</a>
+</li>
+</ul>
+</body>
+</html>
