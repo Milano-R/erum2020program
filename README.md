@@ -527,8 +527,8 @@ Conference materials are being populated based on **speakers and community contr
 
 #### One-way non-normal ANOVA in reliability analysis using with doex
 
-- Speaker: Mustafa Cavus
-- Materials: TBD
+- Speaker: Mustafa Cavus ([@mustafa__cavus](https://twitter.com/mustafa__cavus))
+- Materials: [slides](https://www.researchgate.net/publication/345087759_One-way_non-normal_ANOVA_in_reliability_analysis_using_with_doex)
 
 #### Analyzing Preference Data with the BayesMallows Package
 
